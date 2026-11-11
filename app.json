@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Stamp Addict",
+    "slug": "stamp-addict",
+    "scheme": "stampaddict",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Stamp Addict uses your photos so you can add pictures of your stamps.",
+          "cameraPermission": "Stamp Addict uses the camera to photograph your stamps."
+        }
+      ]
+    ]
+  }
+}
