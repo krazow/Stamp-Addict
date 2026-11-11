@@ -15,6 +15,8 @@ React Native and Expo.
   add a set's missing stamps to the want list in one tap
 - **Want list**: by priority; saving a Stamp Card that matches a want offers to check it off
 - **Offline**: everything is stored on the phone in SQLite
+- **Backup and restore**: one .zip file with every record and photo, saved anywhere through the
+  phone's share sheet; restore replaces the collection after saving a safety copy on the phone
 
 ## Run it on your phone
 
@@ -53,7 +55,7 @@ src/ui/                Shared controls, colors, formatting
 
 ## Tests
 
-The data layer has its own tests (21), which run with Node 22+ outside the app:
+The data layer has its own tests (33), which run with Node 22+ outside the app:
 
 ```bash
 npm run test:core
@@ -61,10 +63,26 @@ npm run test:core
 
 After editing `src/core/schema.sql`, run `npm run schema` to regenerate the embedded copy.
 
+## Backup file format
+
+A backup is an ordinary zip, so it stays useful without the app:
+
+| File | What it holds |
+| --- | --- |
+| `manifest.json` | Format name and version, app and schema version, date, counts |
+| `data.json` | Every record of every table, exactly as stored (used to restore) |
+| `stamps.csv` | The collection as a spreadsheet, one row per stamp (UTF-8 with BOM, opens in Excel) |
+| `photos/` | Every stamp photo, referenced by the CSV's photo columns |
+| `README.txt` | Plain-language explanation for anyone who opens the zip |
+
+Restores are all-or-nothing (one database transaction), refuse files from newer app versions,
+ignore unknown columns from future versions, and never write photo files outside `photos/`.
+App settings such as the last backup date are device-specific and not included.
+
 ## Status
 
 - The data layer is tested.
 - The screens were written without being able to run them (the build environment couldn't
   install React Native), so the first run on a real phone is their first test. Expect small fixes.
-- Not built yet: cloud sync and accounts, perforation gauge, photo identification,
+- Not built yet: automatic cloud backup and sync, accounts, perforation gauge, photo identification,
   album pages, value tracking, import. See the project to-do list.

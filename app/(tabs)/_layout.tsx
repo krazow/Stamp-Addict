@@ -1,5 +1,6 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
-import { Tabs } from 'expo-router';
+import { Link, Tabs } from 'expo-router';
+import { Pressable } from 'react-native';
 import { colors } from '../../src/ui/theme';
 
 export default function TabsLayout() {
@@ -17,6 +18,13 @@ export default function TabsLayout() {
         options={{
           title: 'My collection',
           tabBarLabel: 'Collection',
+          headerRight: () => (
+            <Link href="/backup" asChild>
+              <Pressable accessibilityRole="button" accessibilityLabel="Backup and restore" hitSlop={10} style={{ marginRight: 16 }}>
+                <Ionicons name="cloud-upload-outline" size={24} color={colors.accent} />
+              </Pressable>
+            </Link>
+          ),
           tabBarIcon: ({ color, size }) => <Ionicons name="grid-outline" color={color} size={size} />,
         }}
       />

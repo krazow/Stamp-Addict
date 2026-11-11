@@ -8,7 +8,7 @@ import { NotFoundError, ValidationError, formatPerforation, openStampStore, pars
 
 function store() {
   const db = openNodeDatabase();
-  return { db, ...openStampStore(db) };
+  return openStampStore(db);
 }
 
 test('embedded schema matches db/schema.sql', () => {

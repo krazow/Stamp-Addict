@@ -3,6 +3,7 @@ import { Link, router, useFocusEffect } from 'expo-router';
 import { useCallback, useMemo, useState } from 'react';
 import { FlatList, Pressable, StyleSheet, Text, TextInput, View, useWindowDimensions } from 'react-native';
 import { MINT_STATUSES, type StampSummary } from '../../src/core';
+import { backupIsDue, lastBackupAt } from '../../src/data/backupFiles';
 import { getStore } from '../../src/data/store';
 import { Button, EmptyState, StampThumb } from '../../src/ui/controls';
 import { colors, radius, space } from '../../src/ui/theme';
@@ -15,6 +16,7 @@ export default function CollectionScreen() {
   const [tag, setTag] = useState<string | null>(null);
   const [query, setQuery] = useState('');
   const [mode, setMode] = useState<ViewMode>('grid');
+  const [remind, setRemind] = useState<'never' | 'stale' | null>(null);
   const { width } = useWindowDimensions();
 
   useFocusEffect(
@@ -22,6 +24,7 @@ export default function CollectionScreen() {
       const store = getStore();
       setStamps(store.stamps.list({ tag: tag ?? undefined, limit: 5000 }));
       setTags(store.stamps.allTags());
+      setRemind(backupIsDue() ? (lastBackupAt() ? 'stale' : 'never') : null);
     }, [tag]),
   );
 
@@ -39,6 +42,17 @@ export default function CollectionScreen() {
   return (
     <View style={{ flex: 1 }}>
       <View style={s.top}>
+        {remind ? (
+          <Link href="/backup" asChild>
+            <Pressable accessibilityRole="button" style={s.remind}>
+              <Ionicons name="cloud-upload-outline" size={20} color={colors.accentPressed} />
+              <Text style={s.remindText}>
+                {remind === 'never' ? 'Your collection isn\'t backed up yet. Back it up now' : 'Last backup was over 30 days ago. Back up now'}
+              </Text>
+              <Ionicons name="chevron-forward" size={18} color={colors.accentPressed} />
+            </Pressable>
+          </Link>
+        ) : null}
         <View style={s.searchRow}>
           <View style={s.search}>
             <Ionicons name="search" size={18} color={colors.textSecondary} />
@@ -155,6 +169,11 @@ function shortCondition(v: string): string {
 }
 
 const s = StyleSheet.create({
+  remind: {
+    flexDirection: 'row', alignItems: 'center', gap: space.sm, minHeight: 44, paddingHorizontal: space.md,
+    backgroundColor: colors.accentSofter, borderWidth: 1, borderColor: colors.accentSoft, borderRadius: radius.card,
+  },
+  remindText: { flex: 1, fontSize: 14, color: colors.accentPressed, fontWeight: '500' },
   top: { paddingHorizontal: space.xl, paddingTop: space.md, paddingBottom: space.sm, gap: space.md },
   searchRow: { flexDirection: 'row', gap: space.sm },
   search: {

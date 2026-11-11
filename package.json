@@ -5,7 +5,7 @@
   "description": "Stamp Addict: a mobile app for cataloging a stamp collection, one Stamp Card per stamp.",
   "main": "expo-router/entry",
   "scripts": {
-    "setup": "npx expo install expo-router expo-sqlite expo-image-picker expo-file-system expo-crypto expo-linking expo-constants expo-status-bar react-native-safe-area-context react-native-screens @expo/vector-icons react react-native",
+    "setup": "npx expo install expo-router expo-sqlite expo-image-picker expo-file-system expo-crypto expo-sharing expo-document-picker expo-linking expo-constants expo-status-bar react-native-safe-area-context react-native-screens @expo/vector-icons react react-native",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -14,7 +14,8 @@
     "schema": "node scripts/embed-schema.mjs"
   },
   "dependencies": {
-    "expo": "~57.0.0"
+    "expo": "~57.0.0",
+    "jszip": "^3.10.1"
   },
   "devDependencies": {
     "tsx": "^4.20.0"

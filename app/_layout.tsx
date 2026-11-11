@@ -19,6 +19,7 @@ export default function RootLayout() {
         <Stack.Screen name="stamp/edit/[id]" options={{ title: 'Edit stamp' }} />
         <Stack.Screen name="set/new" options={{ title: 'New set', presentation: 'modal' }} />
         <Stack.Screen name="want/new" options={{ title: 'Add a want', presentation: 'modal' }} />
+        <Stack.Screen name="backup" options={{ title: 'Backup and restore' }} />
       </Stack>
     </>
   );
