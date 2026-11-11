@@ -27,7 +27,7 @@ for step-by-step instructions.
 git clone https://github.com/krazow/Stamp-Addict.git
 cd Stamp-Addict
 npm install
-npm run setup      # installs the Expo packages at the versions that match the Expo SDK
+npm run setup      # pins the animation packages and checks every version matches Expo SDK 57
 npx expo start
 ```
 
