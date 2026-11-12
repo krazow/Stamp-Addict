@@ -1,0 +1,8 @@
+# Keep LF line endings in the repository and on every checkout, so files
+# are byte-identical on Windows, macOS and Linux.
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.zip binary

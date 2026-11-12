@@ -12,7 +12,8 @@ function store() {
 }
 
 test('embedded schema matches db/schema.sql', () => {
-  const file = readFileSync(new URL('../schema.sql', import.meta.url), 'utf8');
+  // Line endings may be CRLF on a Windows checkout; the content is what matters.
+  const file = readFileSync(new URL('../schema.sql', import.meta.url), 'utf8').replace(/\r\n/g, '\n');
   assert.equal(SCHEMA_V1, file, 'run: npm run schema');
 });
 
