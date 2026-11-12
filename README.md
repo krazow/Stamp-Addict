@@ -4,6 +4,21 @@ A mobile app for cataloging a stamp collection. Each stamp gets a **Stamp Card**
 photos plus any details you want to record (all optional). Built with
 React Native and Expo.
 
+## The app: plain web app in `docs/` (no build tools)
+
+Stamp Addict is now a plain web app: HTML, CSS and JavaScript files the browser runs directly. There's no npm, Expo or build step, and nothing to install on a computer to use or change it.
+
+- **Use it:** open the published page (GitHub Pages serves the `docs/` folder at https://krazow.github.io/Stamp-Addict/ once Pages is turned on), then install it: Edge or Chrome on Windows (**Install app** in the address bar or menu), Chrome on Android (**Add to Home screen / Install app**), Safari on iPhone (**Share > Add to Home Screen**).
+- **Works offline** after the first visit (`docs/sw.js`).
+- **Storage:** everything stays on the device, in the browser's IndexedDB: the same tables and columns as the phone app's database, plus photos and the copies kept before a restore. Clearing the browser's site data deletes it, so back up.
+- **Backups:** the same zip format as the phone app (`manifest.json`, `data.json`, `stamps.csv`, `photos/`, `README.txt`), so a backup moves a collection between devices. The zip code (`docs/js/zip.js`) uses the browser's built-in compression; there are no third-party libraries.
+- **Photos:** big camera photos are shrunk to 2400 px on the long side (JPEG) to save space. There's no crop step.
+- **Tests:** `node --test tests/web/*.test.mjs` (data layer, set completion, want matching, backup round trip, zip compatibility).
+
+Layout of `docs/`: `index.html`, `app.css`, `manifest.json`, `sw.js`, icons, and `js/` — `store.js` (tables), `repos.js` (Stamp Cards, sets, want list), `validation.js`, `lists.js` (pick lists), `backup.js` + `zip.js` (backup files and CSV), `idb.js` (browser storage), `photos.js`, `backupfiles.js`, `ui.js`, `app.js` (navigation) and `views/` (one file per screen).
+
+The Expo / React Native version below is no longer the main app. It's kept for reference.
+
 ## What's in this version
 
 - **Collection**: grid and list views, search, filter by tag
