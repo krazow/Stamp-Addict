@@ -1,5 +1,4 @@
 import Constants from 'expo-constants';
-import * as DocumentPicker from 'expo-document-picker';
 import { Directory, File, Paths } from 'expo-file-system';
 import * as Sharing from 'expo-sharing';
 import {
@@ -11,9 +10,15 @@ import { getStore } from './store';
 /** How many "before restore" safety copies to keep on the phone. */
 const SAFETY_COPIES_KEPT = 3;
 
+// A photo that can't be read is reported as missing rather than failing the
+// whole backup.
 async function readPhoto(path: string): Promise<Uint8Array | null> {
-  const file = new File(Paths.document, path);
-  return file.exists ? await file.bytes() : null;
+  try {
+    const file = new File(Paths.document, path);
+    return file.exists ? await file.bytes() : null;
+  } catch {
+    return null;
+  }
 }
 
 // File.write() returns a promise from SDK 58 on (it returned nothing before),
@@ -61,13 +66,21 @@ export async function shareBackup(): Promise<{ summary: BackupSummary; missingPh
 
 /** Lets the user choose a backup file and checks it. Null if they cancel. Throws BackupError for a bad file. */
 export async function pickBackup(): Promise<ParsedBackup | null> {
-  const result = await DocumentPicker.getDocumentAsync({
-    type: ['application/zip', 'application/x-zip-compressed', 'application/octet-stream'],
-    copyToCacheDirectory: true,
-    multiple: false,
-  });
-  if (result.canceled || !result.assets?.length) return null;
-  const bytes = await new File(result.assets[0].uri).bytes();
+  // expo-file-system's own picker hands back a File the app is allowed to read.
+  // (A URI from expo-document-picker is refused in Expo Go with
+  // "Missing READ permission".)
+  let picked;
+  try {
+    picked = await File.pickFileAsync({
+      mimeTypes: ['application/zip', 'application/x-zip-compressed', 'application/octet-stream'],
+    });
+  } catch (e) {
+    // Some Android versions throw instead of reporting a cancel.
+    if (String((e as Error)?.message ?? e).toLowerCase().includes('cancel')) return null;
+    throw e;
+  }
+  if (picked.canceled || !picked.result) return null;
+  const bytes = await picked.result.bytes();
   return readBackupZip(bytes);
 }
 
