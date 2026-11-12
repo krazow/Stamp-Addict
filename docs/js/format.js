@@ -1,13 +1,10 @@
-import { CATALOGS } from './lists.js';
+import { CATALOGS, CATALOG_SHORT } from './lists.js';
 import { formatPerforation } from './validation.js';
 
-const SHORT_CATALOG = {
-  scott: 'Scott', stanley_gibbons: 'SG', michel: 'Michel', yvert_tellier: 'Yvert', sakura: 'Sakura', facit: 'Facit', other: '',
-};
 
 /** "Scott 114", or the custom catalog name for "other". */
 export function catalogText(c) {
-  const name = c.catalog === 'other' ? c.catalogLabel || 'Other' : SHORT_CATALOG[c.catalog] ?? c.catalog;
+  const name = c.catalog === 'other' ? c.catalogLabel || 'Other' : CATALOG_SHORT[c.catalog] ?? c.catalog;
   return `${name} ${c.number}`.trim();
 }
 

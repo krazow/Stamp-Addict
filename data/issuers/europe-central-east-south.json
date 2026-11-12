@@ -1,0 +1,3435 @@
+[
+  {
+    "id": "spain",
+    "name": "Spain",
+    "aliases": [
+      "España",
+      "Espana",
+      "Kingdom of Spain"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1850,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "edifil",
+    "notes": null
+  },
+  {
+    "id": "spain-carlist",
+    "name": "Spain (Carlist Issues)",
+    "aliases": [
+      "Carlist Post",
+      "Correo Carlista",
+      "Carlistas"
+    ],
+    "type": "local",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1873,
+    "to": 1875,
+    "parent": null,
+    "successor": null,
+    "catalog": "edifil",
+    "notes": "Issues of the Carlist pretender during the Third Carlist War."
+  },
+  {
+    "id": "canary-islands",
+    "name": "Canary Islands",
+    "aliases": [
+      "Canarias",
+      "Islas Canarias"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1936,
+    "to": 1938,
+    "parent": "Spain",
+    "successor": null,
+    "catalog": "edifil",
+    "notes": "Civil War airmail overprints for the Canaries."
+  },
+  {
+    "id": "portugal",
+    "name": "Portugal",
+    "aliases": [
+      "Portuguese Republic",
+      "República Portuguesa",
+      "Correios de Portugal"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1853,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "azores",
+    "name": "Azores",
+    "aliases": [
+      "Açores",
+      "Acores",
+      "Ilhas dos Açores"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1868,
+    "to": null,
+    "parent": "Portugal",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Issued 1868-1931, resumed 1980."
+  },
+  {
+    "id": "madeira",
+    "name": "Madeira",
+    "aliases": [
+      "Ilha da Madeira"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1868,
+    "to": null,
+    "parent": "Portugal",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Issued 1868-1929, resumed 1980."
+  },
+  {
+    "id": "funchal",
+    "name": "Funchal",
+    "aliases": [],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1892,
+    "to": 1905,
+    "parent": "Portugal",
+    "successor": "Madeira",
+    "catalog": "scott",
+    "notes": "District issue for Madeira."
+  },
+  {
+    "id": "angra",
+    "name": "Angra",
+    "aliases": [
+      "Angra do Heroísmo"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1892,
+    "to": 1905,
+    "parent": "Portugal",
+    "successor": "Azores",
+    "catalog": "scott",
+    "notes": "Azores district issue."
+  },
+  {
+    "id": "horta",
+    "name": "Horta",
+    "aliases": [],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1892,
+    "to": 1905,
+    "parent": "Portugal",
+    "successor": "Azores",
+    "catalog": "scott",
+    "notes": "Azores district issue."
+  },
+  {
+    "id": "ponta-delgada",
+    "name": "Ponta Delgada",
+    "aliases": [],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1892,
+    "to": 1905,
+    "parent": "Portugal",
+    "successor": "Azores",
+    "catalog": "scott",
+    "notes": "Azores district issue."
+  },
+  {
+    "id": "italy",
+    "name": "Italy",
+    "aliases": [
+      "Italia",
+      "Kingdom of Italy",
+      "Italian Republic",
+      "Regno d'Italia",
+      "Repubblica Italiana"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1862,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "sardinia",
+    "name": "Sardinia",
+    "aliases": [
+      "Kingdom of Sardinia",
+      "Sardegna",
+      "Piedmont",
+      "Sardinia-Piedmont"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1851,
+    "to": 1863,
+    "parent": null,
+    "successor": "Italy",
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "modena",
+    "name": "Modena",
+    "aliases": [
+      "Duchy of Modena",
+      "Ducato di Modena"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1852,
+    "to": 1860,
+    "parent": null,
+    "successor": "Italy",
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "parma",
+    "name": "Parma",
+    "aliases": [
+      "Duchy of Parma",
+      "Ducato di Parma",
+      "Parma and Piacenza"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1852,
+    "to": 1860,
+    "parent": null,
+    "successor": "Italy",
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "tuscany",
+    "name": "Tuscany",
+    "aliases": [
+      "Toscana",
+      "Grand Duchy of Tuscany"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1851,
+    "to": 1861,
+    "parent": null,
+    "successor": "Italy",
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "romagna",
+    "name": "Romagna",
+    "aliases": [
+      "Romagne",
+      "Le Romagne"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1859,
+    "to": 1860,
+    "parent": null,
+    "successor": "Italy",
+    "catalog": "sassone",
+    "notes": "Provisional government issue in the former Papal Legations."
+  },
+  {
+    "id": "papal-states",
+    "name": "Papal States",
+    "aliases": [
+      "Roman States",
+      "Pontifical States",
+      "Stato Pontificio",
+      "Stato della Chiesa"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1852,
+    "to": 1870,
+    "parent": null,
+    "successor": "Italy",
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "naples",
+    "name": "Naples",
+    "aliases": [
+      "Kingdom of Naples",
+      "Napoli",
+      "Two Sicilies",
+      "Kingdom of the Two Sicilies"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1858,
+    "to": 1861,
+    "parent": null,
+    "successor": "Neapolitan Provinces",
+    "catalog": "sassone",
+    "notes": "Mainland issues of the Kingdom of the Two Sicilies."
+  },
+  {
+    "id": "sicily",
+    "name": "Sicily",
+    "aliases": [
+      "Sicilia",
+      "Two Sicilies"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1859,
+    "to": 1860,
+    "parent": null,
+    "successor": "Italy",
+    "catalog": "sassone",
+    "notes": "Island issues of the Kingdom of the Two Sicilies."
+  },
+  {
+    "id": "neapolitan-provinces",
+    "name": "Neapolitan Provinces",
+    "aliases": [
+      "Province Napoletane",
+      "Napoletane"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1861,
+    "to": 1862,
+    "parent": null,
+    "successor": "Italy",
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "lombardy-venetia",
+    "name": "Lombardy-Venetia",
+    "aliases": [
+      "Lombardy and Venetia",
+      "Lombardo-Veneto",
+      "Austrian Italy",
+      "Lombardei und Venetien"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1850,
+    "to": 1866,
+    "parent": "Austria",
+    "successor": "Italy",
+    "catalog": "ank",
+    "notes": null
+  },
+  {
+    "id": "san-marino",
+    "name": "San Marino",
+    "aliases": [
+      "Repubblica di San Marino",
+      "RSM"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1877,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "vatican-city",
+    "name": "Vatican City",
+    "aliases": [
+      "Vatican",
+      "Città del Vaticano",
+      "Poste Vaticane",
+      "Holy See"
+    ],
+    "type": "city_state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1929,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "smom",
+    "name": "Sovereign Military Order of Malta",
+    "aliases": [
+      "SMOM",
+      "Order of Malta",
+      "Knights of Malta",
+      "Sovrano Militare Ordine di Malta"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1966,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "sassone",
+    "notes": "Rome-based order; postal issues recognised by bilateral agreements, not UPU."
+  },
+  {
+    "id": "italian-social-republic",
+    "name": "Italian Social Republic",
+    "aliases": [
+      "RSI",
+      "Repubblica Sociale Italiana",
+      "Salò Republic"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1944,
+    "to": 1945,
+    "parent": null,
+    "successor": "Italy",
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "campione-d-italia",
+    "name": "Campione d'Italia",
+    "aliases": [
+      "Campione"
+    ],
+    "type": "local",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1944,
+    "to": 1952,
+    "parent": "Italy",
+    "successor": null,
+    "catalog": "sassone",
+    "notes": "Italian enclave in Switzerland with local Swiss-currency issues."
+  },
+  {
+    "id": "amg-italy",
+    "name": "Allied Military Government (Italy)",
+    "aliases": [
+      "AMG Italy",
+      "AMG Sicily",
+      "Anglo-American Occupation of Italy",
+      "Occupazione Anglo-Americana"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1943,
+    "to": 1945,
+    "parent": null,
+    "successor": "Italy",
+    "catalog": "sassone",
+    "notes": "Allied occupation issues for Sicily and Naples."
+  },
+  {
+    "id": "austrian-occupation-italy",
+    "name": "Austrian Occupation of Italy",
+    "aliases": [
+      "Italy (Austrian Occupation)",
+      "Venetia Austrian Occupation",
+      "Occupazione Austriaca"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1918,
+    "to": 1918,
+    "parent": "Austria",
+    "successor": null,
+    "catalog": "ank",
+    "notes": null
+  },
+  {
+    "id": "italian-occupation-trentino",
+    "name": "Trentino (Italian Occupation)",
+    "aliases": [
+      "Trentino",
+      "Trento",
+      "Venezia Tridentina"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1918,
+    "to": 1919,
+    "parent": "Italy",
+    "successor": "Italy",
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "italian-occupation-venezia-giulia",
+    "name": "Venezia Giulia (Italian Occupation)",
+    "aliases": [
+      "Venezia Giulia 1918",
+      "Trieste 1918"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1918,
+    "to": 1919,
+    "parent": "Italy",
+    "successor": "Italy",
+    "catalog": "sassone",
+    "notes": "1918-19 overprints on Austrian and Italian stamps."
+  },
+  {
+    "id": "italian-occupation-dalmatia",
+    "name": "Dalmatia (Italian Occupation)",
+    "aliases": [
+      "Dalmatia",
+      "Dalmazia"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1919,
+    "to": 1923,
+    "parent": "Italy",
+    "successor": null,
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "fiume",
+    "name": "Fiume",
+    "aliases": [
+      "Free State of Fiume",
+      "Rijeka",
+      "Stato Libero di Fiume",
+      "Carnaro"
+    ],
+    "type": "city_state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1918,
+    "to": 1924,
+    "parent": null,
+    "successor": "Italy",
+    "catalog": "sassone",
+    "notes": "Includes D'Annunzio regency and Free State issues."
+  },
+  {
+    "id": "arbe",
+    "name": "Arbe",
+    "aliases": [
+      "Rab"
+    ],
+    "type": "local",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1920,
+    "to": 1920,
+    "parent": null,
+    "successor": null,
+    "catalog": "sassone",
+    "notes": "Carnaro regency overprints for the island of Rab."
+  },
+  {
+    "id": "veglia",
+    "name": "Veglia",
+    "aliases": [
+      "Krk"
+    ],
+    "type": "local",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1920,
+    "to": 1920,
+    "parent": null,
+    "successor": null,
+    "catalog": "sassone",
+    "notes": "Carnaro regency overprints for the island of Krk."
+  },
+  {
+    "id": "fiume-kupa-zone",
+    "name": "Fiume and Kupa Zone (Italian Occupation)",
+    "aliases": [
+      "Zona Fiumano Kupa",
+      "ZFK",
+      "Fiume-Kupa"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1941,
+    "to": 1942,
+    "parent": "Italy",
+    "successor": null,
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "istria-slovene-coast",
+    "name": "Istria and Slovene Coast (Yugoslav Occupation)",
+    "aliases": [
+      "Istria",
+      "Slovene Littoral",
+      "Fiume Yugoslav Occupation",
+      "Venezia Giulia Yugoslav Occupation",
+      "Zone B 1945"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1945,
+    "to": 1947,
+    "parent": "Yugoslavia",
+    "successor": null,
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "venezia-giulia-amg",
+    "name": "Venezia Giulia (AMG)",
+    "aliases": [
+      "AMG-VG",
+      "Venezia Giulia Allied Military Government"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1945,
+    "to": 1947,
+    "parent": null,
+    "successor": "Trieste Zone A",
+    "catalog": "sassone",
+    "notes": "Anglo-American administration; parent omitted as joint Allied."
+  },
+  {
+    "id": "trieste-zone-a",
+    "name": "Trieste Zone A",
+    "aliases": [
+      "AMG-FTT",
+      "Free Territory of Trieste Zone A",
+      "Trieste AMG"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1947,
+    "to": 1954,
+    "parent": null,
+    "successor": "Italy",
+    "catalog": "sassone",
+    "notes": "Anglo-American zone; overprinted Italian stamps."
+  },
+  {
+    "id": "trieste-zone-b",
+    "name": "Trieste Zone B",
+    "aliases": [
+      "VUJA-STT",
+      "STT-VUJNA",
+      "Yugoslav Military Government Trieste",
+      "Free Territory of Trieste Zone B"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1948,
+    "to": 1954,
+    "parent": "Yugoslavia",
+    "successor": "Yugoslavia",
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "aegean-islands",
+    "name": "Aegean Islands (Dodecanese)",
+    "aliases": [
+      "Dodecanese",
+      "Isole Italiane dell'Egeo",
+      "Egeo",
+      "Rhodes",
+      "Rodi",
+      "Calchi",
+      "Coo",
+      "Scarpanto"
+    ],
+    "type": "colony",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1912,
+    "to": 1945,
+    "parent": "Italy",
+    "successor": "Dodecanese (Greek Occupation)",
+    "catalog": "sassone",
+    "notes": "Includes the individual island overprints (Rodi, Calino, Lero, Patmo, etc.)."
+  },
+  {
+    "id": "castellorizo",
+    "name": "Castellorizo",
+    "aliases": [
+      "Castelrosso",
+      "Kastellorizo",
+      "Megisti"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1920,
+    "to": 1932,
+    "parent": null,
+    "successor": "Aegean Islands (Dodecanese)",
+    "catalog": "sassone",
+    "notes": "French occupation 1920-21 (Yvert) then Italian issues."
+  },
+  {
+    "id": "saseno",
+    "name": "Saseno",
+    "aliases": [
+      "Sazan"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1923,
+    "to": 1923,
+    "parent": "Italy",
+    "successor": null,
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "italian-occupation-corfu",
+    "name": "Corfu (Italian Occupation 1923)",
+    "aliases": [
+      "Corfu 1923",
+      "Corfù"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1923,
+    "to": 1923,
+    "parent": "Italy",
+    "successor": null,
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "italian-occupation-ionian-islands",
+    "name": "Ionian Islands (Italian Occupation)",
+    "aliases": [
+      "Isole Jonie",
+      "Corfu and Paxos",
+      "Corfu 1941"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1941,
+    "to": 1943,
+    "parent": "Italy",
+    "successor": null,
+    "catalog": "sassone",
+    "notes": "WWII issues, including the Corfu and Paxos overprints."
+  },
+  {
+    "id": "cephalonia-ithaca",
+    "name": "Cephalonia and Ithaca (Italian Occupation)",
+    "aliases": [
+      "Cefalonia e Itaca",
+      "Kefalonia",
+      "Ithaca"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1941,
+    "to": 1941,
+    "parent": "Italy",
+    "successor": null,
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "italian-occupation-montenegro",
+    "name": "Montenegro (Italian Occupation)",
+    "aliases": [
+      "Montenegro 1941",
+      "Crna Gora Italian Occupation"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1941,
+    "to": 1943,
+    "parent": "Italy",
+    "successor": null,
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "italian-occupation-ljubljana",
+    "name": "Ljubljana (Italian Occupation)",
+    "aliases": [
+      "Lubiana",
+      "Provincia di Lubiana",
+      "Co.Ci."
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1941,
+    "to": 1942,
+    "parent": "Italy",
+    "successor": null,
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "italian-occupation-albania",
+    "name": "Albania (Italian Occupation)",
+    "aliases": [
+      "Albania 1939",
+      "Albanian Kingdom under Italy"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1939,
+    "to": 1943,
+    "parent": "Italy",
+    "successor": null,
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "italian-po-crete",
+    "name": "Crete (Italian Post Offices)",
+    "aliases": [
+      "La Canea",
+      "Khania",
+      "Italian Post Office Crete"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1900,
+    "to": 1912,
+    "parent": "Italy",
+    "successor": null,
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "italian-po-turkish-empire",
+    "name": "Italian Post Offices in the Turkish Empire",
+    "aliases": [
+      "Italian Levant",
+      "Levante",
+      "Durazzo",
+      "Valona",
+      "Scutari",
+      "Janina",
+      "Salonicco",
+      "Costantinopoli"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1874,
+    "to": 1923,
+    "parent": "Italy",
+    "successor": null,
+    "catalog": "sassone",
+    "notes": "Includes the individual office overprints in Albania and Greece."
+  },
+  {
+    "id": "austria",
+    "name": "Austria",
+    "aliases": [
+      "Österreich",
+      "Osterreich",
+      "Austria-Hungary",
+      "Austrian Empire",
+      "Republic of Austria",
+      "Deutschösterreich"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1850,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "ank",
+    "notes": null
+  },
+  {
+    "id": "austrian-po-turkish-empire",
+    "name": "Austrian Post Offices in the Turkish Empire",
+    "aliases": [
+      "Austrian Levant",
+      "Österreichische Post in der Levante",
+      "Austrian Lloyd"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1867,
+    "to": 1914,
+    "parent": "Austria",
+    "successor": null,
+    "catalog": "ank",
+    "notes": null
+  },
+  {
+    "id": "austrian-po-crete",
+    "name": "Crete (Austrian Post Offices)",
+    "aliases": [
+      "Austrian Post Office Crete",
+      "Kreta"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1903,
+    "to": 1914,
+    "parent": "Austria",
+    "successor": null,
+    "catalog": "ank",
+    "notes": null
+  },
+  {
+    "id": "austro-hungarian-military-post",
+    "name": "Austro-Hungarian Military Post",
+    "aliases": [
+      "K.u.K. Feldpost",
+      "KuK Militärpost",
+      "Feldpost"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1915,
+    "to": 1918,
+    "parent": "Austria",
+    "successor": null,
+    "catalog": "ank",
+    "notes": "General issues for occupied territories."
+  },
+  {
+    "id": "austrian-occupation-serbia",
+    "name": "Serbia (Austrian Occupation)",
+    "aliases": [
+      "K.u.K. Militärverwaltung Serbien"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1916,
+    "to": 1916,
+    "parent": "Austria",
+    "successor": null,
+    "catalog": "ank",
+    "notes": null
+  },
+  {
+    "id": "austrian-occupation-montenegro",
+    "name": "Montenegro (Austrian Occupation)",
+    "aliases": [
+      "K.u.K. Militärverwaltung Montenegro"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1917,
+    "to": 1917,
+    "parent": "Austria",
+    "successor": null,
+    "catalog": "ank",
+    "notes": null
+  },
+  {
+    "id": "austrian-occupation-romania",
+    "name": "Romania (Austrian Occupation)",
+    "aliases": [
+      "K.u.K. Militärverwaltung Rumänien"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1917,
+    "to": 1918,
+    "parent": "Austria",
+    "successor": null,
+    "catalog": "ank",
+    "notes": null
+  },
+  {
+    "id": "bosnia-herzegovina-austrian",
+    "name": "Bosnia and Herzegovina (Austro-Hungarian Administration)",
+    "aliases": [
+      "Bosnien und Herzegowina",
+      "Bosnia 1879",
+      "BiH Austrian"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1879,
+    "to": 1918,
+    "parent": "Austria",
+    "successor": "Bosnia and Herzegovina (SHS)",
+    "catalog": "ank",
+    "notes": null
+  },
+  {
+    "id": "ddsg",
+    "name": "Danube Steam Navigation Company",
+    "aliases": [
+      "DDSG",
+      "Donau-Dampfschiffahrts-Gesellschaft",
+      "Danube Steamship"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1866,
+    "to": 1880,
+    "parent": null,
+    "successor": null,
+    "catalog": "ank",
+    "notes": "Private shipping-company post on the Danube."
+  },
+  {
+    "id": "carinthia-plebiscite",
+    "name": "Carinthia (Plebiscite)",
+    "aliases": [
+      "Kärnten Abstimmung",
+      "KGCA",
+      "Carinthia"
+    ],
+    "type": "local",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1920,
+    "to": 1920,
+    "parent": null,
+    "successor": null,
+    "catalog": "ank",
+    "notes": "Covers both Austrian and Yugoslav (KGCA) plebiscite issues."
+  },
+  {
+    "id": "hungary",
+    "name": "Hungary",
+    "aliases": [
+      "Magyarország",
+      "Magyar Posta",
+      "Kingdom of Hungary"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1871,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "szeged",
+    "name": "Szeged",
+    "aliases": [
+      "Szegedin",
+      "Hungary (Szeged Issue)"
+    ],
+    "type": "local",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1919,
+    "to": 1919,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": "Hungarian National Government at Szeged."
+  },
+  {
+    "id": "western-hungary",
+    "name": "Western Hungary",
+    "aliases": [
+      "Lajtabánság",
+      "Nyugat-Magyarország",
+      "Burgenland 1921"
+    ],
+    "type": "local",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1921,
+    "to": 1921,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "arad-french-occupation",
+    "name": "Arad (French Occupation)",
+    "aliases": [
+      "Arad",
+      "Occupation Française Arad"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1919,
+    "to": 1919,
+    "parent": "France",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "romanian-occupation-hungary",
+    "name": "Hungary (Romanian Occupation)",
+    "aliases": [
+      "Debrecen",
+      "Debreczin",
+      "Zona de Occupatie Romana"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1919,
+    "to": 1920,
+    "parent": "Romania",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "transylvania-romanian",
+    "name": "Transylvania (Romanian Occupation)",
+    "aliases": [
+      "Cluj",
+      "Oradea",
+      "Nagyvárad",
+      "Kolozsvár",
+      "Siebenbürgen"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1919,
+    "to": 1919,
+    "parent": "Romania",
+    "successor": null,
+    "catalog": "michel",
+    "notes": "Romanian overprints on Hungarian stamps at Cluj and Oradea."
+  },
+  {
+    "id": "temesvar",
+    "name": "Temesvar",
+    "aliases": [
+      "Timișoara",
+      "Temesvár",
+      "Temeschburg"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1919,
+    "to": 1919,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": "Serbian and later Romanian occupation overprints."
+  },
+  {
+    "id": "baranya",
+    "name": "Baranya (Serbian Occupation)",
+    "aliases": [
+      "Baranja",
+      "Pécs"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1919,
+    "to": 1919,
+    "parent": "Serbia (Kingdom)",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "banat-bacska",
+    "name": "Banat Bacska",
+    "aliases": [
+      "Bánát Bácska",
+      "Banat-Bačka"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1919,
+    "to": 1919,
+    "parent": "Serbia (Kingdom)",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "czechoslovakia",
+    "name": "Czechoslovakia",
+    "aliases": [
+      "Československo",
+      "Ceskoslovensko",
+      "CSSR",
+      "CSR",
+      "Czecho-Slovakia"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1918,
+    "to": 1992,
+    "parent": null,
+    "successor": "Czech Republic",
+    "catalog": "pofis",
+    "notes": "Also succeeded by Slovakia (1993)."
+  },
+  {
+    "id": "czech-republic",
+    "name": "Czech Republic",
+    "aliases": [
+      "Czechia",
+      "Česká republika",
+      "Česko"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1993,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "pofis",
+    "notes": null
+  },
+  {
+    "id": "slovakia-1939",
+    "name": "Slovakia (1939-1945)",
+    "aliases": [
+      "Slovak State",
+      "Slovenský štát",
+      "Slovenská republika 1939"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1939,
+    "to": 1945,
+    "parent": "Germany",
+    "successor": "Czechoslovakia",
+    "catalog": "pofis",
+    "notes": null
+  },
+  {
+    "id": "slovakia",
+    "name": "Slovakia",
+    "aliases": [
+      "Slovak Republic",
+      "Slovenská republika",
+      "Slovensko"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1993,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "pofis",
+    "notes": null
+  },
+  {
+    "id": "bohemia-moravia",
+    "name": "Bohemia and Moravia",
+    "aliases": [
+      "Böhmen und Mähren",
+      "Čechy a Morava",
+      "Protectorate of Bohemia and Moravia"
+    ],
+    "type": "protectorate",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1939,
+    "to": 1945,
+    "parent": "Germany",
+    "successor": "Czechoslovakia",
+    "catalog": "pofis",
+    "notes": null
+  },
+  {
+    "id": "carpatho-ukraine",
+    "name": "Carpatho-Ukraine",
+    "aliases": [
+      "Karpatska Ukrajina",
+      "Carpathian Ukraine",
+      "Podkarpatská Rus"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1939,
+    "to": 1939,
+    "parent": null,
+    "successor": null,
+    "catalog": "pofis",
+    "notes": null
+  },
+  {
+    "id": "transcarpathian-ukraine",
+    "name": "Transcarpathian Ukraine",
+    "aliases": [
+      "Zakarpatska Ukraina",
+      "Subcarpathian Ruthenia"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1944,
+    "to": 1945,
+    "parent": null,
+    "successor": "Soviet Union",
+    "catalog": "pofis",
+    "notes": null
+  },
+  {
+    "id": "east-silesia",
+    "name": "East Silesia",
+    "aliases": [
+      "Eastern Silesia",
+      "S.O. 1920",
+      "Cieszyn Silesia",
+      "Teschen"
+    ],
+    "type": "local",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1920,
+    "to": 1920,
+    "parent": null,
+    "successor": null,
+    "catalog": "pofis",
+    "notes": "Plebiscite overprints on Czech and Polish stamps."
+  },
+  {
+    "id": "sudetenland",
+    "name": "Sudetenland",
+    "aliases": [
+      "Sudetenland Local Issues",
+      "Asch",
+      "Karlsbad",
+      "Reichenberg",
+      "Rumburg"
+    ],
+    "type": "local",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1938,
+    "to": 1938,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": "Local overprints on Czech stamps after German annexation."
+  },
+  {
+    "id": "poland",
+    "name": "Poland",
+    "aliases": [
+      "Polska",
+      "Republic of Poland",
+      "Rzeczpospolita Polska"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1918,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "fischer",
+    "notes": null
+  },
+  {
+    "id": "poland-russian-province",
+    "name": "Kingdom of Poland (Russian Province)",
+    "aliases": [
+      "Poland 1860",
+      "Congress Poland",
+      "Poland Number One"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1860,
+    "to": 1865,
+    "parent": "Russian Empire",
+    "successor": null,
+    "catalog": "fischer",
+    "notes": null
+  },
+  {
+    "id": "german-occupation-poland-ww1",
+    "name": "German Occupation of Poland (WWI)",
+    "aliases": [
+      "Russisch-Polen",
+      "Gen.-Gouv. Warschau",
+      "General Government Warsaw"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1915,
+    "to": 1918,
+    "parent": "Germany",
+    "successor": "Poland",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "general-government",
+    "name": "General Government",
+    "aliases": [
+      "Generalgouvernement",
+      "German Occupation of Poland (WWII)",
+      "Generalne Gubernatorstwo"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1939,
+    "to": 1945,
+    "parent": "Germany",
+    "successor": "Poland",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "polish-po-danzig",
+    "name": "Polish Post Office in Danzig",
+    "aliases": [
+      "Port Gdańsk",
+      "Port Gdansk",
+      "Polish Post Danzig"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1925,
+    "to": 1938,
+    "parent": "Poland",
+    "successor": null,
+    "catalog": "fischer",
+    "notes": null
+  },
+  {
+    "id": "polish-po-turkish-empire",
+    "name": "Polish Post Office in Constantinople",
+    "aliases": [
+      "Polish Levant",
+      "Levant Poland",
+      "Lewant"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1919,
+    "to": 1921,
+    "parent": "Poland",
+    "successor": null,
+    "catalog": "fischer",
+    "notes": null
+  },
+  {
+    "id": "polish-corps-russia-1918",
+    "name": "Polish Corps in Russia",
+    "aliases": [
+      "Polish 1st Corps",
+      "Dowbor-Muśnicki Corps"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1918,
+    "to": 1918,
+    "parent": "Poland",
+    "successor": null,
+    "catalog": "fischer",
+    "notes": null
+  },
+  {
+    "id": "polish-army-russia-1942",
+    "name": "Polish Army in Russia",
+    "aliases": [
+      "Anders Army",
+      "Polish Army in USSR 1942"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1942,
+    "to": 1942,
+    "parent": "Poland",
+    "successor": null,
+    "catalog": "fischer",
+    "notes": null
+  },
+  {
+    "id": "polish-government-in-exile",
+    "name": "Polish Government in Exile",
+    "aliases": [
+      "Polish Government in London",
+      "Polish Exile Post"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1941,
+    "to": 1945,
+    "parent": null,
+    "successor": null,
+    "catalog": "fischer",
+    "notes": null
+  },
+  {
+    "id": "central-lithuania",
+    "name": "Central Lithuania",
+    "aliases": [
+      "Litwa Środkowa",
+      "Srodkowa Litwa",
+      "Vilnius 1920"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1920,
+    "to": 1922,
+    "parent": "Poland",
+    "successor": "Poland",
+    "catalog": "fischer",
+    "notes": null
+  },
+  {
+    "id": "estonia",
+    "name": "Estonia",
+    "aliases": [
+      "Eesti",
+      "Republic of Estonia"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1918,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": "Issued 1918-1940 and again from 1991."
+  },
+  {
+    "id": "latvia",
+    "name": "Latvia",
+    "aliases": [
+      "Latvija",
+      "Republic of Latvia",
+      "Lettland"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1918,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": "Issued 1918-1940 and again from 1991."
+  },
+  {
+    "id": "lithuania",
+    "name": "Lithuania",
+    "aliases": [
+      "Lietuva",
+      "Republic of Lithuania",
+      "Litauen"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1918,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": "Issued 1918-1940 and again from 1990."
+  },
+  {
+    "id": "south-lithuania",
+    "name": "South Lithuania (Russian Occupation)",
+    "aliases": [
+      "Grodno District",
+      "Grodno"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1919,
+    "to": 1919,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "dorpat",
+    "name": "Dorpat (German Occupation)",
+    "aliases": [
+      "Tartu 1918",
+      "Dorpat"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1918,
+    "to": 1918,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "ober-ost",
+    "name": "Eastern Command Area",
+    "aliases": [
+      "Postgebiet Ober Ost",
+      "Ober Ost",
+      "Oberbefehlshaber Ost"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1916,
+    "to": 1918,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": "German WWI occupation of the Baltic area and Lithuania."
+  },
+  {
+    "id": "german-occupation-estonia",
+    "name": "Estonia (German Occupation)",
+    "aliases": [
+      "Estland 1941",
+      "Elwa",
+      "Pernau"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1941,
+    "to": 1941,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "german-occupation-latvia",
+    "name": "Latvia (German Occupation)",
+    "aliases": [
+      "Lettland 1941"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1941,
+    "to": 1941,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "german-occupation-lithuania",
+    "name": "Lithuania (German Occupation)",
+    "aliases": [
+      "Litauen 1941",
+      "Raseiniai",
+      "Telšiai",
+      "Zarasai"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1941,
+    "to": 1941,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": "Local 1941 overprints."
+  },
+  {
+    "id": "ostland",
+    "name": "Ostland",
+    "aliases": [
+      "Reichskommissariat Ostland"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1941,
+    "to": 1945,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": "WWII German administration of the Baltics and Belarus."
+  },
+  {
+    "id": "kurland",
+    "name": "Courland (German Occupation)",
+    "aliases": [
+      "Kurland",
+      "Kurzeme"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1945,
+    "to": 1945,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "wenden",
+    "name": "Wenden",
+    "aliases": [
+      "Cēsis",
+      "Cesis",
+      "Livonia Wenden"
+    ],
+    "type": "local",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1862,
+    "to": 1901,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": "District post of Wenden, Livonia."
+  },
+  {
+    "id": "russian-empire",
+    "name": "Russian Empire",
+    "aliases": [
+      "Russia",
+      "Imperial Russia",
+      "Rossiya",
+      "Россия"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1857,
+    "to": 1917,
+    "parent": null,
+    "successor": "Russian Soviet Federative Socialist Republic",
+    "catalog": "zagorski",
+    "notes": null
+  },
+  {
+    "id": "rsfsr",
+    "name": "Russian Soviet Federative Socialist Republic",
+    "aliases": [
+      "RSFSR",
+      "Soviet Russia",
+      "РСФСР"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1918,
+    "to": 1923,
+    "parent": null,
+    "successor": "Soviet Union",
+    "catalog": "zagorski",
+    "notes": null
+  },
+  {
+    "id": "soviet-union",
+    "name": "Soviet Union",
+    "aliases": [
+      "USSR",
+      "CCCP",
+      "СССР",
+      "Union of Soviet Socialist Republics"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1923,
+    "to": 1991,
+    "parent": null,
+    "successor": "Russia",
+    "catalog": "zagorski",
+    "notes": null
+  },
+  {
+    "id": "russia",
+    "name": "Russia",
+    "aliases": [
+      "Russian Federation",
+      "Rossiya",
+      "Россия",
+      "Pochta Rossii"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1992,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "zagorski",
+    "notes": null
+  },
+  {
+    "id": "russian-zemstvo",
+    "name": "Russian Zemstvo Posts",
+    "aliases": [
+      "Zemstvo",
+      "Земская почта",
+      "Rural Posts"
+    ],
+    "type": "local",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1865,
+    "to": 1917,
+    "parent": "Russian Empire",
+    "successor": null,
+    "catalog": "other",
+    "notes": "Hundreds of district rural posts; catalogued by Chuchin/Schmidt."
+  },
+  {
+    "id": "russian-po-turkish-empire",
+    "name": "Russian Post Offices in the Turkish Empire",
+    "aliases": [
+      "Russian Levant",
+      "ROPiT",
+      "Russian Post Offices in the Levant",
+      "Mount Athos",
+      "Mytilene"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1863,
+    "to": 1914,
+    "parent": "Russian Empire",
+    "successor": null,
+    "catalog": "zagorski",
+    "notes": "Includes the 1909-10 town overprints."
+  },
+  {
+    "id": "russian-po-crete",
+    "name": "Crete (Russian Post Offices)",
+    "aliases": [
+      "Rethymnon",
+      "Rethymno",
+      "Russian Crete"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1899,
+    "to": 1899,
+    "parent": "Russian Empire",
+    "successor": null,
+    "catalog": "zagorski",
+    "notes": null
+  },
+  {
+    "id": "south-russia",
+    "name": "South Russia",
+    "aliases": [
+      "Denikin Government",
+      "Armed Forces of South Russia",
+      "Volunteer Army"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1919,
+    "to": 1920,
+    "parent": null,
+    "successor": null,
+    "catalog": "zagorski",
+    "notes": null
+  },
+  {
+    "id": "don-territory",
+    "name": "Don Territory",
+    "aliases": [
+      "Don Cossack Government",
+      "Don Republic",
+      "Rostov"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1918,
+    "to": 1920,
+    "parent": null,
+    "successor": "South Russia",
+    "catalog": "zagorski",
+    "notes": null
+  },
+  {
+    "id": "kuban-territory",
+    "name": "Kuban Territory",
+    "aliases": [
+      "Kuban Cossack Government",
+      "Ekaterinodar"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1918,
+    "to": 1920,
+    "parent": null,
+    "successor": "South Russia",
+    "catalog": "zagorski",
+    "notes": null
+  },
+  {
+    "id": "crimea",
+    "name": "Crimea",
+    "aliases": [
+      "Crimean Regional Government",
+      "Krym"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1918,
+    "to": 1920,
+    "parent": null,
+    "successor": "South Russia",
+    "catalog": "zagorski",
+    "notes": null
+  },
+  {
+    "id": "wrangel",
+    "name": "Wrangel Army",
+    "aliases": [
+      "Wrangel Government",
+      "Russian Refugee Post",
+      "Wrangel Issues"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1920,
+    "to": 1921,
+    "parent": null,
+    "successor": null,
+    "catalog": "zagorski",
+    "notes": "Overprints used by White Russian army and refugees abroad."
+  },
+  {
+    "id": "north-west-russia",
+    "name": "North West Russia",
+    "aliases": [
+      "North Western Army",
+      "Yudenich",
+      "Severo-Zapadnaya Armiya"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1919,
+    "to": 1919,
+    "parent": null,
+    "successor": null,
+    "catalog": "zagorski",
+    "notes": null
+  },
+  {
+    "id": "northern-army",
+    "name": "Northern Army",
+    "aliases": [
+      "OKCA",
+      "Northern Corps",
+      "Rodzianko"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1919,
+    "to": 1919,
+    "parent": null,
+    "successor": null,
+    "catalog": "zagorski",
+    "notes": null
+  },
+  {
+    "id": "western-army",
+    "name": "Western Army",
+    "aliases": [
+      "Bermondt-Avalov",
+      "West Russian Army",
+      "Zapadnaya Armiya"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1919,
+    "to": 1919,
+    "parent": null,
+    "successor": null,
+    "catalog": "zagorski",
+    "notes": "Operated in Latvia."
+  },
+  {
+    "id": "north-ingria",
+    "name": "North Ingria",
+    "aliases": [
+      "North Ingermanland",
+      "Pohjois-Inkeri",
+      "Kirjasalo"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1920,
+    "to": 1920,
+    "parent": null,
+    "successor": null,
+    "catalog": "facit",
+    "notes": null
+  },
+  {
+    "id": "aunus",
+    "name": "Aunus (Finnish Occupation)",
+    "aliases": [
+      "Olonets",
+      "Olonec"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1919,
+    "to": 1919,
+    "parent": "Finland",
+    "successor": null,
+    "catalog": "facit",
+    "notes": null
+  },
+  {
+    "id": "east-karelia",
+    "name": "East Karelia (Finnish Occupation)",
+    "aliases": [
+      "Itä-Karjala",
+      "Ostkarelien",
+      "Karelia Finnish Occupation"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1941,
+    "to": 1943,
+    "parent": "Finland",
+    "successor": null,
+    "catalog": "facit",
+    "notes": null
+  },
+  {
+    "id": "pskov-german-occupation",
+    "name": "Pskov (German Occupation)",
+    "aliases": [
+      "Pleskau",
+      "Pskow"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1941,
+    "to": 1942,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "ukraine-peoples-republic",
+    "name": "Ukraine (1918-1920)",
+    "aliases": [
+      "Ukrainian People's Republic",
+      "UNR",
+      "Ukrainian State",
+      "Ukraine Trident Overprints"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1918,
+    "to": 1920,
+    "parent": null,
+    "successor": "Soviet Union",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "west-ukraine",
+    "name": "West Ukraine",
+    "aliases": [
+      "Western Ukrainian People's Republic",
+      "ZUNR",
+      "Zakhidna Ukraina"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1918,
+    "to": 1919,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "german-occupation-ukraine",
+    "name": "Ukraine (German Occupation)",
+    "aliases": [
+      "Reichskommissariat Ukraine",
+      "Ukraine 1941"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1941,
+    "to": 1944,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "ukraine",
+    "name": "Ukraine",
+    "aliases": [
+      "Україна",
+      "Ukrajina",
+      "Ukrposhta"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1992,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "belarus",
+    "name": "Belarus",
+    "aliases": [
+      "Беларусь",
+      "Byelorussia",
+      "Belorussia",
+      "Republic of Belarus"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1992,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "moldova",
+    "name": "Moldova",
+    "aliases": [
+      "Republic of Moldova",
+      "Moldavia (modern)",
+      "Poșta Moldovei"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1991,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "moldavia",
+    "name": "Moldavia",
+    "aliases": [
+      "Moldova (principality)",
+      "Bull's Heads",
+      "Cap de Bour",
+      "Moldau"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1858,
+    "to": 1862,
+    "parent": null,
+    "successor": "Moldo-Wallachia",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "moldo-wallachia",
+    "name": "Moldo-Wallachia",
+    "aliases": [
+      "United Principalities",
+      "Romanian Principalities",
+      "Moldavia-Wallachia"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1862,
+    "to": 1865,
+    "parent": null,
+    "successor": "Romania",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "romania",
+    "name": "Romania",
+    "aliases": [
+      "România",
+      "Roumania",
+      "Rumania",
+      "Rumänien"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1865,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "romanian-po-turkish-empire",
+    "name": "Romanian Post Offices in the Turkish Empire",
+    "aliases": [
+      "Romanian Levant",
+      "Constantinople Romanian Post"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1896,
+    "to": 1919,
+    "parent": "Romania",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "german-occupation-romania",
+    "name": "Romania (German Occupation)",
+    "aliases": [
+      "MViR",
+      "Militärverwaltung in Rumänien"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1917,
+    "to": 1918,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "bulgarian-occupation-romania",
+    "name": "Romania (Bulgarian Occupation)",
+    "aliases": [
+      "Dobruja",
+      "Dobrudja",
+      "Dobrogea"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1916,
+    "to": 1917,
+    "parent": "Bulgaria",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "bulgaria",
+    "name": "Bulgaria",
+    "aliases": [
+      "България",
+      "Bulgarie",
+      "Bulgarien"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1879,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "eastern-rumelia",
+    "name": "Eastern Rumelia",
+    "aliases": [
+      "Roumélie Orientale",
+      "Rumelia",
+      "Ost-Rumelien"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1881,
+    "to": 1885,
+    "parent": null,
+    "successor": "South Bulgaria",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "south-bulgaria",
+    "name": "South Bulgaria",
+    "aliases": [
+      "Southern Bulgaria",
+      "Süd-Bulgarien"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1885,
+    "to": 1885,
+    "parent": null,
+    "successor": "Bulgaria",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "serbia-kingdom",
+    "name": "Serbia (Kingdom)",
+    "aliases": [
+      "Principality of Serbia",
+      "Kingdom of Serbia",
+      "Srbija",
+      "Serbien"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1866,
+    "to": 1920,
+    "parent": null,
+    "successor": "Kingdom of the Serbs, Croats and Slovenes",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "montenegro-kingdom",
+    "name": "Montenegro (Kingdom)",
+    "aliases": [
+      "Principality of Montenegro",
+      "Crna Gora",
+      "Tsernagora"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1874,
+    "to": 1918,
+    "parent": null,
+    "successor": "Kingdom of the Serbs, Croats and Slovenes",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "kingdom-shs",
+    "name": "Kingdom of the Serbs, Croats and Slovenes",
+    "aliases": [
+      "SHS",
+      "Kraljevstvo SHS",
+      "Yugoslavia 1918"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1918,
+    "to": 1929,
+    "parent": null,
+    "successor": "Yugoslavia (Kingdom)",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "bosnia-shs",
+    "name": "Bosnia and Herzegovina (SHS)",
+    "aliases": [
+      "Bosnia Provincial Issues",
+      "SHS Bosna i Hercegovina"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1918,
+    "to": 1919,
+    "parent": "Kingdom of the Serbs, Croats and Slovenes",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "croatia-shs",
+    "name": "Croatia (SHS)",
+    "aliases": [
+      "Hrvatska SHS",
+      "Croatia Provincial Issues",
+      "Croatia-Slavonia"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1918,
+    "to": 1919,
+    "parent": "Kingdom of the Serbs, Croats and Slovenes",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "slovenia-shs",
+    "name": "Slovenia (SHS)",
+    "aliases": [
+      "Verigar",
+      "Chainbreakers",
+      "Slovenia Provincial Issues"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1919,
+    "to": 1921,
+    "parent": "Kingdom of the Serbs, Croats and Slovenes",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "yugoslavia-kingdom",
+    "name": "Yugoslavia (Kingdom)",
+    "aliases": [
+      "Kingdom of Yugoslavia",
+      "Kraljevina Jugoslavija"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1929,
+    "to": 1941,
+    "parent": null,
+    "successor": "Yugoslavia",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "yugoslav-government-in-exile",
+    "name": "Yugoslav Government in Exile",
+    "aliases": [
+      "Yugoslavia Exile Issues",
+      "Royal Yugoslav Government London"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1943,
+    "to": 1945,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "yugoslavia",
+    "name": "Yugoslavia",
+    "aliases": [
+      "Jugoslavija",
+      "FNRJ",
+      "SFRJ",
+      "SFR Yugoslavia",
+      "FR Yugoslavia",
+      "Democratic Federal Yugoslavia"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1944,
+    "to": 2003,
+    "parent": null,
+    "successor": "Serbia and Montenegro",
+    "catalog": "michel",
+    "notes": "Socialist and Federal Republic issues, incl. 1944-45 regional issues."
+  },
+  {
+    "id": "serbia-and-montenegro",
+    "name": "Serbia and Montenegro",
+    "aliases": [
+      "Srbija i Crna Gora",
+      "State Union of Serbia and Montenegro"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 2003,
+    "to": 2006,
+    "parent": null,
+    "successor": "Serbia",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "serbia",
+    "name": "Serbia",
+    "aliases": [
+      "Republic of Serbia",
+      "Republika Srbija",
+      "Pošta Srbije"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 2006,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "montenegro",
+    "name": "Montenegro",
+    "aliases": [
+      "Crna Gora",
+      "Pošta Crne Gore"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 2006,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "croatia-independent-state",
+    "name": "Croatia (Independent State)",
+    "aliases": [
+      "NDH",
+      "Nezavisna Država Hrvatska",
+      "Croatia 1941"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1941,
+    "to": 1945,
+    "parent": "Germany",
+    "successor": "Yugoslavia",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "croatia",
+    "name": "Croatia",
+    "aliases": [
+      "Hrvatska",
+      "Republic of Croatia",
+      "Republika Hrvatska"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1991,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "serbian-krajina",
+    "name": "Serbian Krajina",
+    "aliases": [
+      "Republika Srpska Krajina",
+      "RSK",
+      "Srpska Krajina"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1993,
+    "to": 1995,
+    "parent": null,
+    "successor": "Croatia",
+    "catalog": "michel",
+    "notes": "Unrecognised Serb entity in Croatia."
+  },
+  {
+    "id": "srem-baranja",
+    "name": "Eastern Slavonia, Baranja and Western Srem",
+    "aliases": [
+      "Sremsko-Baranjska Oblast",
+      "SBO",
+      "UNTAES"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1995,
+    "to": 1997,
+    "parent": null,
+    "successor": "Croatia",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "slovenia",
+    "name": "Slovenia",
+    "aliases": [
+      "Slovenija",
+      "Republic of Slovenia",
+      "Pošta Slovenije"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1991,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "bosnia-herzegovina",
+    "name": "Bosnia and Herzegovina",
+    "aliases": [
+      "Bosna i Hercegovina",
+      "BiH",
+      "BH Pošta"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1993,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": "Sarajevo-based administration."
+  },
+  {
+    "id": "herceg-bosna",
+    "name": "Croatian Posts in Bosnia (Mostar)",
+    "aliases": [
+      "Herceg-Bosna",
+      "HP Mostar",
+      "Hrvatska Pošta Mostar"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1993,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": "Croat postal administration within Bosnia and Herzegovina."
+  },
+  {
+    "id": "republika-srpska",
+    "name": "Republika Srpska",
+    "aliases": [
+      "Bosnian Serb Republic",
+      "Srpska Pošta",
+      "Pošte Srpske"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1992,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": "Serb postal administration within Bosnia and Herzegovina."
+  },
+  {
+    "id": "north-macedonia",
+    "name": "North Macedonia",
+    "aliases": [
+      "Macedonia",
+      "FYROM",
+      "Former Yugoslav Republic of Macedonia",
+      "Makedonija"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1991,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "kosovo",
+    "name": "Kosovo",
+    "aliases": [
+      "UNMIK",
+      "Kosova",
+      "Republic of Kosovo",
+      "Posta e Kosoves"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 2000,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": "UNMIK issues from 2000; Republic of Kosovo issues from 2008."
+  },
+  {
+    "id": "german-occupation-serbia",
+    "name": "Serbia (German Occupation)",
+    "aliases": [
+      "Serbien 1941",
+      "Serbia 1941-1944"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1941,
+    "to": 1944,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "german-occupation-montenegro",
+    "name": "Montenegro (German Occupation)",
+    "aliases": [
+      "Montenegro 1943"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1943,
+    "to": 1944,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "german-occupation-macedonia",
+    "name": "Macedonia (German Occupation)",
+    "aliases": [
+      "Mazedonien 1944",
+      "Makedonija 1944"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1944,
+    "to": 1944,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "german-occupation-ljubljana",
+    "name": "Ljubljana (German Occupation)",
+    "aliases": [
+      "Laibach",
+      "Provinz Laibach",
+      "Ljubljanska Pokrajina"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1944,
+    "to": 1945,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "german-occupation-zara",
+    "name": "Zara (German Occupation)",
+    "aliases": [
+      "Zara",
+      "Zadar"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1943,
+    "to": 1943,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "german-occupation-kotor",
+    "name": "Kotor (German Occupation)",
+    "aliases": [
+      "Kotor",
+      "Cattaro",
+      "Bay of Kotor"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1944,
+    "to": 1944,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "albania",
+    "name": "Albania",
+    "aliases": [
+      "Shqipëria",
+      "Shqiperia",
+      "Albanie",
+      "Albanien"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1913,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "korce",
+    "name": "Korce (Koritza)",
+    "aliases": [
+      "Koritza",
+      "Korçë",
+      "Republique de Koritza"
+    ],
+    "type": "local",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1917,
+    "to": 1918,
+    "parent": "France",
+    "successor": "Albania",
+    "catalog": "michel",
+    "notes": "Autonomous province under French military protection."
+  },
+  {
+    "id": "northern-epirus",
+    "name": "Northern Epirus",
+    "aliases": [
+      "Epirus",
+      "Autonomous Republic of Northern Epirus",
+      "Voreios Ipiros"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1914,
+    "to": 1914,
+    "parent": null,
+    "successor": "Albania",
+    "catalog": "hellas",
+    "notes": null
+  },
+  {
+    "id": "greek-occupation-albania",
+    "name": "Albania (Greek Occupation)",
+    "aliases": [
+      "Greek Occupation of Northern Epirus 1940",
+      "Elliniki Dioikisis"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1940,
+    "to": 1941,
+    "parent": "Greece",
+    "successor": null,
+    "catalog": "hellas",
+    "notes": null
+  },
+  {
+    "id": "german-occupation-albania",
+    "name": "Albania (German Occupation)",
+    "aliases": [
+      "Albanien 1943"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1943,
+    "to": 1944,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "greece",
+    "name": "Greece",
+    "aliases": [
+      "Hellas",
+      "Ellas",
+      "Ελλάς",
+      "Ελλάδα"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1861,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "hellas",
+    "notes": null
+  },
+  {
+    "id": "crete",
+    "name": "Crete",
+    "aliases": [
+      "Kriti",
+      "Κρήτη",
+      "Cretan State",
+      "Kreta"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1900,
+    "to": 1913,
+    "parent": null,
+    "successor": "Greece",
+    "catalog": "hellas",
+    "notes": null
+  },
+  {
+    "id": "crete-revolutionary-assembly",
+    "name": "Crete (Revolutionary Assembly)",
+    "aliases": [
+      "Therisson",
+      "Theriso",
+      "Cretan Revolutionary Assembly"
+    ],
+    "type": "local",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1905,
+    "to": 1905,
+    "parent": null,
+    "successor": null,
+    "catalog": "hellas",
+    "notes": null
+  },
+  {
+    "id": "british-po-crete",
+    "name": "Crete (British Post Offices)",
+    "aliases": [
+      "Candia",
+      "Heraklion British Post",
+      "British Crete"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1898,
+    "to": 1899,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "french-po-crete",
+    "name": "Crete (French Post Offices)",
+    "aliases": [
+      "Crète Bureaux Français",
+      "French Crete"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1902,
+    "to": 1913,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "ionian-islands",
+    "name": "Ionian Islands",
+    "aliases": [
+      "United States of the Ionian Islands",
+      "Ionioi Nisoi"
+    ],
+    "type": "protectorate",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1859,
+    "to": 1864,
+    "parent": "Great Britain",
+    "successor": "Greece",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "icaria",
+    "name": "Icaria",
+    "aliases": [
+      "Ikaria",
+      "Free State of Icaria"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1912,
+    "to": 1913,
+    "parent": null,
+    "successor": "Greece",
+    "catalog": "hellas",
+    "notes": null
+  },
+  {
+    "id": "samos",
+    "name": "Samos",
+    "aliases": [
+      "Principality of Samos",
+      "Hegemony of Samos"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1912,
+    "to": 1915,
+    "parent": null,
+    "successor": "Greece",
+    "catalog": "hellas",
+    "notes": null
+  },
+  {
+    "id": "vathy-french-po",
+    "name": "Vathy (French Post Office)",
+    "aliases": [
+      "Vathy",
+      "Samos French Post Office"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1893,
+    "to": 1914,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "lemnos",
+    "name": "Lemnos (Greek Occupation)",
+    "aliases": [
+      "Limnos",
+      "Lemnos"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1912,
+    "to": 1913,
+    "parent": "Greece",
+    "successor": "Greece",
+    "catalog": "hellas",
+    "notes": null
+  },
+  {
+    "id": "mytilene",
+    "name": "Mytilene (Greek Occupation)",
+    "aliases": [
+      "Lesbos",
+      "Lesvos",
+      "Mytilini"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1912,
+    "to": 1913,
+    "parent": "Greece",
+    "successor": "Greece",
+    "catalog": "hellas",
+    "notes": null
+  },
+  {
+    "id": "chios",
+    "name": "Chios (Greek Occupation)",
+    "aliases": [
+      "Khios",
+      "Hios"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1913,
+    "to": 1913,
+    "parent": "Greece",
+    "successor": "Greece",
+    "catalog": "hellas",
+    "notes": null
+  },
+  {
+    "id": "cavalla-greek-occupation",
+    "name": "Cavalla (Greek Occupation)",
+    "aliases": [
+      "Kavala",
+      "Kavalla 1913"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1913,
+    "to": 1913,
+    "parent": "Greece",
+    "successor": "Greece",
+    "catalog": "hellas",
+    "notes": null
+  },
+  {
+    "id": "cavalla-french-po",
+    "name": "Cavalle (French Post Office)",
+    "aliases": [
+      "Cavalle",
+      "Kavalla French Post Office"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1893,
+    "to": 1914,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "dedeagatz-greek-occupation",
+    "name": "Dedeagatz (Greek Occupation)",
+    "aliases": [
+      "Alexandroupoli 1913",
+      "Dedeagach"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1913,
+    "to": 1913,
+    "parent": "Greece",
+    "successor": null,
+    "catalog": "hellas",
+    "notes": null
+  },
+  {
+    "id": "dedeagatz-french-po",
+    "name": "Dedeagatz (French Post Office)",
+    "aliases": [
+      "Dédéagh",
+      "Dedeagh"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1893,
+    "to": 1914,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "port-lagos-french-po",
+    "name": "Port Lagos (French Post Office)",
+    "aliases": [
+      "Port-Lagos",
+      "Porto Lagos"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1893,
+    "to": 1898,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "western-thrace-1913",
+    "name": "Western Thrace (Autonomous Government)",
+    "aliases": [
+      "Gumultsina",
+      "Gümülcine",
+      "Komotini 1913",
+      "Garbi Trakya"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1913,
+    "to": 1913,
+    "parent": null,
+    "successor": null,
+    "catalog": "hellas",
+    "notes": null
+  },
+  {
+    "id": "thrace-interallied",
+    "name": "Thrace (Interallied Occupation)",
+    "aliases": [
+      "Thrace Interalliée",
+      "Thrace Occupation Interalliée"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1919,
+    "to": 1920,
+    "parent": null,
+    "successor": "Thrace (Greek Occupation)",
+    "catalog": "hellas",
+    "notes": "Allied administration; parent omitted as joint."
+  },
+  {
+    "id": "thrace-greek-occupation",
+    "name": "Thrace (Greek Occupation)",
+    "aliases": [
+      "Western Thrace Greek Occupation",
+      "Eastern Thrace",
+      "Dioikisis Thrakis"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1920,
+    "to": 1922,
+    "parent": "Greece",
+    "successor": "Greece",
+    "catalog": "hellas",
+    "notes": "Covers Western and Eastern Thrace Greek administration overprints."
+  },
+  {
+    "id": "salonika-british",
+    "name": "Salonika (British Field Office)",
+    "aliases": [
+      "Salonica",
+      "Levant Salonika 1916",
+      "Thessaloniki British"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1916,
+    "to": 1916,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "dodecanese-greek",
+    "name": "Dodecanese (Greek Occupation)",
+    "aliases": [
+      "Dodecanese 1947",
+      "S.D.D. overprints",
+      "Greek Military Administration Dodecanese"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1947,
+    "to": 1947,
+    "parent": "Greece",
+    "successor": "Greece",
+    "catalog": "hellas",
+    "notes": null
+  },
+  {
+    "id": "german-occupation-zante",
+    "name": "Zante (German Occupation)",
+    "aliases": [
+      "Zakynthos",
+      "Zante"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1943,
+    "to": 1943,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "german-occupation-ionian-islands",
+    "name": "Ionian Islands (German Occupation)",
+    "aliases": [
+      "Ionische Inseln",
+      "Corfu German Occupation"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1943,
+    "to": 1944,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "cyprus",
+    "name": "Cyprus",
+    "aliases": [
+      "Kypros",
+      "Kıbrıs",
+      "Κύπρος",
+      "Republic of Cyprus"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1880,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "British colony until 1960, then republic."
+  },
+  {
+    "id": "turkish-cypriot-posts",
+    "name": "Turkish Cypriot Posts",
+    "aliases": [
+      "Northern Cyprus",
+      "Kıbrıs Türk Postaları",
+      "TRNC",
+      "KKTC"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1974,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  }
+]

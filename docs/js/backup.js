@@ -7,7 +7,7 @@
 //   photos/...     every stamp photo
 //   README.txt     what all of this is
 import {
-  CENTERINGS, FORMATS, GUMS, MINT_STATUSES, PAPER_TYPES, PRINTING_METHODS, SEPARATIONS,
+  CATALOGS, CENTERINGS, FORMATS, GUMS, MINT_STATUSES, PAPER_TYPES, PRINTING_METHODS, SEPARATIONS,
   STAMP_TYPES, TAGGINGS, labelOf,
 } from './lists.js';
 import { SetRepository, StampRepository } from './repos.js';
@@ -102,7 +102,7 @@ const CSV_COLUMNS = [
   ['Yvert et Tellier', (c) => numbersFor(c, 'yvert_tellier')],
   ['Other catalog numbers', (c) => c.catalogNumbers
     .filter((n) => !['scott', 'stanley_gibbons', 'michel', 'yvert_tellier'].includes(n.catalog))
-    .map((n) => `${n.catalog === 'other' ? n.catalogLabel || 'Other' : n.catalog === 'sakura' ? 'Sakura' : 'Facit'} ${n.number}`)
+    .map((n) => `${n.catalog === 'other' ? n.catalogLabel || 'Other' : CATALOGS.labels[n.catalog] ?? n.catalog} ${n.number}`)
     .join('; ')],
   ['Catalog value', (c) => c.catalogNumbers.find((n) => n.catalogValue != null)?.catalogValue],
   ['Issue date', (c) => c.issueDate],
@@ -147,6 +147,7 @@ const CSV_COLUMNS = [
   ['Front photo', (c) => c.photos.find((p) => p.role === 'front')?.uri],
   ['Back photo', (c) => c.photos.find((p) => p.role === 'back')?.uri],
   ['Other photos', (c) => c.photos.filter((p) => p.role !== 'front' && p.role !== 'back').map((p) => p.uri).join('; ')],
+  ['Issuer ID', (c) => c.issuerId],
   ['Stamp ID', (c) => c.id],
   ['Added', (c) => c.createdAt],
   ['Updated', (c) => c.updatedAt],

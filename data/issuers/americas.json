@@ -1,0 +1,2088 @@
+[
+  {
+    "id": "united-states",
+    "name": "United States",
+    "aliases": [
+      "USA",
+      "US",
+      "United States of America",
+      "U.S.A."
+    ],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1847,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "confederate-states",
+    "name": "Confederate States of America",
+    "aliases": [
+      "Confederate States",
+      "CSA",
+      "Confederacy"
+    ],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1861,
+    "to": 1865,
+    "parent": null,
+    "successor": "United States",
+    "catalog": "scott",
+    "notes": "Includes general issues; postmasters' provisionals are usually collected alongside."
+  },
+  {
+    "id": "canal-zone",
+    "name": "Canal Zone",
+    "aliases": [
+      "Panama Canal Zone",
+      "Canal Zone (US)"
+    ],
+    "type": "territory",
+    "region": "Americas",
+    "subregion": "Central America",
+    "from": 1904,
+    "to": 1979,
+    "parent": "United States",
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "hawaii",
+    "name": "Hawaii",
+    "aliases": [
+      "Hawaiian Islands",
+      "Kingdom of Hawaii",
+      "Sandwich Islands"
+    ],
+    "type": "country",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1851,
+    "to": 1899,
+    "parent": null,
+    "successor": "United States",
+    "catalog": "scott",
+    "notes": "Kingdom, republic and US territory issues until US stamps replaced them in 1900."
+  },
+  {
+    "id": "guam",
+    "name": "Guam",
+    "aliases": [
+      "Guam (US)"
+    ],
+    "type": "territory",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1899,
+    "to": 1930,
+    "parent": "United States",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "US overprints 1899 and Guam Guard Mail locals 1930."
+  },
+  {
+    "id": "canada",
+    "name": "Canada",
+    "aliases": [
+      "Dominion of Canada",
+      "Province of Canada"
+    ],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1851,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "unitrade",
+    "notes": null
+  },
+  {
+    "id": "british-columbia-vancouver-island",
+    "name": "British Columbia & Vancouver Island",
+    "aliases": [
+      "British Columbia",
+      "Vancouver Island",
+      "BC & VI"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1860,
+    "to": 1871,
+    "parent": "Great Britain",
+    "successor": "Canada",
+    "catalog": "unitrade",
+    "notes": null
+  },
+  {
+    "id": "new-brunswick",
+    "name": "New Brunswick",
+    "aliases": [
+      "NB"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1851,
+    "to": 1868,
+    "parent": "Great Britain",
+    "successor": "Canada",
+    "catalog": "unitrade",
+    "notes": null
+  },
+  {
+    "id": "newfoundland",
+    "name": "Newfoundland",
+    "aliases": [
+      "Terre-Neuve",
+      "NFLD"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1857,
+    "to": 1949,
+    "parent": "Great Britain",
+    "successor": "Canada",
+    "catalog": "unitrade",
+    "notes": null
+  },
+  {
+    "id": "nova-scotia",
+    "name": "Nova Scotia",
+    "aliases": [
+      "NS"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1851,
+    "to": 1868,
+    "parent": "Great Britain",
+    "successor": "Canada",
+    "catalog": "unitrade",
+    "notes": null
+  },
+  {
+    "id": "prince-edward-island",
+    "name": "Prince Edward Island",
+    "aliases": [
+      "PEI"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1861,
+    "to": 1873,
+    "parent": "Great Britain",
+    "successor": "Canada",
+    "catalog": "unitrade",
+    "notes": null
+  },
+  {
+    "id": "new-carlisle-gaspe",
+    "name": "New Carlisle, Gaspé",
+    "aliases": [
+      "New Carlisle",
+      "Gaspe provisional"
+    ],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1851,
+    "to": 1851,
+    "parent": "Canada",
+    "successor": null,
+    "catalog": "unitrade",
+    "notes": "Postmaster's provisional of 1851."
+  },
+  {
+    "id": "greenland",
+    "name": "Greenland",
+    "aliases": [
+      "Grønland",
+      "Kalaallit Nunaat"
+    ],
+    "type": "territory",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1938,
+    "to": null,
+    "parent": "Denmark",
+    "successor": null,
+    "catalog": "afa",
+    "notes": null
+  },
+  {
+    "id": "saint-pierre-miquelon",
+    "name": "Saint Pierre and Miquelon",
+    "aliases": [
+      "St. Pierre & Miquelon",
+      "Saint-Pierre-et-Miquelon",
+      "SPM"
+    ],
+    "type": "territory",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1885,
+    "to": null,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "French stamps used 1978-1986."
+  },
+  {
+    "id": "bermuda",
+    "name": "Bermuda",
+    "aliases": [],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Atlantic",
+    "from": 1848,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Postmasters' provisionals 1848-1861; general issues from 1865."
+  },
+  {
+    "id": "mexico",
+    "name": "Mexico",
+    "aliases": [
+      "México",
+      "Estados Unidos Mexicanos"
+    ],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1856,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "mexico-campeche",
+    "name": "Campeche",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1876,
+    "to": 1876,
+    "parent": "Mexico",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Mexican local/provisional issue."
+  },
+  {
+    "id": "mexico-chiapas",
+    "name": "Chiapas",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1866,
+    "to": 1866,
+    "parent": "Mexico",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Mexican local/provisional issue."
+  },
+  {
+    "id": "mexico-chihuahua",
+    "name": "Chihuahua",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1872,
+    "to": 1872,
+    "parent": "Mexico",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Mexican local/provisional issue."
+  },
+  {
+    "id": "mexico-cuautla",
+    "name": "Cuautla",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1867,
+    "to": 1867,
+    "parent": "Mexico",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Mexican local/provisional issue."
+  },
+  {
+    "id": "mexico-cuernavaca",
+    "name": "Cuernavaca",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1867,
+    "to": 1867,
+    "parent": "Mexico",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Mexican local/provisional issue."
+  },
+  {
+    "id": "mexico-guadalajara",
+    "name": "Guadalajara",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1867,
+    "to": 1868,
+    "parent": "Mexico",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Mexican local/provisional issue."
+  },
+  {
+    "id": "mexico-merida",
+    "name": "Mérida",
+    "aliases": [
+      "Merida"
+    ],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1916,
+    "to": 1916,
+    "parent": "Mexico",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Mexican local/provisional issue."
+  },
+  {
+    "id": "mexico-sinaloa",
+    "name": "Sinaloa",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1929,
+    "to": 1929,
+    "parent": "Mexico",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Mexican local/provisional issue."
+  },
+  {
+    "id": "mexico-tlacotalpan",
+    "name": "Tlacotalpan",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1856,
+    "to": 1856,
+    "parent": "Mexico",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Mexican local/provisional issue."
+  },
+  {
+    "id": "mexico-yucatan",
+    "name": "Yucatán",
+    "aliases": [
+      "Yucatan"
+    ],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1924,
+    "to": 1924,
+    "parent": "Mexico",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Mexican local/provisional issue."
+  },
+  {
+    "id": "mexico-sonora",
+    "name": "Sonora",
+    "aliases": [
+      "Constitutionalist Sonora"
+    ],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1913,
+    "to": 1914,
+    "parent": "Mexico",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Mexican local/provisional issue."
+  },
+  {
+    "id": "mexico-oaxaca",
+    "name": "Oaxaca",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "North America",
+    "from": 1914,
+    "to": 1915,
+    "parent": "Mexico",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Mexican local/provisional issue."
+  },
+  {
+    "id": "guatemala",
+    "name": "Guatemala",
+    "aliases": [],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "Central America",
+    "from": 1871,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "honduras",
+    "name": "Honduras",
+    "aliases": [],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "Central America",
+    "from": 1866,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "el-salvador",
+    "name": "El Salvador",
+    "aliases": [
+      "Salvador"
+    ],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "Central America",
+    "from": 1867,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "nicaragua",
+    "name": "Nicaragua",
+    "aliases": [],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "Central America",
+    "from": 1862,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "zelaya",
+    "name": "Zelaya",
+    "aliases": [
+      "Bluefields",
+      "Mosquito Coast"
+    ],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "Central America",
+    "from": 1904,
+    "to": 1912,
+    "parent": "Nicaragua",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Nicaraguan provincial issue for the Atlantic coast."
+  },
+  {
+    "id": "cabo-gracias-a-dios",
+    "name": "Cabo Gracias a Dios",
+    "aliases": [
+      "Cape Gracias a Dios"
+    ],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "Central America",
+    "from": 1904,
+    "to": 1909,
+    "parent": "Nicaragua",
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "costa-rica",
+    "name": "Costa Rica",
+    "aliases": [],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "Central America",
+    "from": 1863,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "guanacaste",
+    "name": "Guanacaste",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "Central America",
+    "from": 1885,
+    "to": 1889,
+    "parent": "Costa Rica",
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "panama",
+    "name": "Panama",
+    "aliases": [
+      "Panamá",
+      "State of Panama"
+    ],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "Central America",
+    "from": 1878,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Issued as a Colombian state 1878-1903, independent from 1903."
+  },
+  {
+    "id": "british-honduras",
+    "name": "British Honduras",
+    "aliases": [],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Central America",
+    "from": 1866,
+    "to": 1973,
+    "parent": "Great Britain",
+    "successor": "Belize",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "belize",
+    "name": "Belize",
+    "aliases": [],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "Central America",
+    "from": 1973,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "cayes-of-belize",
+    "name": "Cayes of Belize",
+    "aliases": [
+      "Cayes"
+    ],
+    "type": "other",
+    "region": "Americas",
+    "subregion": "Central America",
+    "from": 1984,
+    "to": 1985,
+    "parent": "Belize",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "cuba",
+    "name": "Cuba",
+    "aliases": [
+      "Republic of Cuba"
+    ],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1899,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "US administration 1899-1902, republic from 1902."
+  },
+  {
+    "id": "cuba-spanish",
+    "name": "Cuba (Spanish Colony)",
+    "aliases": [
+      "Spanish Cuba",
+      "Isla de Cuba"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1873,
+    "to": 1898,
+    "parent": "Spain",
+    "successor": "Cuba",
+    "catalog": "edifil",
+    "notes": null
+  },
+  {
+    "id": "cuba-puerto-rico",
+    "name": "Cuba and Puerto Rico",
+    "aliases": [
+      "Spanish Antilles",
+      "Antillas",
+      "Spanish West Indies"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1855,
+    "to": 1872,
+    "parent": "Spain",
+    "successor": null,
+    "catalog": "edifil",
+    "notes": "Joint issues of the Spanish Antilles before separate issues."
+  },
+  {
+    "id": "puerto-rico-spanish",
+    "name": "Puerto Rico (Spanish Colony)",
+    "aliases": [
+      "Porto Rico",
+      "Spanish Puerto Rico"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1873,
+    "to": 1898,
+    "parent": "Spain",
+    "successor": "Puerto Rico",
+    "catalog": "edifil",
+    "notes": null
+  },
+  {
+    "id": "puerto-rico",
+    "name": "Puerto Rico",
+    "aliases": [
+      "Porto Rico",
+      "Puerto Rico (US)"
+    ],
+    "type": "territory",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1898,
+    "to": 1900,
+    "parent": "United States",
+    "successor": "United States",
+    "catalog": "scott",
+    "notes": "US provisional and overprinted issues."
+  },
+  {
+    "id": "haiti",
+    "name": "Haiti",
+    "aliases": [
+      "Haïti",
+      "Hayti"
+    ],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1881,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "dominican-republic",
+    "name": "Dominican Republic",
+    "aliases": [
+      "Santo Domingo",
+      "República Dominicana"
+    ],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1865,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "bahamas",
+    "name": "Bahamas",
+    "aliases": [],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1859,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "barbados",
+    "name": "Barbados",
+    "aliases": [
+      "Barbadoes"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1852,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "cayman-islands",
+    "name": "Cayman Islands",
+    "aliases": [
+      "Caymans"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1900,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "jamaica",
+    "name": "Jamaica",
+    "aliases": [],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1860,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "antigua",
+    "name": "Antigua",
+    "aliases": [],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1862,
+    "to": 1981,
+    "parent": "Great Britain",
+    "successor": "Antigua and Barbuda",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "antigua-barbuda",
+    "name": "Antigua and Barbuda",
+    "aliases": [
+      "Antigua & Barbuda"
+    ],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1981,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "barbuda",
+    "name": "Barbuda",
+    "aliases": [],
+    "type": "territory",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1922,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Separate issues 1922 and from 1968."
+  },
+  {
+    "id": "redonda",
+    "name": "Redonda",
+    "aliases": [],
+    "type": "other",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1979,
+    "to": 1990,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Dependency of Antigua; stamps issued mainly for collectors."
+  },
+  {
+    "id": "anguilla",
+    "name": "Anguilla",
+    "aliases": [],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1967,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "dominica",
+    "name": "Dominica",
+    "aliases": [],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1874,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "grenada",
+    "name": "Grenada",
+    "aliases": [],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1861,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "grenadines-of-grenada",
+    "name": "Grenada Grenadines",
+    "aliases": [
+      "Grenadines of Grenada",
+      "Carriacou and Petite Martinique"
+    ],
+    "type": "territory",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1973,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Renamed Carriacou and Petite Martinique in 1999."
+  },
+  {
+    "id": "leeward-islands",
+    "name": "Leeward Islands",
+    "aliases": [],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1890,
+    "to": 1956,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "General federal issues used alongside individual island stamps."
+  },
+  {
+    "id": "montserrat",
+    "name": "Montserrat",
+    "aliases": [],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1876,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "nevis-colonial",
+    "name": "Nevis",
+    "aliases": [
+      "Nevis (colonial)"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1861,
+    "to": 1890,
+    "parent": "Great Britain",
+    "successor": "St. Kitts-Nevis",
+    "catalog": "stanley_gibbons",
+    "notes": "Colonial issues 1861-1890."
+  },
+  {
+    "id": "nevis",
+    "name": "Nevis (1980-)",
+    "aliases": [
+      "Nevis"
+    ],
+    "type": "territory",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1980,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Modern issues of Nevis within St. Kitts and Nevis."
+  },
+  {
+    "id": "st-christopher",
+    "name": "St. Christopher",
+    "aliases": [
+      "Saint Christopher",
+      "St Christopher"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1870,
+    "to": 1890,
+    "parent": "Great Britain",
+    "successor": "St. Kitts-Nevis",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "st-kitts-nevis",
+    "name": "St. Kitts-Nevis",
+    "aliases": [
+      "St. Christopher, Nevis and Anguilla",
+      "St. Kitts-Nevis-Anguilla",
+      "Saint Kitts and Nevis",
+      "St Kitts Nevis"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1903,
+    "to": 1980,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Combined colony issues, including St. Kitts-Nevis-Anguilla period."
+  },
+  {
+    "id": "st-kitts",
+    "name": "St. Kitts",
+    "aliases": [
+      "Saint Kitts",
+      "St Kitts"
+    ],
+    "type": "territory",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1980,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "st-lucia",
+    "name": "St. Lucia",
+    "aliases": [
+      "Saint Lucia",
+      "St Lucia"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1860,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "st-vincent",
+    "name": "St. Vincent",
+    "aliases": [
+      "Saint Vincent",
+      "St. Vincent and the Grenadines",
+      "St Vincent"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1861,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "grenadines-of-st-vincent",
+    "name": "St. Vincent Grenadines",
+    "aliases": [
+      "Grenadines of St. Vincent",
+      "St Vincent Grenadines"
+    ],
+    "type": "territory",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1973,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "bequia",
+    "name": "Bequia",
+    "aliases": [
+      "Bequia (St. Vincent Grenadines)"
+    ],
+    "type": "territory",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1984,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "union-island",
+    "name": "Union Island",
+    "aliases": [
+      "Union Island (St. Vincent Grenadines)"
+    ],
+    "type": "territory",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1984,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "trinidad",
+    "name": "Trinidad",
+    "aliases": [],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1851,
+    "to": 1913,
+    "parent": "Great Britain",
+    "successor": "Trinidad and Tobago",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "tobago",
+    "name": "Tobago",
+    "aliases": [],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1879,
+    "to": 1896,
+    "parent": "Great Britain",
+    "successor": "Trinidad and Tobago",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "trinidad-tobago",
+    "name": "Trinidad and Tobago",
+    "aliases": [
+      "Trinidad & Tobago"
+    ],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1913,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "turks-islands",
+    "name": "Turks Islands",
+    "aliases": [],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1867,
+    "to": 1900,
+    "parent": "Great Britain",
+    "successor": "Turks and Caicos Islands",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "turks-caicos",
+    "name": "Turks and Caicos Islands",
+    "aliases": [
+      "Turks & Caicos"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1900,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "caicos-islands",
+    "name": "Caicos Islands",
+    "aliases": [],
+    "type": "territory",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1981,
+    "to": 1985,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "virgin-islands",
+    "name": "British Virgin Islands",
+    "aliases": [
+      "Virgin Islands",
+      "BVI"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1866,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "danish-west-indies",
+    "name": "Danish West Indies",
+    "aliases": [
+      "Dansk Vestindien",
+      "DWI"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1856,
+    "to": 1917,
+    "parent": "Denmark",
+    "successor": "United States",
+    "catalog": "afa",
+    "notes": null
+  },
+  {
+    "id": "guadeloupe",
+    "name": "Guadeloupe",
+    "aliases": [],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1884,
+    "to": 1947,
+    "parent": "France",
+    "successor": "France",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "martinique",
+    "name": "Martinique",
+    "aliases": [],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1886,
+    "to": 1947,
+    "parent": "France",
+    "successor": "France",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "french-guiana",
+    "name": "French Guiana",
+    "aliases": [
+      "Guyane française",
+      "Guyane"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1886,
+    "to": 1947,
+    "parent": "France",
+    "successor": "France",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "inini",
+    "name": "Inini",
+    "aliases": [],
+    "type": "territory",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1932,
+    "to": 1947,
+    "parent": "France",
+    "successor": "French Guiana",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "curacao",
+    "name": "Curaçao",
+    "aliases": [
+      "Curacao",
+      "Curaçao (colony)"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1873,
+    "to": 1949,
+    "parent": "Netherlands",
+    "successor": "Netherlands Antilles",
+    "catalog": "nvph",
+    "notes": null
+  },
+  {
+    "id": "netherlands-antilles",
+    "name": "Netherlands Antilles",
+    "aliases": [
+      "Nederlandse Antillen",
+      "Dutch Antilles"
+    ],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1949,
+    "to": 2010,
+    "parent": "Netherlands",
+    "successor": null,
+    "catalog": "nvph",
+    "notes": null
+  },
+  {
+    "id": "aruba",
+    "name": "Aruba",
+    "aliases": [],
+    "type": "territory",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 1986,
+    "to": null,
+    "parent": "Netherlands",
+    "successor": null,
+    "catalog": "nvph",
+    "notes": null
+  },
+  {
+    "id": "curacao-2010",
+    "name": "Curaçao (2010-)",
+    "aliases": [
+      "Curacao",
+      "Kòrsou"
+    ],
+    "type": "territory",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 2010,
+    "to": null,
+    "parent": "Netherlands",
+    "successor": null,
+    "catalog": "nvph",
+    "notes": "Constituent country of the Kingdom of the Netherlands since 2010."
+  },
+  {
+    "id": "sint-maarten",
+    "name": "Sint Maarten",
+    "aliases": [
+      "St. Maarten"
+    ],
+    "type": "territory",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 2010,
+    "to": null,
+    "parent": "Netherlands",
+    "successor": null,
+    "catalog": "nvph",
+    "notes": null
+  },
+  {
+    "id": "caribbean-netherlands",
+    "name": "Caribbean Netherlands",
+    "aliases": [
+      "BES Islands",
+      "Bonaire, Sint Eustatius and Saba",
+      "Caribisch Nederland"
+    ],
+    "type": "territory",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "from": 2010,
+    "to": null,
+    "parent": "Netherlands",
+    "successor": null,
+    "catalog": "nvph",
+    "notes": null
+  },
+  {
+    "id": "suriname",
+    "name": "Suriname",
+    "aliases": [
+      "Surinam",
+      "Dutch Guiana"
+    ],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1873,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "nvph",
+    "notes": "Dutch colony until 1975."
+  },
+  {
+    "id": "british-guiana",
+    "name": "British Guiana",
+    "aliases": [],
+    "type": "colony",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1850,
+    "to": 1966,
+    "parent": "Great Britain",
+    "successor": "Guyana",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "guyana",
+    "name": "Guyana",
+    "aliases": [],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1966,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "argentina",
+    "name": "Argentina",
+    "aliases": [
+      "Argentine Republic",
+      "Argentine Confederation",
+      "República Argentina"
+    ],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1858,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "gj",
+    "notes": null
+  },
+  {
+    "id": "buenos-aires",
+    "name": "Buenos Aires",
+    "aliases": [],
+    "type": "state",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1858,
+    "to": 1862,
+    "parent": "Argentina",
+    "successor": "Argentina",
+    "catalog": "gj",
+    "notes": null
+  },
+  {
+    "id": "cordoba",
+    "name": "Córdoba",
+    "aliases": [
+      "Cordoba"
+    ],
+    "type": "state",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1858,
+    "to": 1858,
+    "parent": "Argentina",
+    "successor": "Argentina",
+    "catalog": "gj",
+    "notes": null
+  },
+  {
+    "id": "corrientes",
+    "name": "Corrientes",
+    "aliases": [],
+    "type": "state",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1856,
+    "to": 1880,
+    "parent": "Argentina",
+    "successor": "Argentina",
+    "catalog": "gj",
+    "notes": null
+  },
+  {
+    "id": "bolivia",
+    "name": "Bolivia",
+    "aliases": [],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1867,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "brazil",
+    "name": "Brazil",
+    "aliases": [
+      "Brasil"
+    ],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1843,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "rhm",
+    "notes": null
+  },
+  {
+    "id": "chile",
+    "name": "Chile",
+    "aliases": [],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1853,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "tierra-del-fuego",
+    "name": "Tierra del Fuego",
+    "aliases": [
+      "Popper"
+    ],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1891,
+    "to": 1891,
+    "parent": "Chile",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Julius Popper's private local stamp."
+  },
+  {
+    "id": "colombia",
+    "name": "Colombia",
+    "aliases": [
+      "United States of Colombia",
+      "República de Colombia"
+    ],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1859,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "granadine-confederation",
+    "name": "Granadine Confederation",
+    "aliases": [
+      "Confederación Granadina"
+    ],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1859,
+    "to": 1861,
+    "parent": null,
+    "successor": "Colombia",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "new-granada",
+    "name": "United States of New Granada",
+    "aliases": [
+      "New Granada",
+      "Estados Unidos de Nueva Granada"
+    ],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1861,
+    "to": 1861,
+    "parent": null,
+    "successor": "Colombia",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "antioquia",
+    "name": "Antioquia",
+    "aliases": [],
+    "type": "state",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1868,
+    "to": 1906,
+    "parent": "Colombia",
+    "successor": "Colombia",
+    "catalog": "scott",
+    "notes": "Colombian state issue."
+  },
+  {
+    "id": "bolivar",
+    "name": "Bolívar",
+    "aliases": [
+      "Bolivar"
+    ],
+    "type": "state",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1863,
+    "to": 1904,
+    "parent": "Colombia",
+    "successor": "Colombia",
+    "catalog": "scott",
+    "notes": "Colombian state issue."
+  },
+  {
+    "id": "boyaca",
+    "name": "Boyacá",
+    "aliases": [
+      "Boyaca"
+    ],
+    "type": "state",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1899,
+    "to": 1904,
+    "parent": "Colombia",
+    "successor": "Colombia",
+    "catalog": "scott",
+    "notes": "Colombian state issue."
+  },
+  {
+    "id": "cauca",
+    "name": "Cauca",
+    "aliases": [],
+    "type": "state",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1879,
+    "to": 1890,
+    "parent": "Colombia",
+    "successor": "Colombia",
+    "catalog": "scott",
+    "notes": "Colombian state issue."
+  },
+  {
+    "id": "cundinamarca",
+    "name": "Cundinamarca",
+    "aliases": [],
+    "type": "state",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1870,
+    "to": 1904,
+    "parent": "Colombia",
+    "successor": "Colombia",
+    "catalog": "scott",
+    "notes": "Colombian state issue."
+  },
+  {
+    "id": "santander",
+    "name": "Santander",
+    "aliases": [],
+    "type": "state",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1884,
+    "to": 1907,
+    "parent": "Colombia",
+    "successor": "Colombia",
+    "catalog": "scott",
+    "notes": "Colombian state issue."
+  },
+  {
+    "id": "tolima",
+    "name": "Tolima",
+    "aliases": [],
+    "type": "state",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1870,
+    "to": 1906,
+    "parent": "Colombia",
+    "successor": "Colombia",
+    "catalog": "scott",
+    "notes": "Colombian state issue."
+  },
+  {
+    "id": "scadta",
+    "name": "SCADTA",
+    "aliases": [
+      "Sociedad Colombo-Alemana de Transportes Aéreos"
+    ],
+    "type": "other",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1920,
+    "to": 1932,
+    "parent": "Colombia",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Colombian airline airmail stamps and consular overprints."
+  },
+  {
+    "id": "avianca",
+    "name": "AVIANCA",
+    "aliases": [],
+    "type": "other",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1950,
+    "to": 1951,
+    "parent": "Colombia",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Colombian airline airmail issues."
+  },
+  {
+    "id": "lansa",
+    "name": "LANSA",
+    "aliases": [
+      "Líneas Aéreas Nacionales S.A."
+    ],
+    "type": "other",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1950,
+    "to": 1951,
+    "parent": "Colombia",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Colombian airline airmail issues."
+  },
+  {
+    "id": "ecuador",
+    "name": "Ecuador",
+    "aliases": [],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1865,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "galapagos",
+    "name": "Galápagos Islands",
+    "aliases": [
+      "Galapagos",
+      "Islas Galápagos"
+    ],
+    "type": "territory",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1957,
+    "to": 1959,
+    "parent": "Ecuador",
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "paraguay",
+    "name": "Paraguay",
+    "aliases": [],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1870,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "peru",
+    "name": "Peru",
+    "aliases": [
+      "Perú"
+    ],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1858,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "peru-ancachs",
+    "name": "Ancachs",
+    "aliases": [
+      "Ancash"
+    ],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1884,
+    "to": 1884,
+    "parent": "Peru",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Peruvian provisional issue during/after the War of the Pacific."
+  },
+  {
+    "id": "peru-apurimac",
+    "name": "Apurímac",
+    "aliases": [
+      "Apurimac"
+    ],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1885,
+    "to": 1885,
+    "parent": "Peru",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Peruvian provisional issue during/after the War of the Pacific."
+  },
+  {
+    "id": "peru-arequipa",
+    "name": "Arequipa",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1881,
+    "to": 1885,
+    "parent": "Peru",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Peruvian provisional issue during/after the War of the Pacific."
+  },
+  {
+    "id": "peru-ayacucho",
+    "name": "Ayacucho",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1881,
+    "to": 1881,
+    "parent": "Peru",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Peruvian provisional issue during/after the War of the Pacific."
+  },
+  {
+    "id": "peru-chachapoyas",
+    "name": "Chachapoyas",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1884,
+    "to": 1884,
+    "parent": "Peru",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Peruvian provisional issue during/after the War of the Pacific."
+  },
+  {
+    "id": "peru-chala",
+    "name": "Chala",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1884,
+    "to": 1884,
+    "parent": "Peru",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Peruvian provisional issue during/after the War of the Pacific."
+  },
+  {
+    "id": "peru-chiclayo",
+    "name": "Chiclayo",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1884,
+    "to": 1884,
+    "parent": "Peru",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Peruvian provisional issue during/after the War of the Pacific."
+  },
+  {
+    "id": "peru-cuzco",
+    "name": "Cuzco",
+    "aliases": [
+      "Cusco"
+    ],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1881,
+    "to": 1885,
+    "parent": "Peru",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Peruvian provisional issue during/after the War of the Pacific."
+  },
+  {
+    "id": "peru-huacho",
+    "name": "Huacho",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1884,
+    "to": 1884,
+    "parent": "Peru",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Peruvian provisional issue during/after the War of the Pacific."
+  },
+  {
+    "id": "peru-moquegua",
+    "name": "Moquegua",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1881,
+    "to": 1885,
+    "parent": "Peru",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Peruvian provisional issue during/after the War of the Pacific."
+  },
+  {
+    "id": "peru-paita",
+    "name": "Paita",
+    "aliases": [
+      "Payta"
+    ],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1884,
+    "to": 1884,
+    "parent": "Peru",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Peruvian provisional issue during/after the War of the Pacific."
+  },
+  {
+    "id": "peru-pasco",
+    "name": "Pasco",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1884,
+    "to": 1884,
+    "parent": "Peru",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Peruvian provisional issue during/after the War of the Pacific."
+  },
+  {
+    "id": "peru-pisco",
+    "name": "Pisco",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1884,
+    "to": 1884,
+    "parent": "Peru",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Peruvian provisional issue during/after the War of the Pacific."
+  },
+  {
+    "id": "peru-piura",
+    "name": "Piura",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1884,
+    "to": 1884,
+    "parent": "Peru",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Peruvian provisional issue during/after the War of the Pacific."
+  },
+  {
+    "id": "peru-puno",
+    "name": "Puno",
+    "aliases": [],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1882,
+    "to": 1885,
+    "parent": "Peru",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Peruvian provisional issue during/after the War of the Pacific."
+  },
+  {
+    "id": "peru-yca",
+    "name": "Yca",
+    "aliases": [
+      "Ica"
+    ],
+    "type": "local",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1884,
+    "to": 1884,
+    "parent": "Peru",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Peruvian provisional issue during/after the War of the Pacific."
+  },
+  {
+    "id": "uruguay",
+    "name": "Uruguay",
+    "aliases": [],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1856,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "venezuela",
+    "name": "Venezuela",
+    "aliases": [],
+    "type": "country",
+    "region": "Americas",
+    "subregion": "South America",
+    "from": 1859,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  }
+]

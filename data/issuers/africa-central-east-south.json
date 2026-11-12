@@ -1,0 +1,2116 @@
+[
+  {
+    "id": "ubangi-shari",
+    "name": "Ubangi-Shari",
+    "aliases": [
+      "Oubangui-Chari",
+      "Ubangi-Shari-Chad",
+      "Oubangui-Chari-Tchad"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1915,
+    "to": 1936,
+    "parent": "France",
+    "successor": "French Equatorial Africa",
+    "catalog": "yvert_tellier",
+    "notes": "Includes the 1915-22 joint Ubangi-Shari-Chad issues."
+  },
+  {
+    "id": "central-african-republic",
+    "name": "Central African Republic",
+    "aliases": [
+      "Republique Centrafricaine",
+      "Central African Empire",
+      "Empire Centrafricain",
+      "CAR"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1959,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "gabon",
+    "name": "Gabon",
+    "aliases": [
+      "Gabon (French Colony)",
+      "Republique Gabonaise",
+      "Gabonese Republic"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1886,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "Covers colonial issues 1886-1936 and the republic from 1959."
+  },
+  {
+    "id": "french-congo",
+    "name": "French Congo",
+    "aliases": [
+      "Congo Francais"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1891,
+    "to": 1906,
+    "parent": "France",
+    "successor": "Middle Congo",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "middle-congo",
+    "name": "Middle Congo",
+    "aliases": [
+      "Moyen-Congo"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1907,
+    "to": 1936,
+    "parent": "France",
+    "successor": "French Equatorial Africa",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "congo-republic",
+    "name": "Congo Republic",
+    "aliases": [
+      "Republic of the Congo",
+      "Congo-Brazzaville",
+      "People's Republic of the Congo",
+      "Republique du Congo"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1959,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "The former French Middle Congo, not the ex-Belgian Congo."
+  },
+  {
+    "id": "french-equatorial-africa",
+    "name": "French Equatorial Africa",
+    "aliases": [
+      "Afrique Equatoriale Francaise",
+      "AEF",
+      "A.E.F."
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1936,
+    "to": 1958,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "congo-free-state",
+    "name": "Congo Free State",
+    "aliases": [
+      "Etat Independant du Congo",
+      "Independent State of the Congo"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1886,
+    "to": 1908,
+    "parent": null,
+    "successor": "Belgian Congo",
+    "catalog": "scott",
+    "notes": "Personal domain of King Leopold II of Belgium."
+  },
+  {
+    "id": "belgian-congo",
+    "name": "Belgian Congo",
+    "aliases": [
+      "Congo Belge",
+      "Belgisch Congo"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1909,
+    "to": 1960,
+    "parent": "Belgium",
+    "successor": "Democratic Republic of the Congo",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "democratic-republic-of-the-congo",
+    "name": "Democratic Republic of the Congo",
+    "aliases": [
+      "Congo-Kinshasa",
+      "Congo (Leopoldville)",
+      "Republique du Congo",
+      "DR Congo",
+      "DRC",
+      "Congo Democratic Republic"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1960,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Ex-Belgian Congo; issued as Zaire 1971-1997."
+  },
+  {
+    "id": "zaire",
+    "name": "Zaire",
+    "aliases": [
+      "Republique du Zaire",
+      "Republic of Zaire"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1971,
+    "to": 1997,
+    "parent": null,
+    "successor": "Democratic Republic of the Congo",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "katanga",
+    "name": "Katanga",
+    "aliases": [
+      "State of Katanga",
+      "Etat du Katanga"
+    ],
+    "type": "state",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1960,
+    "to": 1963,
+    "parent": null,
+    "successor": "Democratic Republic of the Congo",
+    "catalog": "scott",
+    "notes": "Secessionist state in the south of the ex-Belgian Congo."
+  },
+  {
+    "id": "south-kasai",
+    "name": "South Kasai",
+    "aliases": [
+      "Sud-Kasai",
+      "Mining State of South Kasai",
+      "Etat Autonome du Sud-Kasai"
+    ],
+    "type": "state",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1961,
+    "to": 1962,
+    "parent": null,
+    "successor": "Democratic Republic of the Congo",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "indian-un-force-congo",
+    "name": "Indian UN Force in Congo",
+    "aliases": [
+      "Congo (Indian UN Force)",
+      "U.N. Force (India) Congo"
+    ],
+    "type": "agency",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1962,
+    "to": 1962,
+    "parent": "India",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Indian stamps overprinted for Indian UN troops in the Congo."
+  },
+  {
+    "id": "belgian-occupation-german-east-africa",
+    "name": "Belgian Occupation of German East Africa",
+    "aliases": [
+      "Ruanda",
+      "Urundi",
+      "Est Africain Allemand Occupation Belge",
+      "German East Africa (Belgian Occupation)"
+    ],
+    "type": "occupation",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1916,
+    "to": 1922,
+    "parent": "Belgium",
+    "successor": "Ruanda-Urundi",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "ruanda-urundi",
+    "name": "Ruanda-Urundi",
+    "aliases": [
+      "Ruanda Urundi"
+    ],
+    "type": "mandate",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1924,
+    "to": 1962,
+    "parent": "Belgium",
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "rwanda",
+    "name": "Rwanda",
+    "aliases": [
+      "Republique Rwandaise",
+      "Repubulika y'u Rwanda"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1962,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "burundi",
+    "name": "Burundi",
+    "aliases": [
+      "Royaume du Burundi",
+      "Republique du Burundi",
+      "Kingdom of Burundi"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1962,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "angola",
+    "name": "Angola",
+    "aliases": [
+      "Portuguese West Africa",
+      "Republica de Angola"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1870,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Portuguese colony until 1975."
+  },
+  {
+    "id": "portuguese-congo",
+    "name": "Portuguese Congo",
+    "aliases": [
+      "Congo Portugues",
+      "Cabinda"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1894,
+    "to": 1920,
+    "parent": "Portugal",
+    "successor": "Angola",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "ethiopia",
+    "name": "Ethiopia",
+    "aliases": [
+      "Abyssinia",
+      "Ethiopie",
+      "Etiopia"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1894,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "ethiopia-french-post-offices",
+    "name": "Ethiopia (French Post Offices)",
+    "aliases": [
+      "French Post Offices in Ethiopia",
+      "Bureaux francais en Ethiopie"
+    ],
+    "type": "agency",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1906,
+    "to": 1908,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "italian-occupation-ethiopia",
+    "name": "Ethiopia (Italian Occupation)",
+    "aliases": [
+      "Italian Occupation of Ethiopia",
+      "Etiopia (Occupazione Italiana)"
+    ],
+    "type": "occupation",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1936,
+    "to": 1936,
+    "parent": "Italy",
+    "successor": "Italian East Africa",
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "italian-east-africa",
+    "name": "Italian East Africa",
+    "aliases": [
+      "Africa Orientale Italiana",
+      "AOI",
+      "A.O.I."
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1938,
+    "to": 1941,
+    "parent": "Italy",
+    "successor": null,
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "eritrea-italian",
+    "name": "Eritrea (Italian Colony)",
+    "aliases": [
+      "Colonia Eritrea",
+      "Italian Eritrea"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1893,
+    "to": 1941,
+    "parent": "Italy",
+    "successor": "Eritrea (British Administration)",
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "eritrea-british-administration",
+    "name": "Eritrea (British Administration)",
+    "aliases": [
+      "Eritrea (British Military Administration)",
+      "B.M.A. Eritrea",
+      "B.A. Eritrea",
+      "British Occupation of Eritrea"
+    ],
+    "type": "occupation",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1948,
+    "to": 1952,
+    "parent": "Great Britain",
+    "successor": "Ethiopia",
+    "catalog": "stanley_gibbons",
+    "notes": "British overprints on GB stamps; SG lists under British Occupation of Italian Colonies."
+  },
+  {
+    "id": "eritrea",
+    "name": "Eritrea",
+    "aliases": [
+      "State of Eritrea",
+      "Ertra"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1993,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Independent state since 1993."
+  },
+  {
+    "id": "east-africa-forces",
+    "name": "East Africa Forces",
+    "aliases": [
+      "E.A.F.",
+      "British Occupation of Italian Somaliland"
+    ],
+    "type": "occupation",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1943,
+    "to": 1948,
+    "parent": "Great Britain",
+    "successor": "Somalia (British Administration)",
+    "catalog": "stanley_gibbons",
+    "notes": "GB stamps overprinted E.A.F. for use in occupied Italian Somaliland."
+  },
+  {
+    "id": "somalia-british-administration",
+    "name": "Somalia (British Administration)",
+    "aliases": [
+      "Somalia (British Military Administration)",
+      "B.M.A. Somalia",
+      "B.A. Somalia"
+    ],
+    "type": "occupation",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1948,
+    "to": 1950,
+    "parent": "Great Britain",
+    "successor": "Somalia (Italian Trust Territory)",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "obock",
+    "name": "Obock",
+    "aliases": [],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1892,
+    "to": 1894,
+    "parent": "France",
+    "successor": "Djibouti (French Colony)",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "djibouti-french-colony",
+    "name": "Djibouti (French Colony)",
+    "aliases": [
+      "Djibouti 1894-1902",
+      "Cote Francaise des Somalis (Djibouti)"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1894,
+    "to": 1902,
+    "parent": "France",
+    "successor": "French Somali Coast",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "french-somali-coast",
+    "name": "French Somali Coast",
+    "aliases": [
+      "Cote Francaise des Somalis",
+      "French Somaliland",
+      "Somali Coast"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1902,
+    "to": 1967,
+    "parent": "France",
+    "successor": "French Territory of the Afars and Issas",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "afars-and-issas",
+    "name": "French Territory of the Afars and Issas",
+    "aliases": [
+      "Afars and Issas",
+      "Territoire Francais des Afars et des Issas",
+      "TFAI"
+    ],
+    "type": "territory",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1967,
+    "to": 1977,
+    "parent": "France",
+    "successor": "Djibouti",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "djibouti",
+    "name": "Djibouti",
+    "aliases": [
+      "Republic of Djibouti",
+      "Republique de Djibouti"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1977,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "italian-somaliland",
+    "name": "Italian Somaliland",
+    "aliases": [
+      "Benadir",
+      "Somalia Italiana",
+      "Somalia (Italian Colony)"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1903,
+    "to": 1936,
+    "parent": "Italy",
+    "successor": "Italian East Africa",
+    "catalog": "sassone",
+    "notes": "Includes the 1903-05 Benadir issues."
+  },
+  {
+    "id": "oltre-giuba",
+    "name": "Oltre Giuba",
+    "aliases": [
+      "Jubaland",
+      "Oltre Juba",
+      "Trans-Juba"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1925,
+    "to": 1926,
+    "parent": "Italy",
+    "successor": "Italian Somaliland",
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "somalia-italian-trust-territory",
+    "name": "Somalia (Italian Trust Territory)",
+    "aliases": [
+      "Somalia AFIS",
+      "A.F.I.S.",
+      "Amministrazione Fiduciaria Italiana della Somalia"
+    ],
+    "type": "territory",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1950,
+    "to": 1960,
+    "parent": "Italy",
+    "successor": "Somalia",
+    "catalog": "sassone",
+    "notes": "UN trust territory under Italian administration."
+  },
+  {
+    "id": "somaliland-protectorate",
+    "name": "Somaliland Protectorate",
+    "aliases": [
+      "British Somaliland",
+      "Somaliland"
+    ],
+    "type": "protectorate",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1903,
+    "to": 1960,
+    "parent": "Great Britain",
+    "successor": "Somalia",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "somalia",
+    "name": "Somalia",
+    "aliases": [
+      "Somali Republic",
+      "Somali Democratic Republic",
+      "Soomaaliya"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1960,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "british-east-africa",
+    "name": "British East Africa",
+    "aliases": [
+      "Imperial British East Africa Company",
+      "IBEA",
+      "British East Africa Company",
+      "East Africa Protectorate"
+    ],
+    "type": "protectorate",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1890,
+    "to": 1903,
+    "parent": "Great Britain",
+    "successor": "East Africa and Uganda Protectorates",
+    "catalog": "stanley_gibbons",
+    "notes": "Includes the 1890-95 IBEA Company issues."
+  },
+  {
+    "id": "uganda-protectorate",
+    "name": "Uganda Protectorate",
+    "aliases": [
+      "Uganda (Protectorate)",
+      "Uganda Cowries"
+    ],
+    "type": "protectorate",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1895,
+    "to": 1902,
+    "parent": "Great Britain",
+    "successor": "East Africa and Uganda Protectorates",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "east-africa-and-uganda-protectorates",
+    "name": "East Africa and Uganda Protectorates",
+    "aliases": [
+      "East Africa and Uganda",
+      "E.A. & U."
+    ],
+    "type": "protectorate",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1903,
+    "to": 1922,
+    "parent": "Great Britain",
+    "successor": "Kenya and Uganda",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "kenya-and-uganda",
+    "name": "Kenya and Uganda",
+    "aliases": [
+      "Kenya & Uganda"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1922,
+    "to": 1935,
+    "parent": "Great Britain",
+    "successor": "Kenya, Uganda and Tanganyika",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "kenya-uganda-tanganyika",
+    "name": "Kenya, Uganda and Tanganyika",
+    "aliases": [
+      "KUT",
+      "K.U.T.",
+      "Kenya Uganda Tanganyika",
+      "Kenya, Uganda, Tanganyika and Zanzibar",
+      "Kenya, Uganda and Tanzania",
+      "East Africa (KUT)"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1935,
+    "to": 1976,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Joint East African issues, continued after independence until 1976."
+  },
+  {
+    "id": "kenya",
+    "name": "Kenya",
+    "aliases": [
+      "Republic of Kenya",
+      "Jamhuri ya Kenya"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1963,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "uganda",
+    "name": "Uganda",
+    "aliases": [
+      "Republic of Uganda"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1962,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "tanganyika",
+    "name": "Tanganyika",
+    "aliases": [
+      "Tanganyika Territory",
+      "Tanganyika (Mandate)"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1922,
+    "to": 1964,
+    "parent": null,
+    "successor": "Tanzania",
+    "catalog": "stanley_gibbons",
+    "notes": "British mandate issues 1922-35, then independent issues 1961-64."
+  },
+  {
+    "id": "british-occupation-german-east-africa",
+    "name": "German East Africa (British Occupation)",
+    "aliases": [
+      "G.E.A.",
+      "British Occupation of German East Africa",
+      "Tanganyika (G.E.A. overprints)"
+    ],
+    "type": "occupation",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1917,
+    "to": 1922,
+    "parent": "Great Britain",
+    "successor": "Tanganyika",
+    "catalog": "stanley_gibbons",
+    "notes": "KUT/EA&U stamps overprinted G.E.A."
+  },
+  {
+    "id": "mafia-island",
+    "name": "Mafia Island",
+    "aliases": [
+      "Mafia Island (British Occupation)",
+      "G.R. Mafia"
+    ],
+    "type": "occupation",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1915,
+    "to": 1916,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "nyasa-rhodesian-force",
+    "name": "Nyasa-Rhodesian Force",
+    "aliases": [
+      "N.F.",
+      "Nyasaland Field Force"
+    ],
+    "type": "occupation",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1916,
+    "to": 1916,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Nyasaland stamps overprinted N.F. for use in occupied German East Africa."
+  },
+  {
+    "id": "tanzania",
+    "name": "Tanzania",
+    "aliases": [
+      "United Republic of Tanzania",
+      "Jamhuri ya Muungano wa Tanzania"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1965,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "zanzibar",
+    "name": "Zanzibar",
+    "aliases": [
+      "Sultanate of Zanzibar",
+      "People's Republic of Zanzibar"
+    ],
+    "type": "protectorate",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1895,
+    "to": 1967,
+    "parent": "Great Britain",
+    "successor": "Tanzania",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "zanzibar-french-post-office",
+    "name": "Zanzibar (French Post Office)",
+    "aliases": [
+      "French Post Office in Zanzibar",
+      "Zanzibar (Bureau Francais)"
+    ],
+    "type": "agency",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1889,
+    "to": 1904,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "zanzibar-german-postal-agency",
+    "name": "Zanzibar (German Postal Agency)",
+    "aliases": [
+      "German Post Office in Zanzibar",
+      "Deutsche Post in Sansibar"
+    ],
+    "type": "agency",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1890,
+    "to": 1891,
+    "parent": "Germany",
+    "successor": "German East Africa",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "german-east-africa",
+    "name": "German East Africa",
+    "aliases": [
+      "Deutsch-Ostafrika",
+      "DOA"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1893,
+    "to": 1916,
+    "parent": "Germany",
+    "successor": "Tanganyika",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "kionga",
+    "name": "Kionga",
+    "aliases": [
+      "Portuguese Occupation of Kionga"
+    ],
+    "type": "occupation",
+    "region": "Africa",
+    "subregion": "East Africa",
+    "from": 1916,
+    "to": 1916,
+    "parent": "Portugal",
+    "successor": "Mozambique",
+    "catalog": "scott",
+    "notes": "Portuguese occupation of part of German East Africa."
+  },
+  {
+    "id": "mozambique",
+    "name": "Mozambique",
+    "aliases": [
+      "Mocambique",
+      "Portuguese East Africa",
+      "Republica de Mocambique"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1876,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Portuguese colony until 1975."
+  },
+  {
+    "id": "mozambique-company",
+    "name": "Mozambique Company",
+    "aliases": [
+      "Companhia de Mocambique"
+    ],
+    "type": "territory",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1892,
+    "to": 1941,
+    "parent": "Portugal",
+    "successor": "Mozambique",
+    "catalog": "scott",
+    "notes": "Chartered company territory of Manica and Sofala."
+  },
+  {
+    "id": "nyassa-company",
+    "name": "Nyassa Company",
+    "aliases": [
+      "Nyassa",
+      "Companhia do Nyassa",
+      "Niassa"
+    ],
+    "type": "territory",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1897,
+    "to": 1929,
+    "parent": "Portugal",
+    "successor": "Mozambique",
+    "catalog": "scott",
+    "notes": "Chartered company territory in northern Mozambique."
+  },
+  {
+    "id": "quelimane",
+    "name": "Quelimane",
+    "aliases": [
+      "Quilimane"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1913,
+    "to": 1914,
+    "parent": "Portugal",
+    "successor": "Mozambique",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "tete",
+    "name": "Tete",
+    "aliases": [],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1913,
+    "to": 1914,
+    "parent": "Portugal",
+    "successor": "Mozambique",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "inhambane",
+    "name": "Inhambane",
+    "aliases": [],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1895,
+    "to": 1914,
+    "parent": "Portugal",
+    "successor": "Mozambique",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "lourenco-marques",
+    "name": "Lourenco Marques",
+    "aliases": [
+      "Lourenço Marques",
+      "Maputo"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1893,
+    "to": 1920,
+    "parent": "Portugal",
+    "successor": "Mozambique",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "zambezia",
+    "name": "Zambezia",
+    "aliases": [
+      "Zambesia"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1894,
+    "to": 1914,
+    "parent": "Portugal",
+    "successor": "Quelimane",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "british-central-africa",
+    "name": "British Central Africa",
+    "aliases": [
+      "BCA",
+      "B.C.A.",
+      "British Central Africa Protectorate"
+    ],
+    "type": "protectorate",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1891,
+    "to": 1908,
+    "parent": "Great Britain",
+    "successor": "Nyasaland Protectorate",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "nyasaland-protectorate",
+    "name": "Nyasaland Protectorate",
+    "aliases": [
+      "Nyasaland"
+    ],
+    "type": "protectorate",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1908,
+    "to": 1964,
+    "parent": "Great Britain",
+    "successor": "Malawi",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "malawi",
+    "name": "Malawi",
+    "aliases": [
+      "Republic of Malawi"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1964,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "rhodesia-bsac",
+    "name": "Rhodesia (British South Africa Company)",
+    "aliases": [
+      "British South Africa Company",
+      "BSAC",
+      "B.S.A.C. Rhodesia"
+    ],
+    "type": "territory",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1890,
+    "to": 1924,
+    "parent": "Great Britain",
+    "successor": "Southern Rhodesia",
+    "catalog": "stanley_gibbons",
+    "notes": "Company-administered issues before the two Rhodesias split."
+  },
+  {
+    "id": "southern-rhodesia",
+    "name": "Southern Rhodesia",
+    "aliases": [
+      "S. Rhodesia"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1924,
+    "to": 1964,
+    "parent": "Great Britain",
+    "successor": "Rhodesia",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "northern-rhodesia",
+    "name": "Northern Rhodesia",
+    "aliases": [
+      "N. Rhodesia"
+    ],
+    "type": "protectorate",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1925,
+    "to": 1964,
+    "parent": "Great Britain",
+    "successor": "Zambia",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "rhodesia-and-nyasaland",
+    "name": "Rhodesia and Nyasaland",
+    "aliases": [
+      "Federation of Rhodesia and Nyasaland",
+      "Central African Federation"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1954,
+    "to": 1963,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "rhodesia",
+    "name": "Rhodesia",
+    "aliases": [
+      "Zimbabwe Rhodesia",
+      "Republic of Rhodesia"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1965,
+    "to": 1980,
+    "parent": null,
+    "successor": "Zimbabwe",
+    "catalog": "stanley_gibbons",
+    "notes": "Issues of 1965-79, plus Zimbabwe Rhodesia 1979-80."
+  },
+  {
+    "id": "zambia",
+    "name": "Zambia",
+    "aliases": [
+      "Republic of Zambia"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1964,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "zimbabwe",
+    "name": "Zimbabwe",
+    "aliases": [
+      "Republic of Zimbabwe"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1980,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "british-bechuanaland",
+    "name": "British Bechuanaland",
+    "aliases": [],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1885,
+    "to": 1897,
+    "parent": "Great Britain",
+    "successor": "Cape of Good Hope",
+    "catalog": "stanley_gibbons",
+    "notes": "Crown colony south of the Molopo, annexed to the Cape in 1895."
+  },
+  {
+    "id": "bechuanaland-protectorate",
+    "name": "Bechuanaland Protectorate",
+    "aliases": [
+      "Bechuanaland"
+    ],
+    "type": "protectorate",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1888,
+    "to": 1966,
+    "parent": "Great Britain",
+    "successor": "Botswana",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "botswana",
+    "name": "Botswana",
+    "aliases": [
+      "Republic of Botswana"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1966,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "basutoland",
+    "name": "Basutoland",
+    "aliases": [],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1933,
+    "to": 1966,
+    "parent": "Great Britain",
+    "successor": "Lesotho",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "lesotho",
+    "name": "Lesotho",
+    "aliases": [
+      "Kingdom of Lesotho"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1966,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "swaziland-provisional-government",
+    "name": "Swaziland (Provisional Government)",
+    "aliases": [
+      "Swazieland",
+      "Swaziland 1889"
+    ],
+    "type": "territory",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1889,
+    "to": 1894,
+    "parent": null,
+    "successor": "Transvaal",
+    "catalog": "stanley_gibbons",
+    "notes": "Transvaal stamps overprinted Swazieland."
+  },
+  {
+    "id": "eswatini",
+    "name": "Eswatini",
+    "aliases": [
+      "Swaziland",
+      "Kingdom of Eswatini",
+      "Umbuso weSwatini"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1933,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Issued as Swaziland until 2018."
+  },
+  {
+    "id": "south-africa",
+    "name": "South Africa",
+    "aliases": [
+      "Union of South Africa",
+      "Republic of South Africa",
+      "RSA",
+      "Suid-Afrika",
+      "South African Republic (1961)"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1910,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "cape-of-good-hope",
+    "name": "Cape of Good Hope",
+    "aliases": [
+      "Cape Colony",
+      "Cape Triangulars"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1853,
+    "to": 1910,
+    "parent": "Great Britain",
+    "successor": "South Africa",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "natal",
+    "name": "Natal",
+    "aliases": [
+      "Colony of Natal"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1857,
+    "to": 1909,
+    "parent": "Great Britain",
+    "successor": "South Africa",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "orange-free-state",
+    "name": "Orange Free State",
+    "aliases": [
+      "Oranje Vrijstaat",
+      "OFS",
+      "O.V.S."
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1868,
+    "to": 1900,
+    "parent": null,
+    "successor": "Orange River Colony",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "orange-river-colony",
+    "name": "Orange River Colony",
+    "aliases": [
+      "ORC",
+      "V.R.I. overprints"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1900,
+    "to": 1909,
+    "parent": "Great Britain",
+    "successor": "South Africa",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "transvaal",
+    "name": "Transvaal",
+    "aliases": [
+      "South African Republic",
+      "Zuid-Afrikaansche Republiek",
+      "ZAR",
+      "Z.A.R.",
+      "Transvaal Colony"
+    ],
+    "type": "state",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1869,
+    "to": 1910,
+    "parent": null,
+    "successor": "South Africa",
+    "catalog": "stanley_gibbons",
+    "notes": "Covers the Boer republic and the British first occupation (1877-82) and colony (1900-10)."
+  },
+  {
+    "id": "new-republic",
+    "name": "New Republic",
+    "aliases": [
+      "Nieuwe Republiek"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1886,
+    "to": 1888,
+    "parent": null,
+    "successor": "Transvaal",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "stellaland",
+    "name": "Stellaland",
+    "aliases": [
+      "Republic of Stellaland",
+      "Stellaland Republic"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1884,
+    "to": 1885,
+    "parent": null,
+    "successor": "British Bechuanaland",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "griqualand-west",
+    "name": "Griqualand West",
+    "aliases": [
+      "Griqualand"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1874,
+    "to": 1880,
+    "parent": "Great Britain",
+    "successor": "Cape of Good Hope",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "zululand",
+    "name": "Zululand",
+    "aliases": [],
+    "type": "protectorate",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1888,
+    "to": 1897,
+    "parent": "Great Britain",
+    "successor": "Natal",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "mafeking",
+    "name": "Mafeking",
+    "aliases": [
+      "Mafeking Siege",
+      "Mafeking Besieged"
+    ],
+    "type": "local",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1900,
+    "to": 1900,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "British siege issues of the Boer War."
+  },
+  {
+    "id": "vryburg",
+    "name": "Vryburg",
+    "aliases": [],
+    "type": "occupation",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1899,
+    "to": 1900,
+    "parent": "Transvaal",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Boer occupation overprints, then British reoccupation issues."
+  },
+  {
+    "id": "lydenburg",
+    "name": "Lydenburg",
+    "aliases": [],
+    "type": "local",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1900,
+    "to": 1900,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Boer War British occupation issue (SG under Transvaal)."
+  },
+  {
+    "id": "pietersburg",
+    "name": "Pietersburg",
+    "aliases": [],
+    "type": "local",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1901,
+    "to": 1901,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Boer War Boer issue (SG under Transvaal)."
+  },
+  {
+    "id": "rustenburg",
+    "name": "Rustenburg",
+    "aliases": [],
+    "type": "local",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1900,
+    "to": 1900,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Boer War British occupation issue (SG under Transvaal)."
+  },
+  {
+    "id": "schweizer-renecke",
+    "name": "Schweizer-Renecke",
+    "aliases": [
+      "Schweizer Reneke"
+    ],
+    "type": "local",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1900,
+    "to": 1900,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Boer War siege issue (SG under Transvaal)."
+  },
+  {
+    "id": "volksrust",
+    "name": "Volksrust",
+    "aliases": [],
+    "type": "local",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1902,
+    "to": 1902,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Boer War local issue (SG under Transvaal)."
+  },
+  {
+    "id": "wolmaransstad",
+    "name": "Wolmaransstad",
+    "aliases": [],
+    "type": "local",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1900,
+    "to": 1900,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Boer War British occupation issue (SG under Transvaal)."
+  },
+  {
+    "id": "bophuthatswana",
+    "name": "Bophuthatswana",
+    "aliases": [
+      "Bophutatswana"
+    ],
+    "type": "state",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1977,
+    "to": 1994,
+    "parent": "South Africa",
+    "successor": "South Africa",
+    "catalog": "stanley_gibbons",
+    "notes": "South African homeland."
+  },
+  {
+    "id": "ciskei",
+    "name": "Ciskei",
+    "aliases": [],
+    "type": "state",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1981,
+    "to": 1994,
+    "parent": "South Africa",
+    "successor": "South Africa",
+    "catalog": "stanley_gibbons",
+    "notes": "South African homeland."
+  },
+  {
+    "id": "transkei",
+    "name": "Transkei",
+    "aliases": [],
+    "type": "state",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1976,
+    "to": 1994,
+    "parent": "South Africa",
+    "successor": "South Africa",
+    "catalog": "stanley_gibbons",
+    "notes": "South African homeland."
+  },
+  {
+    "id": "venda",
+    "name": "Venda",
+    "aliases": [],
+    "type": "state",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1979,
+    "to": 1994,
+    "parent": "South Africa",
+    "successor": "South Africa",
+    "catalog": "stanley_gibbons",
+    "notes": "South African homeland."
+  },
+  {
+    "id": "german-south-west-africa",
+    "name": "German South West Africa",
+    "aliases": [
+      "Deutsch-Sudwestafrika",
+      "Deutsch-Südwestafrika",
+      "DSWA"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1897,
+    "to": 1915,
+    "parent": "Germany",
+    "successor": "South West Africa",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "south-west-africa",
+    "name": "South West Africa",
+    "aliases": [
+      "SWA",
+      "Suidwes-Afrika",
+      "Sudwes-Afrika"
+    ],
+    "type": "mandate",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1923,
+    "to": 1990,
+    "parent": "South Africa",
+    "successor": "Namibia",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "namibia",
+    "name": "Namibia",
+    "aliases": [
+      "Republic of Namibia"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "from": 1990,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "madagascar-british-consular-mail",
+    "name": "Madagascar (British Consular Mail)",
+    "aliases": [
+      "British Consular Mail Antananarivo",
+      "British Inland Mail Madagascar"
+    ],
+    "type": "agency",
+    "region": "Africa",
+    "subregion": "Indian Ocean",
+    "from": 1884,
+    "to": 1895,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "madagascar-french-post-offices",
+    "name": "Madagascar (French Post Offices)",
+    "aliases": [
+      "French Post Offices in Madagascar",
+      "Majunga",
+      "Tamatave"
+    ],
+    "type": "agency",
+    "region": "Africa",
+    "subregion": "Indian Ocean",
+    "from": 1889,
+    "to": 1896,
+    "parent": "France",
+    "successor": "Madagascar and Dependencies",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "diego-suarez",
+    "name": "Diego-Suarez",
+    "aliases": [
+      "Diego Suarez",
+      "Diégo-Suarez",
+      "Antsiranana"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Indian Ocean",
+    "from": 1890,
+    "to": 1896,
+    "parent": "France",
+    "successor": "Madagascar and Dependencies",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "nossi-be",
+    "name": "Nossi-Be",
+    "aliases": [
+      "Nossi-Bé",
+      "Nosy Be"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Indian Ocean",
+    "from": 1889,
+    "to": 1894,
+    "parent": "France",
+    "successor": "Madagascar and Dependencies",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "sainte-marie-de-madagascar",
+    "name": "Sainte-Marie de Madagascar",
+    "aliases": [
+      "Ste Marie de Madagascar",
+      "Ile Sainte-Marie",
+      "Nosy Boraha"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Indian Ocean",
+    "from": 1894,
+    "to": 1896,
+    "parent": "France",
+    "successor": "Madagascar and Dependencies",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "madagascar-and-dependencies",
+    "name": "Madagascar and Dependencies",
+    "aliases": [
+      "Madagascar et Dependances",
+      "Madagascar (French Colony)"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Indian Ocean",
+    "from": 1896,
+    "to": 1958,
+    "parent": "France",
+    "successor": "Madagascar",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "madagascar",
+    "name": "Madagascar",
+    "aliases": [
+      "Malagasy Republic",
+      "Republique Malgache",
+      "Repoblika Malagasy",
+      "Madagasikara"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Indian Ocean",
+    "from": 1958,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "mauritius",
+    "name": "Mauritius",
+    "aliases": [
+      "Ile Maurice"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Indian Ocean",
+    "from": 1847,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "British colony until 1968."
+  },
+  {
+    "id": "seychelles",
+    "name": "Seychelles",
+    "aliases": [
+      "Republic of Seychelles"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Indian Ocean",
+    "from": 1890,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "British colony until 1976."
+  },
+  {
+    "id": "zil-elwannyen-sesel",
+    "name": "Zil Elwannyen Sesel",
+    "aliases": [
+      "Zil Eloigne Sesel",
+      "Zil Elwagne Sesel",
+      "Seychelles Outer Islands"
+    ],
+    "type": "territory",
+    "region": "Africa",
+    "subregion": "Indian Ocean",
+    "from": 1980,
+    "to": 1992,
+    "parent": "Seychelles",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "british-indian-ocean-territory",
+    "name": "British Indian Ocean Territory",
+    "aliases": [
+      "BIOT",
+      "B.I.O.T.",
+      "Chagos Islands"
+    ],
+    "type": "territory",
+    "region": "Africa",
+    "subregion": "Indian Ocean",
+    "from": 1968,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "reunion",
+    "name": "Reunion",
+    "aliases": [
+      "Réunion",
+      "La Reunion",
+      "Ile de la Reunion",
+      "Ile Bourbon"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Indian Ocean",
+    "from": 1852,
+    "to": 1974,
+    "parent": "France",
+    "successor": "France",
+    "catalog": "yvert_tellier",
+    "notes": "French stamps used from 1975."
+  },
+  {
+    "id": "anjouan",
+    "name": "Anjouan",
+    "aliases": [
+      "Johanna",
+      "Ndzuwani",
+      "Sultanat d'Anjouan"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Indian Ocean",
+    "from": 1892,
+    "to": 1912,
+    "parent": "France",
+    "successor": "Madagascar and Dependencies",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "grand-comoro",
+    "name": "Grand Comoro",
+    "aliases": [
+      "Grande Comore",
+      "Great Comoro",
+      "Ngazidja"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Indian Ocean",
+    "from": 1897,
+    "to": 1912,
+    "parent": "France",
+    "successor": "Madagascar and Dependencies",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "moheli",
+    "name": "Moheli",
+    "aliases": [
+      "Mohéli",
+      "Mwali"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Indian Ocean",
+    "from": 1906,
+    "to": 1912,
+    "parent": "France",
+    "successor": "Madagascar and Dependencies",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "mayotte-1892",
+    "name": "Mayotte (1892-1914)",
+    "aliases": [
+      "Mayotte (French Colony)",
+      "Mahore"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Indian Ocean",
+    "from": 1892,
+    "to": 1912,
+    "parent": "France",
+    "successor": "Madagascar and Dependencies",
+    "catalog": "yvert_tellier",
+    "notes": "Early colonial issues, not the 1997-2011 series."
+  },
+  {
+    "id": "mayotte",
+    "name": "Mayotte",
+    "aliases": [
+      "Mahore",
+      "Collectivite departementale de Mayotte"
+    ],
+    "type": "territory",
+    "region": "Africa",
+    "subregion": "Indian Ocean",
+    "from": 1997,
+    "to": 2011,
+    "parent": "France",
+    "successor": "France",
+    "catalog": "yvert_tellier",
+    "notes": "Modern issues 1997-2011, not the 1892-1914 colonial series."
+  },
+  {
+    "id": "comoro-islands",
+    "name": "Comoro Islands",
+    "aliases": [
+      "Archipel des Comores",
+      "Comores",
+      "Territoire des Comores"
+    ],
+    "type": "territory",
+    "region": "Africa",
+    "subregion": "Indian Ocean",
+    "from": 1950,
+    "to": 1975,
+    "parent": "France",
+    "successor": "Comoros",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "comoros",
+    "name": "Comoros",
+    "aliases": [
+      "Union of the Comoros",
+      "Republique Federale Islamique des Comores",
+      "Union des Comores"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Indian Ocean",
+    "from": 1975,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  }
+]

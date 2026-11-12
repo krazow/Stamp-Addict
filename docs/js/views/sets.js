@@ -3,6 +3,7 @@ import { toNumber } from '../format.js';
 import { parseSetItems } from '../repos.js';
 import { ValidationError } from '../validation.js';
 import { button, confirmAction, empty, field, h, icon, tell } from '../ui.js';
+import { issuerField } from './issuerPicker.js';
 
 export function setsView() {
   const { sets, wants } = app.repos;
@@ -54,7 +55,8 @@ export function setsView() {
 
 export function newSetView() {
   const name = field('Set name', { placeholder: '1869 Pictorial Issue' });
-  const country = field('Country', { placeholder: 'United States' });
+  let country = null;
+  const countryField = issuerField('Country or issuer', null, (v) => { country = v; });
   const year = field('Year', { placeholder: '1869', inputmode: 'numeric' });
   const items = field('Stamps in the set', {
     multiline: true, placeholder: '1c Franklin | Scott 112\n2c Post Rider | Scott 113\n3c Locomotive | Scott 114',
@@ -63,7 +65,7 @@ export function newSetView() {
   items.input.rows = 8;
   const save = () => {
     try {
-      app.repos.sets.create({ name: name.input.value, country: country.input.value.trim() || null, year: toNumber(year.input.value), items: parseSetItems(items.input.value) });
+      app.repos.sets.create({ name: name.input.value, country: country?.name ?? null, year: toNumber(year.input.value), items: parseSetItems(items.input.value) });
       back();
     } catch (e) {
       if (!(e instanceof ValidationError)) { tell('Couldn\'t save the set', String(e?.message ?? e)); return; }
@@ -75,6 +77,6 @@ export function newSetView() {
     title: 'New set',
     actions: [button('Save', save, 'text')],
     body: h('form', { class: 'stack', onsubmit: (e) => { e.preventDefault(); save(); } },
-      name.el, country.el, year.el, items.el, button('Save set', null, 'primary', { type: 'submit' })),
+      name.el, countryField, year.el, items.el, button('Save set', null, 'primary', { type: 'submit' })),
   };
 }

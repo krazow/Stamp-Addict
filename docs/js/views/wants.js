@@ -2,7 +2,10 @@ import { app, back, go, refresh } from '../app.js';
 import { toNumber } from '../format.js';
 import { CATALOGS, MINT_STATUSES, PRIORITIES } from '../lists.js';
 import { ValidationError } from '../validation.js';
-import { button, chips, confirmAction, empty, field, h, icon, optionsOf, tell } from '../ui.js';
+import { button, chips, confirmAction, empty, field, h, icon, optionsOf, select, tell } from '../ui.js';
+import { issuerById } from '../issuers.js';
+import { issuerField } from './issuerPicker.js';
+import { catalogOptions } from './stampForm.js';
 
 const GROUPS = [['high', 'High priority'], ['medium', 'Medium priority'], ['low', 'Low priority']];
 let showDone = false;
@@ -48,7 +51,16 @@ export function wantsView() {
 export function newWantView() {
   const v = { catalog: 'scott', condition: null, priority: 'medium' };
   const description = field('What are you looking for?', { placeholder: 'Inverted Jenny' });
-  const country = field('Country');
+  let country = null;
+  let catalogTouched = false;
+  const catalogSlot = h('div');
+  const drawCatalog = () => catalogSlot.replaceChildren(select('Catalog', catalogOptions(), v.catalog, (c) => { v.catalog = c ?? 'scott'; catalogTouched = true; }, { allowEmpty: false }));
+  drawCatalog();
+  const countryField = issuerField('Country or issuer', null, (c) => {
+    country = c;
+    const i = issuerById(c?.id);
+    if (i && !catalogTouched) { v.catalog = i.catalog; drawCatalog(); }
+  });
   const year = field('Year', { inputmode: 'numeric' });
   const number = field('Catalog number', { autocapitalize: 'characters', hint: 'With a catalog number, the app spots this want when you add the stamp.' });
   const maxPrice = field('Most you\'d pay', { inputmode: 'decimal' });
@@ -56,7 +68,7 @@ export function newWantView() {
   const save = () => {
     try {
       app.repos.wants.add({
-        description: description.input.value, country: country.input.value.trim() || null, year: toNumber(year.input.value),
+        description: description.input.value, country: country?.name ?? null, year: toNumber(year.input.value),
         catalog: number.input.value.trim() ? v.catalog : null, catalogNumber: number.input.value.trim() || null,
         wantedCondition: v.condition, maxPrice: toNumber(maxPrice.input.value), priority: v.priority,
         notes: notes.input.value.trim() || null,
@@ -73,10 +85,10 @@ export function newWantView() {
     title: 'Add a want',
     actions: [button('Save', save, 'text')],
     body: h('form', { class: 'stack', onsubmit: (e) => { e.preventDefault(); save(); } },
-      description.el, country.el, year.el,
-      chips('Catalog', optionsOf(CATALOGS).filter((o) => o.value !== 'other'), v.catalog, (c) => { v.catalog = c; }),
+      description.el, countryField, year.el,
+      catalogSlot,
       number.el,
-      chips('Condition wanted', optionsOf(MINT_STATUSES), null, (c) => { v.condition = c; }),
+      select('Condition wanted', optionsOf(MINT_STATUSES), null, (c) => { v.condition = c; }, { placeholder: 'Any condition' }),
       maxPrice.el,
       chips('Priority', optionsOf(PRIORITIES), 'medium', (p) => { v.priority = p; }, { allowClear: false }),
       notes.el,

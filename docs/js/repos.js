@@ -1,12 +1,12 @@
 // Stamp Cards, sets and the want list: the same rules as the phone app's
 // data layer, working on the rows in store.js.
-import { CATALOGS, MINT_STATUSES, PRIORITIES } from './lists.js';
+import { CATALOGS, CATALOG_SHORT, MINT_STATUSES, PRIORITIES } from './lists.js';
 import { newId, nowIso } from './store.js';
 import { NotFoundError, ValidationError, validateStampInput } from './validation.js';
 
 /** App field name -> table column. Booleans are stored as 0/1. */
 const COLUMN = {
-  collectionId: 'collection_id', setItemId: 'set_item_id',
+  collectionId: 'collection_id', setItemId: 'set_item_id', issuerId: 'issuer_id',
   country: 'country', year: 'year', issueDate: 'issue_date', faceValue: 'face_value',
   currency: 'currency', colors: 'colors', designSubject: 'design_subject', stampType: 'stamp_type',
   designer: 'designer', engraver: 'engraver', printer: 'printer',
@@ -121,16 +121,21 @@ export class StampRepository {
     rows.sort(([a, ai], [b, bi]) => (b.created_at > a.created_at ? 1 : b.created_at < a.created_at ? -1 : bi - ai));
     const fronts = new Map(this.db.filter('photos', (p) => p.role === 'front').map((p) => [p.stamp_id, p.uri]));
     const firstCat = new Map();
+    const catsOf = new Map();
     for (const c of this.db.rows('catalog_numbers')) {
+      if (!catsOf.has(c.stamp_id)) catsOf.set(c.stamp_id, []);
+      catsOf.get(c.stamp_id).push(c);
       const cur = firstCat.get(c.stamp_id);
       if (!cur || (cur.catalog !== 'scott' && c.catalog === 'scott')) firstCat.set(c.stamp_id, c);
     }
     return rows.map(([r]) => {
       const c = firstCat.get(r.id);
       return {
-        id: r.id, country: r.country, year: r.year, faceValue: r.face_value, designSubject: r.design_subject,
+        id: r.id, issuerId: r.issuer_id, country: r.country, year: r.year, faceValue: r.face_value, designSubject: r.design_subject,
         mintStatus: r.mint_status, thumbnailUri: fronts.get(r.id) ?? null,
-        primaryCatalog: c ? `${CATALOGS.labels[c.catalog] ?? c.catalog} ${c.number}` : null,
+        catalogs: (catsOf.get(r.id) ?? []).map((x) => x.catalog),
+        catalogText: (catsOf.get(r.id) ?? []).map((x) => `${CATALOGS.labels[x.catalog] ?? x.catalog} ${x.number} ${CATALOG_SHORT[x.catalog] ?? ''} ${x.number}`).join(' '),
+        primaryCatalog: c ? `${c.catalog === 'other' ? c.catalog_label || 'Other' : CATALOG_SHORT[c.catalog] ?? c.catalog} ${c.number}`.trim() : null,
       };
     });
   }
@@ -382,7 +387,9 @@ const CATALOG_ALIASES = {
   sg: 'stanley_gibbons', 'stanley gibbons': 'stanley_gibbons', gibbons: 'stanley_gibbons',
   michel: 'michel', mi: 'michel',
   yvert: 'yvert_tellier', 'yvert et tellier': 'yvert_tellier', yt: 'yvert_tellier',
-  sakura: 'sakura', facit: 'facit',
+  sakura: 'sakura', facit: 'facit', unitrade: 'unitrade', acsc: 'acsc', zumstein: 'zumstein', zum: 'zumstein',
+  edifil: 'edifil', sassone: 'sassone', nvph: 'nvph', afa: 'afa', fischer: 'fischer', ank: 'ank',
+  hellas: 'hellas', zagorski: 'zagorski', pofis: 'pofis', rhm: 'rhm', gj: 'gj', cob: 'cob',
 };
 
 /** Reads the "stamps in this set" box: one per line, like "1c Franklin | Scott 112". */

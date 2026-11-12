@@ -20,7 +20,7 @@ export const COLUMNS = {
   stamp_sets: { id: null, name: null, country: null, year: null, description: null, created_at: NOW },
   set_items: { id: null, set_id: null, position: null, label: null, face_value: null, catalog: null, catalog_number: null },
   stamps: {
-    id: null, collection_id: null, set_item_id: null,
+    id: null, collection_id: null, set_item_id: null, issuer_id: null,
     country: null, year: null, issue_date: null, face_value: null, currency: null, colors: null,
     design_subject: null, stamp_type: null, designer: null, engraver: null, printer: null,
     perf_horizontal: null, perf_vertical: null, separation: null, watermark: null, paper_type: null,

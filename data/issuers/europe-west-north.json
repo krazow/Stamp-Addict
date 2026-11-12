@@ -1,0 +1,1646 @@
+[
+  {
+    "id": "great-britain",
+    "name": "Great Britain",
+    "aliases": [
+      "United Kingdom",
+      "UK",
+      "GB",
+      "Royal Mail"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1840,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Includes the Scotland, Wales and Northern Ireland regional issues."
+  },
+  {
+    "id": "ireland",
+    "name": "Ireland",
+    "aliases": [
+      "Irish Free State",
+      "Eire",
+      "Éire",
+      "Republic of Ireland",
+      "Saorstát Éireann"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1922,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "guernsey",
+    "name": "Guernsey",
+    "aliases": [
+      "Bailiwick of Guernsey"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1969,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Independent postal administration from 1969; earlier regionals and wartime issues listed separately."
+  },
+  {
+    "id": "jersey",
+    "name": "Jersey",
+    "aliases": [
+      "Bailiwick of Jersey"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1969,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Independent postal administration from 1969."
+  },
+  {
+    "id": "alderney",
+    "name": "Alderney",
+    "aliases": [],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1983,
+    "to": null,
+    "parent": "Guernsey",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "isle-of-man",
+    "name": "Isle of Man",
+    "aliases": [
+      "Mann",
+      "Ellan Vannin",
+      "IOM"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1973,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "german-occupation-guernsey",
+    "name": "German Occupation of Guernsey",
+    "aliases": [
+      "Guernsey German Occupation",
+      "Deutsche Besetzung Guernsey",
+      "Kanalinseln"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1941,
+    "to": 1944,
+    "parent": "Germany",
+    "successor": "Guernsey",
+    "catalog": "michel",
+    "notes": "Local wartime issues printed under German occupation, 1941-44."
+  },
+  {
+    "id": "german-occupation-jersey",
+    "name": "German Occupation of Jersey",
+    "aliases": [
+      "Jersey German Occupation",
+      "Deutsche Besetzung Jersey",
+      "Kanalinseln"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1941,
+    "to": 1943,
+    "parent": "Germany",
+    "successor": "Jersey",
+    "catalog": "michel",
+    "notes": "Local wartime issues printed under German occupation, 1941-43."
+  },
+  {
+    "id": "gibraltar",
+    "name": "Gibraltar",
+    "aliases": [],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1886,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "malta",
+    "name": "Malta",
+    "aliases": [
+      "Republic of Malta"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1860,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "British colony until independence in 1964."
+  },
+  {
+    "id": "heligoland",
+    "name": "Heligoland",
+    "aliases": [
+      "Helgoland"
+    ],
+    "type": "colony",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1867,
+    "to": 1890,
+    "parent": "Great Britain",
+    "successor": "Germany",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "france",
+    "name": "France",
+    "aliases": [
+      "Republique Francaise",
+      "République Française"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1849,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "monaco",
+    "name": "Monaco",
+    "aliases": [
+      "Principality of Monaco",
+      "Principaute de Monaco"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1885,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "andorra-french",
+    "name": "Andorra (French Post)",
+    "aliases": [
+      "French Andorra",
+      "Andorre",
+      "Andorre Francaise",
+      "Andorra French Offices"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1931,
+    "to": null,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "andorra-spanish",
+    "name": "Andorra (Spanish Post)",
+    "aliases": [
+      "Spanish Andorra",
+      "Andorra Espanola",
+      "Andorra Española",
+      "Andorra Spanish Offices"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "from": 1928,
+    "to": null,
+    "parent": "Spain",
+    "successor": null,
+    "catalog": "edifil",
+    "notes": null
+  },
+  {
+    "id": "alsace-lorraine",
+    "name": "Alsace and Lorraine",
+    "aliases": [
+      "Alsace-Lorraine",
+      "Elsass-Lothringen",
+      "German Occupation of France 1870-71"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1870,
+    "to": 1871,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": "Franco-Prussian War occupation issues, 1870-71."
+  },
+  {
+    "id": "german-occupation-alsace",
+    "name": "German Occupation of Alsace (WWII)",
+    "aliases": [
+      "Elsass",
+      "Alsace German Occupation"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1940,
+    "to": 1941,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "german-occupation-lorraine",
+    "name": "German Occupation of Lorraine (WWII)",
+    "aliases": [
+      "Lothringen",
+      "Lorraine German Occupation"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1940,
+    "to": 1941,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "german-occupation-france-ww2",
+    "name": "German Occupation of France (WWII)",
+    "aliases": [
+      "Deutsche Besetzung Frankreich",
+      "Dunkirk",
+      "Dünkirchen",
+      "Lorient",
+      "Saint-Nazaire",
+      "Atlantic pockets"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1940,
+    "to": 1945,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": "Local German issues such as Dunkirk 1940 and the Lorient and Saint-Nazaire pockets 1945."
+  },
+  {
+    "id": "belgium",
+    "name": "Belgium",
+    "aliases": [
+      "Belgique",
+      "Belgie",
+      "België",
+      "Belgien"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1849,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "other",
+    "notes": null
+  },
+  {
+    "id": "netherlands",
+    "name": "Netherlands",
+    "aliases": [
+      "Holland",
+      "Nederland",
+      "Niederlande"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1852,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "nvph",
+    "notes": null
+  },
+  {
+    "id": "luxembourg",
+    "name": "Luxembourg",
+    "aliases": [
+      "Luxemburg",
+      "Letzebuerg",
+      "Lëtzebuerg"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1852,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "german-occupation-belgium-ww1",
+    "name": "German Occupation of Belgium (WWI)",
+    "aliases": [
+      "Landespost Belgien",
+      "Belgium German Occupation"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1914,
+    "to": 1918,
+    "parent": "Germany",
+    "successor": "Belgium",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "german-western-command-area-ww1",
+    "name": "German Occupation: Western Command Area (WWI)",
+    "aliases": [
+      "Etappengebiet West",
+      "Western Command Area",
+      "German Occupation of France WWI"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1916,
+    "to": 1918,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": "Used in the German-occupied military zone of Belgium and northern France."
+  },
+  {
+    "id": "german-occupation-luxembourg-ww2",
+    "name": "German Occupation of Luxembourg (WWII)",
+    "aliases": [
+      "Luxemburg Deutsche Besetzung",
+      "Luxembourg German Occupation"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1940,
+    "to": 1944,
+    "parent": "Germany",
+    "successor": "Luxembourg",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "belgian-occupation-germany",
+    "name": "Belgian Occupation of Germany",
+    "aliases": [
+      "Eupen and Malmedy",
+      "Eupen-Malmedy",
+      "Belgische Besetzung Deutschland"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1919,
+    "to": 1921,
+    "parent": "Belgium",
+    "successor": null,
+    "catalog": "other",
+    "notes": "Belgian stamps overprinted for occupied Rhineland and Eupen-Malmedy."
+  },
+  {
+    "id": "switzerland",
+    "name": "Switzerland",
+    "aliases": [
+      "Helvetia",
+      "Schweiz",
+      "Suisse",
+      "Svizzera",
+      "Confoederatio Helvetica"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1850,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": "Federal issues; transitional Vaud, Neuchatel and Winterthur issues included here."
+  },
+  {
+    "id": "zurich",
+    "name": "Zurich",
+    "aliases": [
+      "Zürich",
+      "Kanton Zürich"
+    ],
+    "type": "local",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1843,
+    "to": 1846,
+    "parent": "Switzerland",
+    "successor": "Switzerland",
+    "catalog": "zumstein",
+    "notes": "Cantonal issue."
+  },
+  {
+    "id": "geneva",
+    "name": "Geneva",
+    "aliases": [
+      "Genf",
+      "Genève",
+      "Double Geneva"
+    ],
+    "type": "local",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1843,
+    "to": 1849,
+    "parent": "Switzerland",
+    "successor": "Switzerland",
+    "catalog": "zumstein",
+    "notes": "Cantonal issues."
+  },
+  {
+    "id": "basel",
+    "name": "Basel",
+    "aliases": [
+      "Basle",
+      "Bâle",
+      "Basel Dove",
+      "Baseler Taube"
+    ],
+    "type": "local",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1845,
+    "to": 1845,
+    "parent": "Switzerland",
+    "successor": "Switzerland",
+    "catalog": "zumstein",
+    "notes": "Cantonal issue (Basel Dove)."
+  },
+  {
+    "id": "swiss-league-of-nations",
+    "name": "League of Nations (Switzerland)",
+    "aliases": [
+      "Societe des Nations",
+      "SDN",
+      "Völkerbund"
+    ],
+    "type": "agency",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1922,
+    "to": 1944,
+    "parent": "Switzerland",
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": "Swiss official stamps overprinted or issued for this organisation in Geneva."
+  },
+  {
+    "id": "swiss-international-labour-office",
+    "name": "International Labour Office (Switzerland)",
+    "aliases": [
+      "ILO",
+      "BIT",
+      "Bureau International du Travail"
+    ],
+    "type": "agency",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1923,
+    "to": null,
+    "parent": "Switzerland",
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": "Swiss official stamps overprinted or issued for this organisation in Geneva."
+  },
+  {
+    "id": "swiss-international-bureau-of-education",
+    "name": "International Bureau of Education (Switzerland)",
+    "aliases": [
+      "IBE",
+      "BIE",
+      "Bureau International d'Education"
+    ],
+    "type": "agency",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1944,
+    "to": null,
+    "parent": "Switzerland",
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": "Swiss official stamps overprinted or issued for this organisation in Geneva."
+  },
+  {
+    "id": "swiss-world-health-organization",
+    "name": "World Health Organization (Switzerland)",
+    "aliases": [
+      "WHO",
+      "OMS"
+    ],
+    "type": "agency",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1948,
+    "to": null,
+    "parent": "Switzerland",
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": "Swiss official stamps overprinted or issued for this organisation in Geneva."
+  },
+  {
+    "id": "swiss-international-refugee-organization",
+    "name": "International Refugee Organization (Switzerland)",
+    "aliases": [
+      "IRO",
+      "OIR"
+    ],
+    "type": "agency",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1950,
+    "to": 1950,
+    "parent": "Switzerland",
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": "Swiss official stamps overprinted or issued for this organisation in Geneva."
+  },
+  {
+    "id": "swiss-united-nations-european-office",
+    "name": "United Nations European Office (Switzerland)",
+    "aliases": [
+      "ONU",
+      "UNO Geneva official stamps",
+      "Nations Unies"
+    ],
+    "type": "agency",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1950,
+    "to": null,
+    "parent": "Switzerland",
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": "Swiss official stamps overprinted or issued for this organisation in Geneva."
+  },
+  {
+    "id": "swiss-world-meteorological-organization",
+    "name": "World Meteorological Organization (Switzerland)",
+    "aliases": [
+      "WMO",
+      "OMM"
+    ],
+    "type": "agency",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1956,
+    "to": null,
+    "parent": "Switzerland",
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": "Swiss official stamps overprinted or issued for this organisation in Geneva."
+  },
+  {
+    "id": "swiss-universal-postal-union",
+    "name": "Universal Postal Union (Switzerland)",
+    "aliases": [
+      "UPU",
+      "Union Postale Universelle"
+    ],
+    "type": "agency",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1957,
+    "to": null,
+    "parent": "Switzerland",
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": "Swiss official stamps overprinted or issued for this organisation in Geneva."
+  },
+  {
+    "id": "swiss-international-telecommunication-union",
+    "name": "International Telecommunication Union (Switzerland)",
+    "aliases": [
+      "ITU",
+      "UIT"
+    ],
+    "type": "agency",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1958,
+    "to": null,
+    "parent": "Switzerland",
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": "Swiss official stamps overprinted or issued for this organisation in Geneva."
+  },
+  {
+    "id": "swiss-world-intellectual-property-organization",
+    "name": "World Intellectual Property Organization (Switzerland)",
+    "aliases": [
+      "WIPO",
+      "OMPI"
+    ],
+    "type": "agency",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "from": 1982,
+    "to": null,
+    "parent": "Switzerland",
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": "Swiss official stamps overprinted or issued for this organisation in Geneva."
+  },
+  {
+    "id": "liechtenstein",
+    "name": "Liechtenstein",
+    "aliases": [
+      "Principality of Liechtenstein",
+      "Fürstentum Liechtenstein"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1912,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": null
+  },
+  {
+    "id": "germany",
+    "name": "Germany",
+    "aliases": [
+      "German Empire",
+      "Deutsches Reich",
+      "Weimar Republic",
+      "Third Reich",
+      "West Germany",
+      "Federal Republic of Germany",
+      "Bundesrepublik Deutschland",
+      "Deutschland"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1872,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": "Reich 1872-1945 and Federal Republic from 1949."
+  },
+  {
+    "id": "north-german-confederation",
+    "name": "North German Confederation",
+    "aliases": [
+      "Norddeutscher Postbezirk",
+      "Norddeutscher Bund"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1868,
+    "to": 1871,
+    "parent": null,
+    "successor": "Germany",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "baden",
+    "name": "Baden",
+    "aliases": [
+      "Grand Duchy of Baden"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1851,
+    "to": 1871,
+    "parent": null,
+    "successor": "Germany",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "bavaria",
+    "name": "Bavaria",
+    "aliases": [
+      "Bayern",
+      "Kingdom of Bavaria"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1849,
+    "to": 1920,
+    "parent": null,
+    "successor": "Germany",
+    "catalog": "michel",
+    "notes": "Kept own postage stamps until 1920."
+  },
+  {
+    "id": "bergedorf",
+    "name": "Bergedorf",
+    "aliases": [],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1861,
+    "to": 1867,
+    "parent": null,
+    "successor": "North German Confederation",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "bremen",
+    "name": "Bremen",
+    "aliases": [],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1855,
+    "to": 1867,
+    "parent": null,
+    "successor": "North German Confederation",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "brunswick",
+    "name": "Brunswick",
+    "aliases": [
+      "Braunschweig"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1852,
+    "to": 1867,
+    "parent": null,
+    "successor": "North German Confederation",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "hamburg",
+    "name": "Hamburg",
+    "aliases": [],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1859,
+    "to": 1867,
+    "parent": null,
+    "successor": "North German Confederation",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "hanover",
+    "name": "Hanover",
+    "aliases": [
+      "Hannover"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1850,
+    "to": 1866,
+    "parent": null,
+    "successor": "Prussia",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "lubeck",
+    "name": "Lubeck",
+    "aliases": [
+      "Lübeck",
+      "Luebeck"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1859,
+    "to": 1868,
+    "parent": null,
+    "successor": "North German Confederation",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "mecklenburg-schwerin",
+    "name": "Mecklenburg-Schwerin",
+    "aliases": [],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1856,
+    "to": 1867,
+    "parent": null,
+    "successor": "North German Confederation",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "mecklenburg-strelitz",
+    "name": "Mecklenburg-Strelitz",
+    "aliases": [],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1864,
+    "to": 1867,
+    "parent": null,
+    "successor": "North German Confederation",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "oldenburg",
+    "name": "Oldenburg",
+    "aliases": [],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1852,
+    "to": 1867,
+    "parent": null,
+    "successor": "North German Confederation",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "prussia",
+    "name": "Prussia",
+    "aliases": [
+      "Preussen",
+      "Preußen"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1850,
+    "to": 1867,
+    "parent": null,
+    "successor": "North German Confederation",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "saxony",
+    "name": "Saxony",
+    "aliases": [
+      "Sachsen",
+      "Kingdom of Saxony"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1850,
+    "to": 1867,
+    "parent": null,
+    "successor": "North German Confederation",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "schleswig-holstein",
+    "name": "Schleswig-Holstein",
+    "aliases": [
+      "Holstein",
+      "Schleswig",
+      "Duchies of Schleswig and Holstein"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1850,
+    "to": 1867,
+    "parent": null,
+    "successor": "North German Confederation",
+    "catalog": "michel",
+    "notes": "Includes the separate Schleswig and Holstein issues of 1864-66."
+  },
+  {
+    "id": "thurn-and-taxis",
+    "name": "Thurn and Taxis",
+    "aliases": [
+      "Thurn und Taxis",
+      "Tour et Taxis"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1852,
+    "to": 1867,
+    "parent": null,
+    "successor": "North German Confederation",
+    "catalog": "michel",
+    "notes": "Northern (groschen) and Southern (kreuzer) districts."
+  },
+  {
+    "id": "wurttemberg",
+    "name": "Wurttemberg",
+    "aliases": [
+      "Württemberg",
+      "Wuerttemberg"
+    ],
+    "type": "state",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1851,
+    "to": 1923,
+    "parent": null,
+    "successor": "Germany",
+    "catalog": "michel",
+    "notes": "Postage to 1902; official stamps continued to 1923."
+  },
+  {
+    "id": "saar-1920",
+    "name": "Saar (1920-1935)",
+    "aliases": [
+      "Saargebiet",
+      "Sarre",
+      "Saar Territory",
+      "Saar League of Nations"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1920,
+    "to": 1935,
+    "parent": null,
+    "successor": "Germany",
+    "catalog": "michel",
+    "notes": "League of Nations administration, before the 1935 plebiscite."
+  },
+  {
+    "id": "saar-1947",
+    "name": "Saar (1947-1959)",
+    "aliases": [
+      "Saarland",
+      "Sarre",
+      "Saar Protectorate"
+    ],
+    "type": "protectorate",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1947,
+    "to": 1959,
+    "parent": "France",
+    "successor": "Germany",
+    "catalog": "michel",
+    "notes": "French-linked Saar state, then West German state until 1959."
+  },
+  {
+    "id": "danzig",
+    "name": "Danzig",
+    "aliases": [
+      "Free City of Danzig",
+      "Freie Stadt Danzig",
+      "Gdansk",
+      "Gdańsk"
+    ],
+    "type": "city_state",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1920,
+    "to": 1939,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "polish-post-danzig",
+    "name": "Polish Post in Danzig",
+    "aliases": [
+      "Port Gdansk",
+      "Port Gdańsk",
+      "Polnische Post Danzig"
+    ],
+    "type": "local",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1925,
+    "to": 1938,
+    "parent": "Poland",
+    "successor": null,
+    "catalog": "fischer",
+    "notes": "Polish stamps overprinted PORT GDANSK."
+  },
+  {
+    "id": "memel",
+    "name": "Memel",
+    "aliases": [
+      "Memelgebiet",
+      "Klaipeda",
+      "Klaipėda",
+      "Memel Territory"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1920,
+    "to": 1923,
+    "parent": null,
+    "successor": "Lithuania",
+    "catalog": "michel",
+    "notes": "French-administered territory; 1923 Lithuanian issues often listed with it."
+  },
+  {
+    "id": "allenstein",
+    "name": "Allenstein",
+    "aliases": [
+      "Olsztyn",
+      "Allenstein Plebiscite"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1920,
+    "to": 1920,
+    "parent": null,
+    "successor": "Germany",
+    "catalog": "michel",
+    "notes": "1920 plebiscite issue."
+  },
+  {
+    "id": "marienwerder",
+    "name": "Marienwerder",
+    "aliases": [
+      "Kwidzyn",
+      "Marienwerder Plebiscite"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1920,
+    "to": 1920,
+    "parent": null,
+    "successor": "Germany",
+    "catalog": "michel",
+    "notes": "1920 plebiscite issue."
+  },
+  {
+    "id": "schleswig-plebiscite",
+    "name": "Schleswig (Plebiscite)",
+    "aliases": [
+      "Slesvig",
+      "Schleswig 1920",
+      "Slesvig Plebiscite"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1920,
+    "to": 1920,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": "1920 plebiscite issue; north went to Denmark, south stayed German."
+  },
+  {
+    "id": "upper-silesia",
+    "name": "Upper Silesia",
+    "aliases": [
+      "Oberschlesien",
+      "Haute-Silesie",
+      "Górny Śląsk",
+      "Upper Silesia Plebiscite"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1920,
+    "to": 1922,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": "Plebiscite issues; area later divided between Germany and Poland."
+  },
+  {
+    "id": "west-berlin",
+    "name": "West Berlin",
+    "aliases": [
+      "Berlin",
+      "Berlin (West)",
+      "Deutsche Bundespost Berlin"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1948,
+    "to": 1990,
+    "parent": null,
+    "successor": "Germany",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "east-germany",
+    "name": "East Germany",
+    "aliases": [
+      "German Democratic Republic",
+      "GDR",
+      "DDR",
+      "Deutsche Demokratische Republik"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1949,
+    "to": 1990,
+    "parent": null,
+    "successor": "Germany",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "allied-occupation-germany",
+    "name": "Germany (Allied Occupation)",
+    "aliases": [
+      "Control Council",
+      "Alliierte Besetzung Gemeinschaftsausgaben",
+      "American British and Russian Zones"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1946,
+    "to": 1948,
+    "parent": null,
+    "successor": "Germany",
+    "catalog": "michel",
+    "notes": "Joint issues of the Allied Control Council."
+  },
+  {
+    "id": "anglo-american-zone-military",
+    "name": "Anglo-American Zone (AM Post)",
+    "aliases": [
+      "AM Post",
+      "Allied Military Government",
+      "Anglo-American Zones Military Government"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1945,
+    "to": 1946,
+    "parent": null,
+    "successor": "Bizone",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "bizone",
+    "name": "Bizone",
+    "aliases": [
+      "Anglo-American Zones Civil Government",
+      "Amerikanische und Britische Zone",
+      "Bizonia"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1948,
+    "to": 1949,
+    "parent": null,
+    "successor": "Germany",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "french-zone-germany",
+    "name": "French Zone of Germany",
+    "aliases": [
+      "Französische Zone",
+      "Zone Francaise",
+      "French Occupation Germany General Issues"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1945,
+    "to": 1946,
+    "parent": "France",
+    "successor": null,
+    "catalog": "michel",
+    "notes": "General issues for the whole French zone."
+  },
+  {
+    "id": "baden-french-zone",
+    "name": "Baden (French Zone)",
+    "aliases": [
+      "Baden Französische Zone"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1947,
+    "to": 1949,
+    "parent": "France",
+    "successor": "Germany",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "rhineland-palatinate-french-zone",
+    "name": "Rhineland-Palatinate (French Zone)",
+    "aliases": [
+      "Rheinland-Pfalz",
+      "Rhine Palatinate"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1947,
+    "to": 1949,
+    "parent": "France",
+    "successor": "Germany",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "wurttemberg-french-zone",
+    "name": "Wurttemberg (French Zone)",
+    "aliases": [
+      "Württemberg-Hohenzollern",
+      "Wurttemberg-Hohenzollern"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1947,
+    "to": 1949,
+    "parent": "France",
+    "successor": "Germany",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "soviet-zone-germany",
+    "name": "Soviet Zone of Germany",
+    "aliases": [
+      "Russian Zone",
+      "Sowjetische Besatzungszone",
+      "SBZ"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1948,
+    "to": 1949,
+    "parent": "Soviet Union",
+    "successor": "East Germany",
+    "catalog": "michel",
+    "notes": "General issues; 1945-46 provincial issues listed separately."
+  },
+  {
+    "id": "berlin-brandenburg-soviet-zone",
+    "name": "Berlin-Brandenburg (Soviet Zone)",
+    "aliases": [
+      "Berlin-Brandenburg",
+      "Bear stamps"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1945,
+    "to": 1945,
+    "parent": "Soviet Union",
+    "successor": "Soviet Zone of Germany",
+    "catalog": "michel",
+    "notes": "Provincial issue of the Soviet zone."
+  },
+  {
+    "id": "mecklenburg-vorpommern-soviet-zone",
+    "name": "Mecklenburg-Vorpommern (Soviet Zone)",
+    "aliases": [
+      "Mecklenburg-Western Pomerania"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1945,
+    "to": 1946,
+    "parent": "Soviet Union",
+    "successor": "Soviet Zone of Germany",
+    "catalog": "michel",
+    "notes": "Provincial issue of the Soviet zone."
+  },
+  {
+    "id": "province-of-saxony-soviet-zone",
+    "name": "Province of Saxony (Soviet Zone)",
+    "aliases": [
+      "Provinz Sachsen",
+      "Saxony-Anhalt"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1945,
+    "to": 1946,
+    "parent": "Soviet Union",
+    "successor": "Soviet Zone of Germany",
+    "catalog": "michel",
+    "notes": "Provincial issue of the Soviet zone."
+  },
+  {
+    "id": "east-saxony-soviet-zone",
+    "name": "East Saxony (Soviet Zone)",
+    "aliases": [
+      "Ost-Sachsen",
+      "South East Saxony"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1945,
+    "to": 1946,
+    "parent": "Soviet Union",
+    "successor": "Soviet Zone of Germany",
+    "catalog": "michel",
+    "notes": "Provincial issue of the Soviet zone."
+  },
+  {
+    "id": "west-saxony-soviet-zone",
+    "name": "West Saxony (Soviet Zone)",
+    "aliases": [
+      "West-Sachsen",
+      "North West Saxony"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1945,
+    "to": 1946,
+    "parent": "Soviet Union",
+    "successor": "Soviet Zone of Germany",
+    "catalog": "michel",
+    "notes": "Provincial issue of the Soviet zone."
+  },
+  {
+    "id": "thuringia-soviet-zone",
+    "name": "Thuringia (Soviet Zone)",
+    "aliases": [
+      "Thüringen"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "from": 1945,
+    "to": 1946,
+    "parent": "Soviet Union",
+    "successor": "Soviet Zone of Germany",
+    "catalog": "michel",
+    "notes": "Provincial issue of the Soviet zone."
+  },
+  {
+    "id": "denmark",
+    "name": "Denmark",
+    "aliases": [
+      "Danmark",
+      "Dänemark"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1851,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "afa",
+    "notes": null
+  },
+  {
+    "id": "faroe-islands",
+    "name": "Faroe Islands",
+    "aliases": [
+      "Faroes",
+      "Føroyar",
+      "Færøerne",
+      "Faeroe Islands"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1975,
+    "to": null,
+    "parent": "Denmark",
+    "successor": null,
+    "catalog": "afa",
+    "notes": "Own stamps from 1975; 1919 and 1940-41 provisionals usually listed here too."
+  },
+  {
+    "id": "iceland",
+    "name": "Iceland",
+    "aliases": [
+      "Island",
+      "Ísland"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1873,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "facit",
+    "notes": null
+  },
+  {
+    "id": "norway",
+    "name": "Norway",
+    "aliases": [
+      "Norge",
+      "Noreg"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1855,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "facit",
+    "notes": null
+  },
+  {
+    "id": "sweden",
+    "name": "Sweden",
+    "aliases": [
+      "Sverige",
+      "Schweden"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1855,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "facit",
+    "notes": null
+  },
+  {
+    "id": "finland",
+    "name": "Finland",
+    "aliases": [
+      "Suomi"
+    ],
+    "type": "country",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1856,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "facit",
+    "notes": null
+  },
+  {
+    "id": "aland",
+    "name": "Aland",
+    "aliases": [
+      "Åland",
+      "Aland Islands",
+      "Ahvenanmaa"
+    ],
+    "type": "territory",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "from": 1984,
+    "to": null,
+    "parent": "Finland",
+    "successor": null,
+    "catalog": "facit",
+    "notes": null
+  },
+  {
+    "id": "aunus",
+    "name": "Aunus",
+    "aliases": [
+      "Olonets",
+      "Finnish Occupation of Aunus"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1919,
+    "to": 1919,
+    "parent": "Finland",
+    "successor": null,
+    "catalog": "facit",
+    "notes": null
+  },
+  {
+    "id": "north-ingermanland",
+    "name": "North Ingermanland",
+    "aliases": [
+      "Pohjois-Inkeri",
+      "Ingria",
+      "North Ingria"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1920,
+    "to": 1920,
+    "parent": null,
+    "successor": null,
+    "catalog": "facit",
+    "notes": null
+  },
+  {
+    "id": "karelia-1922",
+    "name": "Karelia (1922)",
+    "aliases": [
+      "Karjala",
+      "East Karelia 1922"
+    ],
+    "type": "other",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1922,
+    "to": 1922,
+    "parent": null,
+    "successor": null,
+    "catalog": "facit",
+    "notes": "Issue of the 1922 Karelian uprising."
+  },
+  {
+    "id": "eastern-karelia",
+    "name": "Eastern Karelia (Finnish Occupation)",
+    "aliases": [
+      "Itä-Karjala",
+      "Ita-Karjala",
+      "East Karelia"
+    ],
+    "type": "occupation",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "from": 1941,
+    "to": 1943,
+    "parent": "Finland",
+    "successor": null,
+    "catalog": "facit",
+    "notes": "Finnish occupation issues of WWII."
+  }
+]

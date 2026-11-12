@@ -1,0 +1,2431 @@
+[
+  {
+    "id": "kazakhstan",
+    "name": "Kazakhstan",
+    "aliases": [
+      "Kazakstan",
+      "Qazaqstan",
+      "Kasachstan"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "from": 1992,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "kyrgyz-express-post",
+    "name": "Kyrgyz Express Post",
+    "aliases": [
+      "KEP",
+      "Kyrgyzstan (Kyrgyz Express Post)"
+    ],
+    "type": "agency",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "from": 2016,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": "Second designated postal operator of Kyrgyzstan."
+  },
+  {
+    "id": "kyrgyzstan",
+    "name": "Kyrgyzstan",
+    "aliases": [
+      "Kyrgyz Republic",
+      "Kirghizia",
+      "Kirgisistan",
+      "Kyrgyzpost"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "from": 1992,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "tajikistan",
+    "name": "Tajikistan",
+    "aliases": [
+      "Tadzhikistan",
+      "Tadschikistan",
+      "Tojikiston"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "from": 1992,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "tannu-tuva",
+    "name": "Tannu Tuva",
+    "aliases": [
+      "Tuva",
+      "Tuvan People's Republic",
+      "Touva",
+      "Tannu Tuwa"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "from": 1926,
+    "to": 1943,
+    "parent": null,
+    "successor": "Soviet Union",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "turkmenistan",
+    "name": "Turkmenistan",
+    "aliases": [
+      "Turkmenia",
+      "Türkmenistan"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "from": 1992,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "uzbekistan",
+    "name": "Uzbekistan",
+    "aliases": [
+      "Uzbekiston",
+      "Usbekistan",
+      "O'zbekiston"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "from": 1992,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "abu-dhabi",
+    "name": "Abu Dhabi",
+    "aliases": [
+      "Abu Dhabi Emirate",
+      "Abudhabi"
+    ],
+    "type": "protectorate",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1964,
+    "to": 1972,
+    "parent": "Great Britain",
+    "successor": "United Arab Emirates",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "aden",
+    "name": "Aden",
+    "aliases": [
+      "Aden Colony",
+      "State of Aden"
+    ],
+    "type": "colony",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1937,
+    "to": 1965,
+    "parent": "Great Britain",
+    "successor": "South Arabia",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "ajman",
+    "name": "Ajman",
+    "aliases": [
+      "Ajman Emirate",
+      "Adschman"
+    ],
+    "type": "protectorate",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1964,
+    "to": 1972,
+    "parent": "Great Britain",
+    "successor": "United Arab Emirates",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "alaouites",
+    "name": "Alaouites",
+    "aliases": [
+      "Alawite State",
+      "Alaouites (Territoire des)",
+      "État des Alaouites",
+      "Alawiyin"
+    ],
+    "type": "mandate",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1925,
+    "to": 1930,
+    "parent": "France",
+    "successor": "Latakia",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "alexandretta",
+    "name": "Alexandretta",
+    "aliases": [
+      "Sanjak of Alexandretta",
+      "Sandjak d'Alexandrette",
+      "Iskenderun"
+    ],
+    "type": "mandate",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1938,
+    "to": 1938,
+    "parent": "France",
+    "successor": "Hatay",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "arab-kingdom-of-syria",
+    "name": "Arab Kingdom of Syria",
+    "aliases": [
+      "Syria (Arab Kingdom)",
+      "Kingdom of Syria",
+      "Faisal's Syria",
+      "Arab Government Damascus"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1919,
+    "to": 1920,
+    "parent": null,
+    "successor": "Syria",
+    "catalog": "scott",
+    "notes": "Short-lived Faisal government issues."
+  },
+  {
+    "id": "armenia",
+    "name": "Armenia",
+    "aliases": [
+      "Republic of Armenia",
+      "Hayastan",
+      "Հայաստան",
+      "Armenien"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1992,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Post-Soviet republic."
+  },
+  {
+    "id": "armenia-1919",
+    "name": "Armenia (1919-1923)",
+    "aliases": [
+      "First Republic of Armenia",
+      "Armenian SSR",
+      "Armenian Republic 1919"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1919,
+    "to": 1923,
+    "parent": null,
+    "successor": "Transcaucasian Federation",
+    "catalog": "scott",
+    "notes": "Pre-Soviet and early Soviet issues."
+  },
+  {
+    "id": "austrian-levant",
+    "name": "Austrian Levant",
+    "aliases": [
+      "Austro-Hungarian Post Offices in the Turkish Empire",
+      "Österreichische Post in der Levante",
+      "Austrian Lloyd"
+    ],
+    "type": "agency",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1867,
+    "to": 1914,
+    "parent": "Austria",
+    "successor": null,
+    "catalog": "ank",
+    "notes": null
+  },
+  {
+    "id": "azerbaijan",
+    "name": "Azerbaijan",
+    "aliases": [
+      "Azərbaycan",
+      "Azerbaidjan",
+      "Aserbaidschan",
+      "Republic of Azerbaijan"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1992,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Post-Soviet republic."
+  },
+  {
+    "id": "azerbaijan-1919",
+    "name": "Azerbaijan (1919-1923)",
+    "aliases": [
+      "Azerbaijan Democratic Republic",
+      "Azerbaijan SSR",
+      "Azerbaidjan 1919"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1919,
+    "to": 1923,
+    "parent": null,
+    "successor": "Transcaucasian Federation",
+    "catalog": "scott",
+    "notes": "Pre-Soviet and early Soviet issues."
+  },
+  {
+    "id": "baghdad",
+    "name": "Baghdad",
+    "aliases": [
+      "Baghdad (British Occupation)",
+      "Baghdad in British Occupation"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1917,
+    "to": 1917,
+    "parent": "Great Britain",
+    "successor": "Iraq",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "bahrain",
+    "name": "Bahrain",
+    "aliases": [
+      "Bahrein",
+      "Kingdom of Bahrain"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1933,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "batum",
+    "name": "Batum",
+    "aliases": [
+      "Batumi",
+      "Batum (British Occupation)",
+      "British Occupation of Batum"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1919,
+    "to": 1920,
+    "parent": "Great Britain",
+    "successor": "Georgia (1919-1923)",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "british-levant",
+    "name": "British Levant",
+    "aliases": [
+      "British Post Offices in the Turkish Empire",
+      "British Post Office Constantinople",
+      "British Post Office Beirut"
+    ],
+    "type": "agency",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1885,
+    "to": 1921,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "british-postal-agencies-eastern-arabia",
+    "name": "British Postal Agencies in Eastern Arabia",
+    "aliases": [
+      "B.P.A. Eastern Arabia",
+      "British Postal Agencies Persian Gulf"
+    ],
+    "type": "agency",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1948,
+    "to": 1966,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "bushire",
+    "name": "Bushire",
+    "aliases": [
+      "Bushire (British Occupation)",
+      "Bushehr"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1915,
+    "to": 1915,
+    "parent": "Great Britain",
+    "successor": "Iran",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "cilicia",
+    "name": "Cilicia",
+    "aliases": [
+      "Cilicie",
+      "French Occupation of Cilicia",
+      "Adana"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1919,
+    "to": 1921,
+    "parent": "France",
+    "successor": "Turkey",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "dubai",
+    "name": "Dubai",
+    "aliases": [
+      "Dubai Emirate",
+      "Dubayy"
+    ],
+    "type": "protectorate",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1963,
+    "to": 1972,
+    "parent": "Great Britain",
+    "successor": "United Arab Emirates",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "free-french-levant",
+    "name": "Free French Forces in the Levant",
+    "aliases": [
+      "Forces Françaises Libres Levant",
+      "Levant FFL",
+      "Free French Levant"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1942,
+    "to": 1942,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "french-levant",
+    "name": "French Levant",
+    "aliases": [
+      "French Post Offices in the Turkish Empire",
+      "Levant (bureaux français)",
+      "Bureaux français du Levant"
+    ],
+    "type": "agency",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1885,
+    "to": 1923,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "fujeira",
+    "name": "Fujeira",
+    "aliases": [
+      "Fujairah",
+      "Fudschaira"
+    ],
+    "type": "protectorate",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1964,
+    "to": 1972,
+    "parent": "Great Britain",
+    "successor": "United Arab Emirates",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "gaza-egyptian-occupation",
+    "name": "Gaza (Egyptian Occupation)",
+    "aliases": [
+      "Egyptian Occupation of Palestine",
+      "Palestine (Egyptian Occupation)",
+      "Gaza Strip"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1948,
+    "to": 1967,
+    "parent": "Egypt",
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "georgia",
+    "name": "Georgia",
+    "aliases": [
+      "Sakartvelo",
+      "საქართველო",
+      "Georgien",
+      "Géorgie"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1993,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Post-Soviet republic."
+  },
+  {
+    "id": "georgia-1919",
+    "name": "Georgia (1919-1923)",
+    "aliases": [
+      "Democratic Republic of Georgia",
+      "Georgian SSR",
+      "Sakartvelo 1919"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1919,
+    "to": 1923,
+    "parent": null,
+    "successor": "Transcaucasian Federation",
+    "catalog": "scott",
+    "notes": "Pre-Soviet and early Soviet issues."
+  },
+  {
+    "id": "german-levant",
+    "name": "German Levant",
+    "aliases": [
+      "German Post Offices in the Turkish Empire",
+      "Deutsche Post in der Türkei"
+    ],
+    "type": "agency",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1884,
+    "to": 1914,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "hatay",
+    "name": "Hatay",
+    "aliases": [
+      "Hatay State",
+      "Hatay Devleti"
+    ],
+    "type": "state",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1939,
+    "to": 1939,
+    "parent": null,
+    "successor": "Turkey",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "hejaz",
+    "name": "Hejaz",
+    "aliases": [
+      "Hedjaz",
+      "Hijaz",
+      "Kingdom of Hejaz"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1916,
+    "to": 1925,
+    "parent": null,
+    "successor": "Hejaz and Nejd",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "hejaz-and-nejd",
+    "name": "Hejaz and Nejd",
+    "aliases": [
+      "Hejaz-Nejd",
+      "Kingdom of Hejaz and Nejd",
+      "Hedjaz and Nedjde"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1926,
+    "to": 1932,
+    "parent": null,
+    "successor": "Saudi Arabia",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "iran",
+    "name": "Iran",
+    "aliases": [
+      "Persia",
+      "Perse",
+      "Persien",
+      "Islamic Republic of Iran",
+      "Iran (Persia)"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1868,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "iraq",
+    "name": "Iraq",
+    "aliases": [
+      "Kingdom of Iraq",
+      "Republic of Iraq",
+      "Iraq (British Occupation)",
+      "Irak",
+      "Mesopotamia"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1918,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "israel",
+    "name": "Israel",
+    "aliases": [
+      "State of Israel",
+      "Doar Ivri",
+      "Medinat Yisrael",
+      "ישראל"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1948,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "italian-levant",
+    "name": "Italian Levant",
+    "aliases": [
+      "Italian Post Offices in the Turkish Empire",
+      "Levante (uffici postali italiani)",
+      "Italian Post Office Constantinople"
+    ],
+    "type": "agency",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1908,
+    "to": 1923,
+    "parent": "Italy",
+    "successor": null,
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "jordan",
+    "name": "Jordan",
+    "aliases": [
+      "Transjordan",
+      "Trans-Jordan",
+      "Hashemite Kingdom of Jordan",
+      "East of the Jordan",
+      "Jordanie"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1920,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "jordanian-occupation-palestine",
+    "name": "Jordanian Occupation of Palestine",
+    "aliases": [
+      "Palestine (Jordanian Occupation)",
+      "Jordan overprinted Palestine",
+      "West Bank"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1948,
+    "to": 1949,
+    "parent": "Jordan",
+    "successor": "Jordan",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "kathiri-state-of-seiyun",
+    "name": "Kathiri State of Seiyun",
+    "aliases": [
+      "Seiyun",
+      "Kathiri",
+      "Aden - Kathiri State of Seiyun"
+    ],
+    "type": "protectorate",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1942,
+    "to": 1967,
+    "parent": "Great Britain",
+    "successor": "Yemen People's Democratic Republic",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "khor-fakkan",
+    "name": "Khor Fakkan",
+    "aliases": [
+      "Khor Fakkan (Sharjah dependency)",
+      "Khawr Fakkan"
+    ],
+    "type": "territory",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1965,
+    "to": 1972,
+    "parent": "Sharjah",
+    "successor": "United Arab Emirates",
+    "catalog": "stanley_gibbons",
+    "notes": "Dependency of Sharjah."
+  },
+  {
+    "id": "kuwait",
+    "name": "Kuwait",
+    "aliases": [
+      "State of Kuwait",
+      "Koweit",
+      "Kuwayt"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1923,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "latakia",
+    "name": "Latakia",
+    "aliases": [
+      "Lattaquié",
+      "Lattaquie",
+      "Government of Latakia"
+    ],
+    "type": "mandate",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1931,
+    "to": 1937,
+    "parent": "France",
+    "successor": "Syria",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "lebanon",
+    "name": "Lebanon",
+    "aliases": [
+      "Grand Liban",
+      "Greater Lebanon",
+      "Liban",
+      "Libanon",
+      "Lubnan",
+      "Lebanese Republic"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1924,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "long-island",
+    "name": "Long Island",
+    "aliases": [
+      "Chustan Island",
+      "Uzun Ada",
+      "Long Island (British Occupation)"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1916,
+    "to": 1916,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "British-occupied island off the Turkish coast near Smyrna."
+  },
+  {
+    "id": "mahra",
+    "name": "Mahra",
+    "aliases": [
+      "Mahra Sultanate of Qishn and Socotra",
+      "Qishn and Socotra",
+      "Mahra State"
+    ],
+    "type": "protectorate",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1967,
+    "to": 1967,
+    "parent": "Great Britain",
+    "successor": "Yemen People's Democratic Republic",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "manama",
+    "name": "Manama",
+    "aliases": [
+      "Manama (Ajman dependency)",
+      "Manamah"
+    ],
+    "type": "territory",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1966,
+    "to": 1972,
+    "parent": "Ajman",
+    "successor": "United Arab Emirates",
+    "catalog": "stanley_gibbons",
+    "notes": "Dependency of Ajman, not Bahrain's capital."
+  },
+  {
+    "id": "mosul",
+    "name": "Mosul",
+    "aliases": [
+      "Mosul (British Occupation)",
+      "Mossoul",
+      "I.E.F. 'D'"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1919,
+    "to": 1919,
+    "parent": "Great Britain",
+    "successor": "Iraq",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "nagorno-karabakh",
+    "name": "Nagorno-Karabakh",
+    "aliases": [
+      "Artsakh",
+      "Republic of Artsakh",
+      "Karabakh",
+      "Berg-Karabach"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1993,
+    "to": 2023,
+    "parent": null,
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "nakhichevan",
+    "name": "Nakhichevan",
+    "aliases": [
+      "Nakhchivan",
+      "Naxçıvan",
+      "Nakhichevan Autonomous Republic"
+    ],
+    "type": "state",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1993,
+    "to": 1993,
+    "parent": "Azerbaijan",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "nejd",
+    "name": "Nejd",
+    "aliases": [
+      "Nejdi Occupation of Hejaz",
+      "Najd",
+      "Sultanate of Nejd"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1925,
+    "to": 1926,
+    "parent": null,
+    "successor": "Hejaz and Nejd",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "oman",
+    "name": "Oman",
+    "aliases": [
+      "Muscat",
+      "Muscat and Oman",
+      "Sultanate of Oman"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1944,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Includes 1944-48 Muscat overprints on Indian stamps."
+  },
+  {
+    "id": "palestine",
+    "name": "Palestine",
+    "aliases": [
+      "British Mandate Palestine",
+      "E.E.F.",
+      "Palestine (British Occupation)",
+      "Mandatory Palestine"
+    ],
+    "type": "mandate",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1918,
+    "to": 1948,
+    "parent": "Great Britain",
+    "successor": "Israel",
+    "catalog": "stanley_gibbons",
+    "notes": "British military and mandate issues, 1918-1948."
+  },
+  {
+    "id": "palestinian-authority",
+    "name": "Palestinian Authority",
+    "aliases": [
+      "Palestinian National Authority",
+      "Palestine (PNA)",
+      "State of Palestine"
+    ],
+    "type": "territory",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1994,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "polish-post-constantinople",
+    "name": "Polish Post Office in Constantinople",
+    "aliases": [
+      "Polish Levant",
+      "Poczta Polska Konstantynopol",
+      "Polish Post Office in Turkey"
+    ],
+    "type": "agency",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1919,
+    "to": 1921,
+    "parent": "Poland",
+    "successor": null,
+    "catalog": "fischer",
+    "notes": null
+  },
+  {
+    "id": "qatar",
+    "name": "Qatar",
+    "aliases": [
+      "State of Qatar",
+      "Katar"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1957,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "quaiti-state",
+    "name": "Qu'aiti State in Hadhramaut",
+    "aliases": [
+      "Qu'aiti State of Shihr and Mukalla",
+      "Shihr and Mukalla",
+      "Hadhramaut",
+      "Quaiti",
+      "Aden - Qu'aiti State"
+    ],
+    "type": "protectorate",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1942,
+    "to": 1967,
+    "parent": "Great Britain",
+    "successor": "Yemen People's Democratic Republic",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "ras-al-khaima",
+    "name": "Ras al Khaima",
+    "aliases": [
+      "Ras al Khaimah",
+      "Ras al-Khaimah",
+      "RAK"
+    ],
+    "type": "protectorate",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1964,
+    "to": 1972,
+    "parent": "Great Britain",
+    "successor": "United Arab Emirates",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "romanian-levant",
+    "name": "Romanian Levant",
+    "aliases": [
+      "Romanian Post Offices in the Turkish Empire",
+      "Romanian Post Office Constantinople"
+    ],
+    "type": "agency",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1896,
+    "to": 1919,
+    "parent": "Romania",
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "rouad",
+    "name": "Rouad",
+    "aliases": [
+      "Ile Rouad",
+      "Arwad",
+      "Ruad"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1916,
+    "to": 1916,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "russian-levant",
+    "name": "Russian Levant",
+    "aliases": [
+      "Russian Post Offices in the Turkish Empire",
+      "ROPiT",
+      "Russian Post Office Constantinople",
+      "Russian Post Offices in the Levant"
+    ],
+    "type": "agency",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1863,
+    "to": 1914,
+    "parent": "Russia",
+    "successor": null,
+    "catalog": "zagorski",
+    "notes": null
+  },
+  {
+    "id": "saudi-arabia",
+    "name": "Saudi Arabia",
+    "aliases": [
+      "Kingdom of Saudi Arabia",
+      "Arabie Saoudite",
+      "Saudi-Arabien",
+      "KSA"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1932,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "sharjah",
+    "name": "Sharjah",
+    "aliases": [
+      "Sharjah and Dependencies",
+      "Schardscha",
+      "Sharqah"
+    ],
+    "type": "protectorate",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1963,
+    "to": 1972,
+    "parent": "Great Britain",
+    "successor": "United Arab Emirates",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "south-arabia",
+    "name": "South Arabia",
+    "aliases": [
+      "Federation of South Arabia",
+      "South Arabian Federation"
+    ],
+    "type": "protectorate",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1963,
+    "to": 1967,
+    "parent": "Great Britain",
+    "successor": "Yemen People's Democratic Republic",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "syria",
+    "name": "Syria",
+    "aliases": [
+      "Syrian Arab Republic",
+      "Syrie",
+      "Syrien",
+      "Sūriyā",
+      "O.M.F. Syrie",
+      "State of Syria"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1919,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Includes French mandate issues from 1919."
+  },
+  {
+    "id": "transcaucasian-federation",
+    "name": "Transcaucasian Federation",
+    "aliases": [
+      "Transcaucasian SFSR",
+      "ZSFSR",
+      "Transcaucasia",
+      "Transkaukasische Föderation"
+    ],
+    "type": "state",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1923,
+    "to": 1924,
+    "parent": null,
+    "successor": "Soviet Union",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "trucial-states",
+    "name": "Trucial States",
+    "aliases": [
+      "Trucial Oman",
+      "Trucial Coast"
+    ],
+    "type": "protectorate",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1961,
+    "to": 1961,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "turkey",
+    "name": "Turkey",
+    "aliases": [
+      "Ottoman Empire",
+      "Türkiye",
+      "Turkiye",
+      "Osmanli",
+      "Türkei",
+      "Turquie"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1863,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "turkey-in-asia",
+    "name": "Turkey in Asia",
+    "aliases": [
+      "Anatolia",
+      "Ankara Government",
+      "Angora",
+      "Turkish Nationalist Government"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1920,
+    "to": 1922,
+    "parent": null,
+    "successor": "Turkey",
+    "catalog": "scott",
+    "notes": "Issues of the Ankara nationalist government before the Republic."
+  },
+  {
+    "id": "turkish-cypriot-posts",
+    "name": "Turkish Cypriot Posts",
+    "aliases": [
+      "Turkish Republic of Northern Cyprus",
+      "Northern Cyprus",
+      "TRNC",
+      "Kibris Türk",
+      "Turkish Federated State of Cyprus",
+      "Cyprus Turkish"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1974,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "umm-al-qiwain",
+    "name": "Umm al Qiwain",
+    "aliases": [
+      "Umm al Quwain",
+      "Umm al-Qaiwain",
+      "Umm al Qaywayn"
+    ],
+    "type": "protectorate",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1964,
+    "to": 1972,
+    "parent": "Great Britain",
+    "successor": "United Arab Emirates",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "united-arab-emirates",
+    "name": "United Arab Emirates",
+    "aliases": [
+      "UAE",
+      "U.A.E.",
+      "Emirates"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1972,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "upper-yafa",
+    "name": "Upper Yafa",
+    "aliases": [
+      "Upper Yafa Sultanate",
+      "Yafa"
+    ],
+    "type": "protectorate",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1967,
+    "to": 1967,
+    "parent": "Great Britain",
+    "successor": "Yemen People's Democratic Republic",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "yemen",
+    "name": "Yemen",
+    "aliases": [
+      "Republic of Yemen",
+      "Yemen Republic",
+      "Unified Yemen",
+      "Jemen"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1990,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Unified republic from 1990."
+  },
+  {
+    "id": "yemen-kingdom",
+    "name": "Yemen (Mutawakkilite Kingdom)",
+    "aliases": [
+      "Kingdom of Yemen",
+      "Mutawakelite Kingdom",
+      "Yemen Royalist",
+      "Imamate of Yemen"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1926,
+    "to": 1970,
+    "parent": null,
+    "successor": "Yemen Arab Republic",
+    "catalog": "scott",
+    "notes": "Includes royalist issues after 1962."
+  },
+  {
+    "id": "yemen-arab-republic",
+    "name": "Yemen Arab Republic",
+    "aliases": [
+      "North Yemen",
+      "YAR",
+      "Y.A.R."
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1963,
+    "to": 1990,
+    "parent": null,
+    "successor": "Yemen",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "yemen-pdr",
+    "name": "Yemen People's Democratic Republic",
+    "aliases": [
+      "South Yemen",
+      "PDRY",
+      "People's Republic of Southern Yemen",
+      "Southern Yemen"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Middle East",
+    "from": 1968,
+    "to": 1990,
+    "parent": null,
+    "successor": "Yemen",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "afghanistan",
+    "name": "Afghanistan",
+    "aliases": [
+      "Afghan",
+      "Afghanistan (Kingdom)",
+      "Islamic Emirate of Afghanistan"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1871,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "alwar",
+    "name": "Alwar",
+    "aliases": [],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1877,
+    "to": 1902,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "bahawalpur",
+    "name": "Bahawalpur",
+    "aliases": [
+      "Bahawalpur State"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1945,
+    "to": 1949,
+    "parent": "Pakistan",
+    "successor": "Pakistan",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "bamra",
+    "name": "Bamra",
+    "aliases": [],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1888,
+    "to": 1894,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "bangladesh",
+    "name": "Bangladesh",
+    "aliases": [
+      "People's Republic of Bangladesh",
+      "East Pakistan"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1971,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "barwani",
+    "name": "Barwani",
+    "aliases": [],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1921,
+    "to": 1948,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "bhopal",
+    "name": "Bhopal",
+    "aliases": [],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1876,
+    "to": 1949,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "bhor",
+    "name": "Bhor",
+    "aliases": [],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1879,
+    "to": 1901,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "bhutan",
+    "name": "Bhutan",
+    "aliases": [
+      "Kingdom of Bhutan",
+      "Druk Yul"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1962,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "bijawar",
+    "name": "Bijawar",
+    "aliases": [],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1935,
+    "to": 1937,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "bundi",
+    "name": "Bundi",
+    "aliases": [],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1894,
+    "to": 1950,
+    "parent": "India",
+    "successor": "Rajasthan",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "bussahir",
+    "name": "Bussahir",
+    "aliases": [
+      "Bashahr"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1895,
+    "to": 1901,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "ceylon",
+    "name": "Ceylon",
+    "aliases": [
+      "Ceylan",
+      "Ceylon (British Colony)"
+    ],
+    "type": "colony",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1857,
+    "to": 1972,
+    "parent": "Great Britain",
+    "successor": "Sri Lanka",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "chamba",
+    "name": "Chamba",
+    "aliases": [],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1886,
+    "to": 1948,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Convention state (Indian stamps overprinted)."
+  },
+  {
+    "id": "charkhari",
+    "name": "Charkhari",
+    "aliases": [
+      "Charkari"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1894,
+    "to": 1943,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "china-expeditionary-force",
+    "name": "China Expeditionary Force",
+    "aliases": [
+      "C.E.F.",
+      "CEF",
+      "Indian China Expeditionary Force"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1900,
+    "to": 1921,
+    "parent": "India",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Indian stamps overprinted C.E.F. for use in China."
+  },
+  {
+    "id": "chinese-post-offices-tibet",
+    "name": "Chinese Post Offices in Tibet",
+    "aliases": [
+      "Tibet (Chinese Post Offices)",
+      "Chinese Post in Tibet"
+    ],
+    "type": "agency",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1911,
+    "to": 1911,
+    "parent": "China",
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "cochin",
+    "name": "Cochin",
+    "aliases": [
+      "Kochi"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1892,
+    "to": 1949,
+    "parent": "India",
+    "successor": "Travancore-Cochin",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "dhar",
+    "name": "Dhar",
+    "aliases": [],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1897,
+    "to": 1901,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "duttia",
+    "name": "Duttia",
+    "aliases": [
+      "Datia"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1893,
+    "to": 1920,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "faridkot",
+    "name": "Faridkot",
+    "aliases": [],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1879,
+    "to": 1901,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory issues 1879-86, then convention state overprints."
+  },
+  {
+    "id": "french-india",
+    "name": "French India",
+    "aliases": [
+      "Établissements français de l'Inde",
+      "Inde française",
+      "Pondicherry",
+      "Pondichéry"
+    ],
+    "type": "colony",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1892,
+    "to": 1954,
+    "parent": "France",
+    "successor": "India",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "gwalior",
+    "name": "Gwalior",
+    "aliases": [
+      "Scindia"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1885,
+    "to": 1949,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Convention state (Indian stamps overprinted)."
+  },
+  {
+    "id": "hyderabad",
+    "name": "Hyderabad",
+    "aliases": [
+      "Hyderabad (Deccan)",
+      "Deccan",
+      "Nizam's Dominions"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1869,
+    "to": 1950,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "idar",
+    "name": "Idar",
+    "aliases": [],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1939,
+    "to": 1944,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "india",
+    "name": "India",
+    "aliases": [
+      "British India",
+      "Republic of India",
+      "East India Company",
+      "Scinde Dawk",
+      "Bharat",
+      "Indian Empire"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1852,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "From the 1852 Scinde Dawk; British India to 1947."
+  },
+  {
+    "id": "indian-custodian-forces-korea",
+    "name": "Indian Custodian Forces in Korea",
+    "aliases": [
+      "Indian Custodian Unit Korea",
+      "Indian Forces in Korea"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1953,
+    "to": 1953,
+    "parent": "India",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "indian-expeditionary-forces",
+    "name": "Indian Expeditionary Forces",
+    "aliases": [
+      "I.E.F.",
+      "IEF",
+      "India Expeditionary Force"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1914,
+    "to": 1922,
+    "parent": "India",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "WWI Indian army overprints."
+  },
+  {
+    "id": "indian-forces-indochina",
+    "name": "Indian Forces in Indo-China",
+    "aliases": [
+      "International Commission in Indo-China",
+      "ICC Indo-China",
+      "Indian Forces Indochina"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1954,
+    "to": 1968,
+    "parent": "India",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "indian-un-force-congo",
+    "name": "Indian U.N. Force in Congo",
+    "aliases": [
+      "U.N. Force (India) Congo",
+      "Indian Forces Congo"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1962,
+    "to": 1962,
+    "parent": "India",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "indian-un-force-gaza",
+    "name": "Indian U.N. Force in Gaza",
+    "aliases": [
+      "UNEF India Gaza",
+      "Indian Forces Gaza"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1965,
+    "to": 1965,
+    "parent": "India",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "indore",
+    "name": "Indore",
+    "aliases": [
+      "Holkar",
+      "Holkar State"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1886,
+    "to": 1947,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "jaipur",
+    "name": "Jaipur",
+    "aliases": [
+      "Jeypore"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1904,
+    "to": 1949,
+    "parent": "India",
+    "successor": "Rajasthan",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "jammu-and-kashmir",
+    "name": "Jammu and Kashmir",
+    "aliases": [
+      "Jammu & Kashmir",
+      "Kashmir",
+      "Jammu"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1866,
+    "to": 1894,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "jasdan",
+    "name": "Jasdan",
+    "aliases": [],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1942,
+    "to": 1948,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "jhalawar",
+    "name": "Jhalawar",
+    "aliases": [],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1887,
+    "to": 1890,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "jind",
+    "name": "Jind",
+    "aliases": [
+      "Jhind",
+      "Jeend"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1874,
+    "to": 1948,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Convention state (Indian stamps overprinted)."
+  },
+  {
+    "id": "kishangarh",
+    "name": "Kishangarh",
+    "aliases": [],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1899,
+    "to": 1947,
+    "parent": "India",
+    "successor": "Rajasthan",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "las-bela",
+    "name": "Las Bela",
+    "aliases": [
+      "Las Bela State",
+      "Lasbela"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1897,
+    "to": 1907,
+    "parent": "India",
+    "successor": "Pakistan",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "maldives",
+    "name": "Maldives",
+    "aliases": [
+      "Maldive Islands",
+      "Republic of Maldives",
+      "Maldiven",
+      "Dhivehi Raajje"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1906,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "morvi",
+    "name": "Morvi",
+    "aliases": [
+      "Morbi"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1931,
+    "to": 1948,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "nabha",
+    "name": "Nabha",
+    "aliases": [],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1885,
+    "to": 1948,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Convention state (Indian stamps overprinted)."
+  },
+  {
+    "id": "nandgaon",
+    "name": "Nandgaon",
+    "aliases": [
+      "Rajnandgaon"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1892,
+    "to": 1895,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "nawanagar",
+    "name": "Nawanagar",
+    "aliases": [
+      "Nowanuggur",
+      "Jamnagar"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1877,
+    "to": 1895,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "nepal",
+    "name": "Nepal",
+    "aliases": [
+      "Nepal Kingdom",
+      "Federal Democratic Republic of Nepal"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1881,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "orchha",
+    "name": "Orchha",
+    "aliases": [
+      "Orcha"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1913,
+    "to": 1942,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "pakistan",
+    "name": "Pakistan",
+    "aliases": [
+      "Islamic Republic of Pakistan",
+      "Pakistan Post"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1947,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "patiala",
+    "name": "Patiala",
+    "aliases": [
+      "Puttialla"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1884,
+    "to": 1947,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Convention state (Indian stamps overprinted)."
+  },
+  {
+    "id": "poonch",
+    "name": "Poonch",
+    "aliases": [
+      "Punch"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1876,
+    "to": 1894,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "portuguese-india",
+    "name": "Portuguese India",
+    "aliases": [
+      "India Portuguesa",
+      "Goa",
+      "Estado da India",
+      "Damão",
+      "Diu"
+    ],
+    "type": "colony",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1871,
+    "to": 1962,
+    "parent": "Portugal",
+    "successor": "India",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "rajasthan",
+    "name": "Rajasthan",
+    "aliases": [
+      "United State of Rajasthan"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1949,
+    "to": 1950,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Union of Rajput states; overprints on Bundi, Jaipur and Kishangarh."
+  },
+  {
+    "id": "rajpeepla",
+    "name": "Rajpeepla",
+    "aliases": [
+      "Rajpipla"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1880,
+    "to": 1886,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "shahpura",
+    "name": "Shahpura",
+    "aliases": [],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1914,
+    "to": 1948,
+    "parent": "India",
+    "successor": "Rajasthan",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "sirmoor",
+    "name": "Sirmoor",
+    "aliases": [
+      "Sirmur"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1879,
+    "to": 1902,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "soruth",
+    "name": "Soruth",
+    "aliases": [
+      "Saurashtra",
+      "Junagadh",
+      "Junagarh",
+      "United State of Saurashtra"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1864,
+    "to": 1950,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "sri-lanka",
+    "name": "Sri Lanka",
+    "aliases": [
+      "Democratic Socialist Republic of Sri Lanka",
+      "Lanka"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1972,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "tibet",
+    "name": "Tibet",
+    "aliases": [
+      "Tibet (Independent)",
+      "Bod",
+      "Thibet"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1912,
+    "to": 1950,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Own issues 1912-1950 before Chinese annexation."
+  },
+  {
+    "id": "travancore",
+    "name": "Travancore",
+    "aliases": [
+      "Thiruvithamkur"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1888,
+    "to": 1947,
+    "parent": "India",
+    "successor": "Travancore-Cochin",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  },
+  {
+    "id": "travancore-cochin",
+    "name": "Travancore-Cochin",
+    "aliases": [
+      "United State of Travancore and Cochin"
+    ],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1949,
+    "to": 1951,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "wadhwan",
+    "name": "Wadhwan",
+    "aliases": [],
+    "type": "princely_state",
+    "region": "Asia",
+    "subregion": "South Asia",
+    "from": 1888,
+    "to": 1892,
+    "parent": "India",
+    "successor": "India",
+    "catalog": "stanley_gibbons",
+    "notes": "Feudatory state."
+  }
+]

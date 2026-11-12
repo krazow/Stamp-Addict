@@ -193,6 +193,8 @@ const ICONS = {
   trash: 'M5 7h14M10 11v6M14 11v6M7 7l1 13h8l1-13M9 7V4h6v3',
   chevron: 'M9 6l6 6-6 6',
   download: 'M12 4v11M7.5 10.5 12 15l4.5-4.5M5 20h14',
+  filter: 'M4 6h16M7 12h10M10 18h4',
+  globe: 'M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18',
 };
 export function icon(name, size = 22) {
   const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
@@ -205,4 +207,26 @@ export function icon(name, size = 22) {
   path.setAttribute('d', ICONS[name]);
   svg.append(path);
   return svg;
+}
+
+/**
+ * A drop-down list. options: [{ value, label, group? }]. Options with a
+ * group are shown under that heading. An empty first choice clears it.
+ */
+export function select(label, options, value, onChange, { placeholder = 'Not recorded', hint, allowEmpty = true } = {}) {
+  const id = `f${++fieldCount}`;
+  const el = h('select', { id, onchange: () => onChange(el.value || null) });
+  if (allowEmpty) el.append(h('option', { value: '' }, placeholder));
+  let group = null;
+  let groupName;
+  for (const o of options) {
+    if (o.group !== groupName) {
+      groupName = o.group;
+      group = o.group ? h('optgroup', { label: o.group }) : null;
+      if (group) el.append(group);
+    }
+    (group ?? el).append(h('option', { value: o.value }, o.label));
+  }
+  el.value = value ?? '';
+  return h('div', { class: 'field' }, label ? h('label', { for: id }, label) : null, h('div', { class: 'select-wrap' }, el), hint ? h('div', { class: 'hint' }, hint) : null);
 }

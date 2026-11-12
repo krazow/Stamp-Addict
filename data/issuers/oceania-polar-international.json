@@ -1,0 +1,1551 @@
+[
+  {
+    "id": "australia",
+    "name": "Australia",
+    "aliases": [
+      "Commonwealth of Australia"
+    ],
+    "type": "country",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1913,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "acsc",
+    "notes": null
+  },
+  {
+    "id": "new-south-wales",
+    "name": "New South Wales",
+    "aliases": [
+      "NSW"
+    ],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1850,
+    "to": 1913,
+    "parent": "Great Britain",
+    "successor": "Australia",
+    "catalog": "acsc",
+    "notes": null
+  },
+  {
+    "id": "queensland",
+    "name": "Queensland",
+    "aliases": [],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1860,
+    "to": 1913,
+    "parent": "Great Britain",
+    "successor": "Australia",
+    "catalog": "acsc",
+    "notes": null
+  },
+  {
+    "id": "south-australia",
+    "name": "South Australia",
+    "aliases": [],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1855,
+    "to": 1912,
+    "parent": "Great Britain",
+    "successor": "Australia",
+    "catalog": "acsc",
+    "notes": null
+  },
+  {
+    "id": "tasmania",
+    "name": "Tasmania",
+    "aliases": [
+      "Van Diemen's Land"
+    ],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1853,
+    "to": 1912,
+    "parent": "Great Britain",
+    "successor": "Australia",
+    "catalog": "acsc",
+    "notes": "Stamps inscribed Van Diemen's Land until 1858; inscribed Tasmania thereafter."
+  },
+  {
+    "id": "victoria",
+    "name": "Victoria",
+    "aliases": [],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1850,
+    "to": 1912,
+    "parent": "Great Britain",
+    "successor": "Australia",
+    "catalog": "acsc",
+    "notes": null
+  },
+  {
+    "id": "western-australia",
+    "name": "Western Australia",
+    "aliases": [
+      "WA"
+    ],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1854,
+    "to": 1912,
+    "parent": "Great Britain",
+    "successor": "Australia",
+    "catalog": "acsc",
+    "notes": null
+  },
+  {
+    "id": "bcof-japan",
+    "name": "B.C.O.F. Japan",
+    "aliases": [
+      "British Commonwealth Occupation Force",
+      "BCOF"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1946,
+    "to": 1949,
+    "parent": "Australia",
+    "successor": null,
+    "catalog": "acsc",
+    "notes": "Australian stamps overprinted for Commonwealth forces in occupied Japan."
+  },
+  {
+    "id": "australian-antarctic-territory",
+    "name": "Australian Antarctic Territory",
+    "aliases": [
+      "AAT"
+    ],
+    "type": "territory",
+    "region": "Polar",
+    "subregion": "Antarctic",
+    "from": 1957,
+    "to": null,
+    "parent": "Australia",
+    "successor": null,
+    "catalog": "acsc",
+    "notes": null
+  },
+  {
+    "id": "christmas-island",
+    "name": "Christmas Island",
+    "aliases": [
+      "Christmas Island (Indian Ocean)"
+    ],
+    "type": "territory",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1958,
+    "to": null,
+    "parent": "Australia",
+    "successor": null,
+    "catalog": "acsc",
+    "notes": "The Indian Ocean island, not Kiritimati in Kiribati."
+  },
+  {
+    "id": "cocos-keeling-islands",
+    "name": "Cocos (Keeling) Islands",
+    "aliases": [
+      "Cocos Islands",
+      "Keeling Islands"
+    ],
+    "type": "territory",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1963,
+    "to": null,
+    "parent": "Australia",
+    "successor": null,
+    "catalog": "acsc",
+    "notes": null
+  },
+  {
+    "id": "norfolk-island",
+    "name": "Norfolk Island",
+    "aliases": [],
+    "type": "territory",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1947,
+    "to": null,
+    "parent": "Australia",
+    "successor": null,
+    "catalog": "acsc",
+    "notes": null
+  },
+  {
+    "id": "nauru",
+    "name": "Nauru",
+    "aliases": [],
+    "type": "country",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1916,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Australian/British-administered mandate until independence in 1968."
+  },
+  {
+    "id": "british-new-guinea",
+    "name": "British New Guinea",
+    "aliases": [],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1901,
+    "to": 1906,
+    "parent": "Great Britain",
+    "successor": "Papua",
+    "catalog": "acsc",
+    "notes": null
+  },
+  {
+    "id": "papua",
+    "name": "Papua",
+    "aliases": [
+      "Territory of Papua"
+    ],
+    "type": "territory",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1906,
+    "to": 1942,
+    "parent": "Australia",
+    "successor": "Papua New Guinea",
+    "catalog": "acsc",
+    "notes": null
+  },
+  {
+    "id": "new-britain",
+    "name": "New Britain",
+    "aliases": [
+      "G.R.I. New Guinea",
+      "Australian Occupation of German New Guinea"
+    ],
+    "type": "occupation",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1914,
+    "to": 1915,
+    "parent": "Australia",
+    "successor": "North West Pacific Islands",
+    "catalog": "acsc",
+    "notes": "Australian G.R.I. overprints on captured German New Guinea and Marshall Islands stamps."
+  },
+  {
+    "id": "north-west-pacific-islands",
+    "name": "North West Pacific Islands",
+    "aliases": [
+      "N.W. Pacific Islands",
+      "NWPI"
+    ],
+    "type": "occupation",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1915,
+    "to": 1925,
+    "parent": "Australia",
+    "successor": "New Guinea",
+    "catalog": "acsc",
+    "notes": null
+  },
+  {
+    "id": "new-guinea",
+    "name": "New Guinea",
+    "aliases": [
+      "Territory of New Guinea",
+      "Mandated Territory of New Guinea"
+    ],
+    "type": "mandate",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1925,
+    "to": 1942,
+    "parent": "Australia",
+    "successor": "Papua New Guinea",
+    "catalog": "acsc",
+    "notes": null
+  },
+  {
+    "id": "papua-new-guinea",
+    "name": "Papua New Guinea",
+    "aliases": [
+      "Papua and New Guinea",
+      "PNG"
+    ],
+    "type": "country",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1952,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Administered by Australia until 1975."
+  },
+  {
+    "id": "netherlands-new-guinea",
+    "name": "Netherlands New Guinea",
+    "aliases": [
+      "Nederlands Nieuw-Guinea",
+      "Dutch New Guinea"
+    ],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1950,
+    "to": 1962,
+    "parent": "Netherlands",
+    "successor": "UNTEA",
+    "catalog": "nvph",
+    "notes": null
+  },
+  {
+    "id": "new-zealand",
+    "name": "New Zealand",
+    "aliases": [
+      "Aotearoa",
+      "NZ"
+    ],
+    "type": "country",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1855,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "cook-islands",
+    "name": "Cook Islands",
+    "aliases": [
+      "Rarotonga",
+      "Cook Islands Federation"
+    ],
+    "type": "territory",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1892,
+    "to": null,
+    "parent": "New Zealand",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Some issues 1919-1932 inscribed Rarotonga."
+  },
+  {
+    "id": "aitutaki",
+    "name": "Aitutaki",
+    "aliases": [],
+    "type": "territory",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1903,
+    "to": null,
+    "parent": "New Zealand",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Issues 1903-1932 and again from 1972."
+  },
+  {
+    "id": "penrhyn",
+    "name": "Penrhyn",
+    "aliases": [
+      "Penrhyn Island",
+      "Tongareva"
+    ],
+    "type": "territory",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1902,
+    "to": null,
+    "parent": "New Zealand",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Issues 1902-1932 and again from 1973."
+  },
+  {
+    "id": "niue",
+    "name": "Niue",
+    "aliases": [],
+    "type": "territory",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1902,
+    "to": null,
+    "parent": "New Zealand",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "tokelau",
+    "name": "Tokelau",
+    "aliases": [
+      "Tokelau Islands",
+      "Union Islands"
+    ],
+    "type": "territory",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1948,
+    "to": null,
+    "parent": "New Zealand",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "ross-dependency",
+    "name": "Ross Dependency",
+    "aliases": [],
+    "type": "territory",
+    "region": "Polar",
+    "subregion": "Antarctic",
+    "from": 1957,
+    "to": null,
+    "parent": "New Zealand",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "No issues 1987-1994."
+  },
+  {
+    "id": "king-edward-vii-land",
+    "name": "King Edward VII Land",
+    "aliases": [
+      "King Edward VII Land (Shackleton expedition)"
+    ],
+    "type": "territory",
+    "region": "Polar",
+    "subregion": "Antarctic",
+    "from": 1908,
+    "to": 1908,
+    "parent": "New Zealand",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "NZ stamp overprinted for Shackleton's Nimrod expedition."
+  },
+  {
+    "id": "victoria-land",
+    "name": "Victoria Land",
+    "aliases": [],
+    "type": "territory",
+    "region": "Polar",
+    "subregion": "Antarctic",
+    "from": 1911,
+    "to": 1912,
+    "parent": "New Zealand",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "NZ stamps overprinted for Scott's Terra Nova expedition."
+  },
+  {
+    "id": "samoa",
+    "name": "Samoa",
+    "aliases": [
+      "Western Samoa",
+      "Samoa i Sisifo",
+      "Independent State of Samoa"
+    ],
+    "type": "country",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1877,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Covers the kingdom issues, NZ administration (Western Samoa) and the independent state."
+  },
+  {
+    "id": "german-samoa",
+    "name": "German Samoa",
+    "aliases": [
+      "Samoa (German)",
+      "Deutsch-Samoa"
+    ],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1900,
+    "to": 1914,
+    "parent": "Germany",
+    "successor": "Samoa",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "fiji",
+    "name": "Fiji",
+    "aliases": [
+      "Fiji Islands"
+    ],
+    "type": "country",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1870,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "British colony 1874-1970."
+  },
+  {
+    "id": "tonga",
+    "name": "Tonga",
+    "aliases": [
+      "Friendly Islands",
+      "Kingdom of Tonga"
+    ],
+    "type": "country",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1886,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "niuafoou",
+    "name": "Niuafo'ou",
+    "aliases": [
+      "Tin Can Island",
+      "Niuafoou"
+    ],
+    "type": "territory",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1983,
+    "to": null,
+    "parent": "Tonga",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "solomon-islands",
+    "name": "Solomon Islands",
+    "aliases": [
+      "British Solomon Islands",
+      "British Solomon Islands Protectorate"
+    ],
+    "type": "country",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1907,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "British protectorate (British Solomon Islands) until 1975 and independent from 1978."
+  },
+  {
+    "id": "new-hebrides-british",
+    "name": "New Hebrides (British)",
+    "aliases": [
+      "New Hebrides",
+      "Anglo-French Condominium"
+    ],
+    "type": "other",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1908,
+    "to": 1980,
+    "parent": "Great Britain",
+    "successor": "Vanuatu",
+    "catalog": "stanley_gibbons",
+    "notes": "English-inscribed condominium issues."
+  },
+  {
+    "id": "new-hebrides-french",
+    "name": "New Hebrides (French)",
+    "aliases": [
+      "Nouvelles-Hebrides",
+      "New Hebrides"
+    ],
+    "type": "other",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1908,
+    "to": 1980,
+    "parent": "France",
+    "successor": "Vanuatu",
+    "catalog": "yvert_tellier",
+    "notes": "French-inscribed condominium issues."
+  },
+  {
+    "id": "vanuatu",
+    "name": "Vanuatu",
+    "aliases": [],
+    "type": "country",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1980,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "gilbert-and-ellice-islands",
+    "name": "Gilbert and Ellice Islands",
+    "aliases": [
+      "Gilbert & Ellice Islands Protectorate"
+    ],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1911,
+    "to": 1975,
+    "parent": "Great Britain",
+    "successor": "Gilbert Islands",
+    "catalog": "stanley_gibbons",
+    "notes": "Split in 1975-76 into the Gilbert Islands and Tuvalu."
+  },
+  {
+    "id": "gilbert-islands",
+    "name": "Gilbert Islands",
+    "aliases": [],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1976,
+    "to": 1979,
+    "parent": "Great Britain",
+    "successor": "Kiribati",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "kiribati",
+    "name": "Kiribati",
+    "aliases": [],
+    "type": "country",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1979,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "tuvalu",
+    "name": "Tuvalu",
+    "aliases": [
+      "Ellice Islands"
+    ],
+    "type": "country",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1976,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "tuvalu-funafuti",
+    "name": "Tuvalu - Funafuti",
+    "aliases": [
+      "Funafuti"
+    ],
+    "type": "local",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1984,
+    "to": 1988,
+    "parent": "Tuvalu",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "One of eight Tuvalu individual-island issues of the 1980s."
+  },
+  {
+    "id": "tuvalu-nanumaga",
+    "name": "Tuvalu - Nanumaga",
+    "aliases": [
+      "Nanumaga"
+    ],
+    "type": "local",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1984,
+    "to": 1988,
+    "parent": "Tuvalu",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "One of eight Tuvalu individual-island issues of the 1980s."
+  },
+  {
+    "id": "tuvalu-nanumea",
+    "name": "Tuvalu - Nanumea",
+    "aliases": [
+      "Nanumea"
+    ],
+    "type": "local",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1984,
+    "to": 1988,
+    "parent": "Tuvalu",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "One of eight Tuvalu individual-island issues of the 1980s."
+  },
+  {
+    "id": "tuvalu-niutao",
+    "name": "Tuvalu - Niutao",
+    "aliases": [
+      "Niutao"
+    ],
+    "type": "local",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1984,
+    "to": 1988,
+    "parent": "Tuvalu",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "One of eight Tuvalu individual-island issues of the 1980s."
+  },
+  {
+    "id": "tuvalu-nui",
+    "name": "Tuvalu - Nui",
+    "aliases": [
+      "Nui"
+    ],
+    "type": "local",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1984,
+    "to": 1988,
+    "parent": "Tuvalu",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "One of eight Tuvalu individual-island issues of the 1980s."
+  },
+  {
+    "id": "tuvalu-nukufetau",
+    "name": "Tuvalu - Nukufetau",
+    "aliases": [
+      "Nukufetau"
+    ],
+    "type": "local",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1984,
+    "to": 1988,
+    "parent": "Tuvalu",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "One of eight Tuvalu individual-island issues of the 1980s."
+  },
+  {
+    "id": "tuvalu-nukulaelae",
+    "name": "Tuvalu - Nukulaelae",
+    "aliases": [
+      "Nukulaelae"
+    ],
+    "type": "local",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1984,
+    "to": 1988,
+    "parent": "Tuvalu",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "One of eight Tuvalu individual-island issues of the 1980s."
+  },
+  {
+    "id": "tuvalu-vaitupu",
+    "name": "Tuvalu - Vaitupu",
+    "aliases": [
+      "Vaitupu"
+    ],
+    "type": "local",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1984,
+    "to": 1988,
+    "parent": "Tuvalu",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "One of eight Tuvalu individual-island issues of the 1980s."
+  },
+  {
+    "id": "pitcairn-islands",
+    "name": "Pitcairn Islands",
+    "aliases": [
+      "Pitcairn",
+      "Pitcairn Island"
+    ],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1940,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "tahiti",
+    "name": "Tahiti",
+    "aliases": [],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1882,
+    "to": 1915,
+    "parent": "France",
+    "successor": "French Oceania",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "french-oceania",
+    "name": "French Oceania",
+    "aliases": [
+      "French Oceanic Settlements",
+      "Etablissements Francais de l'Oceanie",
+      "EFO",
+      "Oceanie"
+    ],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1892,
+    "to": 1956,
+    "parent": "France",
+    "successor": "French Polynesia",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "french-polynesia",
+    "name": "French Polynesia",
+    "aliases": [
+      "Polynesie Francaise"
+    ],
+    "type": "territory",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1958,
+    "to": null,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "new-caledonia",
+    "name": "New Caledonia",
+    "aliases": [
+      "Nouvelle-Caledonie"
+    ],
+    "type": "territory",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1860,
+    "to": null,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "wallis-and-futuna",
+    "name": "Wallis and Futuna",
+    "aliases": [
+      "Wallis et Futuna",
+      "Wallis and Futuna Islands"
+    ],
+    "type": "territory",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1920,
+    "to": null,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "french-southern-antarctic-territories",
+    "name": "French Southern and Antarctic Territories",
+    "aliases": [
+      "TAAF",
+      "Terres Australes et Antarctiques Francaises",
+      "French Antarctic"
+    ],
+    "type": "territory",
+    "region": "Polar",
+    "subregion": "Antarctic",
+    "from": 1955,
+    "to": null,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "marshall-islands",
+    "name": "Marshall Islands",
+    "aliases": [
+      "Republic of the Marshall Islands"
+    ],
+    "type": "country",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1984,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "The modern republic, not the German colony."
+  },
+  {
+    "id": "micronesia",
+    "name": "Micronesia",
+    "aliases": [
+      "Federated States of Micronesia",
+      "FSM"
+    ],
+    "type": "country",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1984,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "palau",
+    "name": "Palau",
+    "aliases": [
+      "Belau",
+      "Republic of Palau"
+    ],
+    "type": "country",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1983,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "guam",
+    "name": "Guam",
+    "aliases": [],
+    "type": "territory",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1899,
+    "to": 1901,
+    "parent": "United States",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "US stamps overprinted GUAM; also 1930 Guard Mail locals."
+  },
+  {
+    "id": "hawaii",
+    "name": "Hawaii",
+    "aliases": [
+      "Hawaiian Islands",
+      "Kingdom of Hawaii",
+      "Sandwich Islands"
+    ],
+    "type": "country",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1851,
+    "to": 1899,
+    "parent": null,
+    "successor": "United States",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "caroline-islands",
+    "name": "Caroline Islands",
+    "aliases": [
+      "Karolinen",
+      "German Caroline Islands"
+    ],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1899,
+    "to": 1914,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "mariana-islands-german",
+    "name": "Mariana Islands (German)",
+    "aliases": [
+      "Marianen",
+      "German Mariana Islands"
+    ],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1899,
+    "to": 1914,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "mariana-islands-spanish",
+    "name": "Mariana Islands (Spanish)",
+    "aliases": [
+      "Marianas Espanolas",
+      "Spanish Marianas"
+    ],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1898,
+    "to": 1899,
+    "parent": "Spain",
+    "successor": "Mariana Islands (German)",
+    "catalog": "edifil",
+    "notes": "Philippine stamps overprinted MARIANAS ESPANOLAS."
+  },
+  {
+    "id": "marshall-islands-german",
+    "name": "Marshall Islands (German)",
+    "aliases": [
+      "Marshall-Inseln",
+      "German Marshall Islands"
+    ],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1897,
+    "to": 1916,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": "The German colony, not the modern republic."
+  },
+  {
+    "id": "german-new-guinea",
+    "name": "German New Guinea",
+    "aliases": [
+      "Deutsch-Neuguinea"
+    ],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1898,
+    "to": 1914,
+    "parent": "Germany",
+    "successor": "New Guinea",
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "falkland-islands",
+    "name": "Falkland Islands",
+    "aliases": [
+      "Falklands",
+      "Islas Malvinas"
+    ],
+    "type": "colony",
+    "region": "Atlantic",
+    "subregion": "Atlantic",
+    "from": 1878,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "falkland-islands-dependencies",
+    "name": "Falkland Islands Dependencies",
+    "aliases": [
+      "FID",
+      "Falkland Dependencies"
+    ],
+    "type": "territory",
+    "region": "Polar",
+    "subregion": "Antarctic",
+    "from": 1946,
+    "to": 1985,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "General issues 1946-1963 and 1980-1985."
+  },
+  {
+    "id": "graham-land",
+    "name": "Graham Land",
+    "aliases": [
+      "Falkland Islands Dependencies - Graham Land"
+    ],
+    "type": "territory",
+    "region": "Polar",
+    "subregion": "Antarctic",
+    "from": 1944,
+    "to": 1946,
+    "parent": "Great Britain",
+    "successor": "Falkland Islands Dependencies",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "south-orkneys",
+    "name": "South Orkneys",
+    "aliases": [
+      "South Orkney Islands"
+    ],
+    "type": "territory",
+    "region": "Polar",
+    "subregion": "Antarctic",
+    "from": 1944,
+    "to": 1946,
+    "parent": "Great Britain",
+    "successor": "Falkland Islands Dependencies",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "south-shetlands",
+    "name": "South Shetlands",
+    "aliases": [
+      "South Shetland Islands"
+    ],
+    "type": "territory",
+    "region": "Polar",
+    "subregion": "Antarctic",
+    "from": 1944,
+    "to": 1946,
+    "parent": "Great Britain",
+    "successor": "Falkland Islands Dependencies",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "south-georgia",
+    "name": "South Georgia",
+    "aliases": [],
+    "type": "territory",
+    "region": "Atlantic",
+    "subregion": "Atlantic",
+    "from": 1944,
+    "to": 1980,
+    "parent": "Great Britain",
+    "successor": "South Georgia and the South Sandwich Islands",
+    "catalog": "stanley_gibbons",
+    "notes": "1944-46 FID overprints and 1963-1980 own issues."
+  },
+  {
+    "id": "south-georgia-south-sandwich-islands",
+    "name": "South Georgia and the South Sandwich Islands",
+    "aliases": [
+      "SGSSI",
+      "South Georgia & South Sandwich"
+    ],
+    "type": "territory",
+    "region": "Atlantic",
+    "subregion": "Atlantic",
+    "from": 1986,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "british-antarctic-territory",
+    "name": "British Antarctic Territory",
+    "aliases": [
+      "BAT"
+    ],
+    "type": "territory",
+    "region": "Polar",
+    "subregion": "Antarctic",
+    "from": 1963,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "st-helena",
+    "name": "St Helena",
+    "aliases": [
+      "Saint Helena"
+    ],
+    "type": "colony",
+    "region": "Atlantic",
+    "subregion": "Atlantic",
+    "from": 1856,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "ascension",
+    "name": "Ascension",
+    "aliases": [
+      "Ascension Island"
+    ],
+    "type": "colony",
+    "region": "Atlantic",
+    "subregion": "Atlantic",
+    "from": 1922,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "tristan-da-cunha",
+    "name": "Tristan da Cunha",
+    "aliases": [],
+    "type": "colony",
+    "region": "Atlantic",
+    "subregion": "Atlantic",
+    "from": 1952,
+    "to": null,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "united-nations-new-york",
+    "name": "United Nations (New York)",
+    "aliases": [
+      "UN",
+      "United Nations",
+      "UNPA New York"
+    ],
+    "type": "agency",
+    "region": "International",
+    "subregion": "International",
+    "from": 1951,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "US-dollar issues of the UN Postal Administration."
+  },
+  {
+    "id": "united-nations-geneva",
+    "name": "United Nations (Geneva)",
+    "aliases": [
+      "Nations Unies Geneve",
+      "UN Geneva",
+      "Office des Nations Unies"
+    ],
+    "type": "agency",
+    "region": "International",
+    "subregion": "International",
+    "from": 1969,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Swiss-franc issues; earlier Swiss service stamps for the UN office in Geneva date from 1950."
+  },
+  {
+    "id": "united-nations-vienna",
+    "name": "United Nations (Vienna)",
+    "aliases": [
+      "Vereinte Nationen Wien",
+      "UN Vienna"
+    ],
+    "type": "agency",
+    "region": "International",
+    "subregion": "International",
+    "from": 1979,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "untea",
+    "name": "UNTEA",
+    "aliases": [
+      "United Nations Temporary Executive Authority",
+      "UN Temporary Executive Authority West New Guinea"
+    ],
+    "type": "agency",
+    "region": "International",
+    "subregion": "International",
+    "from": 1962,
+    "to": 1963,
+    "parent": null,
+    "successor": "West Irian",
+    "catalog": "scott",
+    "notes": "Netherlands New Guinea stamps overprinted for UN administration."
+  },
+  {
+    "id": "league-of-nations",
+    "name": "League of Nations",
+    "aliases": [
+      "Societe des Nations",
+      "SDN",
+      "Volkerbund"
+    ],
+    "type": "agency",
+    "region": "International",
+    "subregion": "International",
+    "from": 1922,
+    "to": 1944,
+    "parent": null,
+    "successor": "United Nations (Geneva)",
+    "catalog": "zumstein",
+    "notes": "Swiss stamps overprinted for official use."
+  },
+  {
+    "id": "international-labour-office",
+    "name": "International Labour Office",
+    "aliases": [
+      "Bureau International du Travail",
+      "BIT",
+      "ILO"
+    ],
+    "type": "agency",
+    "region": "International",
+    "subregion": "International",
+    "from": 1923,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": "Swiss service stamps."
+  },
+  {
+    "id": "international-bureau-of-education",
+    "name": "International Bureau of Education",
+    "aliases": [
+      "Bureau International d'Education",
+      "BIE",
+      "International Education Office"
+    ],
+    "type": "agency",
+    "region": "International",
+    "subregion": "International",
+    "from": 1944,
+    "to": 1960,
+    "parent": null,
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": "Swiss service stamps."
+  },
+  {
+    "id": "world-health-organization",
+    "name": "World Health Organization",
+    "aliases": [
+      "Organisation Mondiale de la Sante",
+      "OMS",
+      "WHO"
+    ],
+    "type": "agency",
+    "region": "International",
+    "subregion": "International",
+    "from": 1948,
+    "to": 1975,
+    "parent": null,
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": "Swiss service stamps."
+  },
+  {
+    "id": "international-refugee-organization",
+    "name": "International Refugee Organization",
+    "aliases": [
+      "Organisation Internationale pour les Refugies",
+      "IRO"
+    ],
+    "type": "agency",
+    "region": "International",
+    "subregion": "International",
+    "from": 1950,
+    "to": 1950,
+    "parent": null,
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": "Swiss service stamps."
+  },
+  {
+    "id": "world-meteorological-organization",
+    "name": "World Meteorological Organization",
+    "aliases": [
+      "Organisation Meteorologique Mondiale",
+      "OMM",
+      "WMO"
+    ],
+    "type": "agency",
+    "region": "International",
+    "subregion": "International",
+    "from": 1956,
+    "to": 1973,
+    "parent": null,
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": "Swiss service stamps."
+  },
+  {
+    "id": "universal-postal-union",
+    "name": "Universal Postal Union",
+    "aliases": [
+      "Union Postale Universelle",
+      "UPU"
+    ],
+    "type": "agency",
+    "region": "International",
+    "subregion": "International",
+    "from": 1957,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": "Swiss service stamps."
+  },
+  {
+    "id": "international-telecommunication-union",
+    "name": "International Telecommunication Union",
+    "aliases": [
+      "Union Internationale des Telecommunications",
+      "UIT",
+      "ITU"
+    ],
+    "type": "agency",
+    "region": "International",
+    "subregion": "International",
+    "from": 1958,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": "Swiss service stamps."
+  },
+  {
+    "id": "world-intellectual-property-organization",
+    "name": "World Intellectual Property Organization",
+    "aliases": [
+      "Organisation Mondiale de la Propriete Intellectuelle",
+      "OMPI",
+      "WIPO"
+    ],
+    "type": "agency",
+    "region": "International",
+    "subregion": "International",
+    "from": 1982,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "zumstein",
+    "notes": "Swiss service stamps."
+  },
+  {
+    "id": "international-court-of-justice",
+    "name": "International Court of Justice",
+    "aliases": [
+      "Cour Internationale de Justice",
+      "Cour Permanente de Justice Internationale",
+      "ICJ"
+    ],
+    "type": "agency",
+    "region": "International",
+    "subregion": "International",
+    "from": 1934,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "nvph",
+    "notes": "Dutch service stamps for the Court in The Hague."
+  },
+  {
+    "id": "unesco",
+    "name": "UNESCO",
+    "aliases": [
+      "United Nations Educational, Scientific and Cultural Organization"
+    ],
+    "type": "agency",
+    "region": "International",
+    "subregion": "International",
+    "from": 1961,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "French service stamps."
+  },
+  {
+    "id": "council-of-europe",
+    "name": "Council of Europe",
+    "aliases": [
+      "Conseil de l'Europe"
+    ],
+    "type": "agency",
+    "region": "International",
+    "subregion": "International",
+    "from": 1958,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "French service stamps for Strasbourg."
+  },
+  {
+    "id": "sovereign-military-order-of-malta",
+    "name": "Sovereign Military Order of Malta",
+    "aliases": [
+      "SMOM",
+      "Order of Malta",
+      "Sovrano Militare Ordine di Malta"
+    ],
+    "type": "other",
+    "region": "International",
+    "subregion": "International",
+    "from": 1966,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "sassone",
+    "notes": "Issues from the Order's Rome headquarters; not a UPU member."
+  }
+]

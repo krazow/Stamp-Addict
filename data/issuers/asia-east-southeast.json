@@ -1,0 +1,2036 @@
+[
+  {
+    "id": "china-empire",
+    "name": "China (Empire)",
+    "aliases": [
+      "Imperial China",
+      "Chinese Empire",
+      "Qing China",
+      "Large Dragons"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1878,
+    "to": 1912,
+    "parent": null,
+    "successor": "China (Republic)",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "china-republic",
+    "name": "China (Republic)",
+    "aliases": [
+      "Republic of China",
+      "Chinese Republic",
+      "Chung Hwa Min Kuo"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1912,
+    "to": 1949,
+    "parent": null,
+    "successor": "Taiwan",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "manchuria-kirin-heilungkiang",
+    "name": "Manchuria (Kirin and Heilungkiang)",
+    "aliases": [
+      "Kirin and Heilungkiang",
+      "Manchuria"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1927,
+    "to": 1929,
+    "parent": "China (Republic)",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Chinese Republic stamps overprinted for the Manchurian provinces."
+  },
+  {
+    "id": "northeastern-provinces",
+    "name": "Northeastern Provinces",
+    "aliases": [
+      "North Eastern Provinces",
+      "Manchuria (Northeastern Provinces)",
+      "Tung Pei"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1946,
+    "to": 1948,
+    "parent": "China (Republic)",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Nationalist issues for Manchuria after 1945."
+  },
+  {
+    "id": "sinkiang",
+    "name": "Sinkiang",
+    "aliases": [
+      "Xinjiang",
+      "Chinese Turkestan"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1915,
+    "to": 1949,
+    "parent": "China (Republic)",
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "szechwan",
+    "name": "Szechwan",
+    "aliases": [
+      "Sichuan"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1933,
+    "to": 1934,
+    "parent": "China (Republic)",
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "yunnan",
+    "name": "Yunnan",
+    "aliases": [
+      "Yunnan Province"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1926,
+    "to": 1934,
+    "parent": "China (Republic)",
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "taiwan-chinese-province",
+    "name": "Taiwan (Chinese Province)",
+    "aliases": [
+      "Formosa (Chinese Province)",
+      "Taiwan Province"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1945,
+    "to": 1949,
+    "parent": "China (Republic)",
+    "successor": "Taiwan",
+    "catalog": "scott",
+    "notes": "Provincial issues after Japanese rule ended, before the ROC government moved to Taiwan."
+  },
+  {
+    "id": "taiwan",
+    "name": "Taiwan",
+    "aliases": [
+      "Republic of China",
+      "ROC",
+      "Formosa",
+      "China (Taiwan)",
+      "Chunghwa Post"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1949,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "formosa-republic-1895",
+    "name": "Republic of Formosa",
+    "aliases": [
+      "Formosa (1895)",
+      "Taiwan Republic",
+      "Black Flag Republic"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1895,
+    "to": 1895,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Short-lived 1895 republic resisting Japanese annexation."
+  },
+  {
+    "id": "japanese-taiwan",
+    "name": "Japanese Taiwan",
+    "aliases": [
+      "Formosa (Japanese)",
+      "Taiwan (Japanese Colony)"
+    ],
+    "type": "colony",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1945,
+    "to": 1945,
+    "parent": "Japan",
+    "successor": null,
+    "catalog": "sakura",
+    "notes": "Locally printed issue of 1945; Japanese stamps were used before."
+  },
+  {
+    "id": "chinese-treaty-ports",
+    "name": "Chinese Treaty Port Local Posts",
+    "aliases": [
+      "Treaty Ports",
+      "Amoy",
+      "Chefoo",
+      "Chinkiang",
+      "Chungking",
+      "Foochow",
+      "Hankow",
+      "Kiukiang"
+    ],
+    "type": "local",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1893,
+    "to": 1897,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Grouped entry for municipal local posts of treaty ports other than Shanghai, incl. Ichang, Nanking, Wuhu."
+  },
+  {
+    "id": "shanghai",
+    "name": "Shanghai",
+    "aliases": [
+      "Shanghai Local Post",
+      "Shanghai Municipal Post",
+      "Shanghai Large Dragons"
+    ],
+    "type": "local",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1865,
+    "to": 1897,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Shanghai Municipal Council local post."
+  },
+  {
+    "id": "china-peoples-republic",
+    "name": "People's Republic of China",
+    "aliases": [
+      "PRC",
+      "China",
+      "China (PRC)",
+      "Communist China"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1949,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "china-liberated-northeast",
+    "name": "Northeast China (Liberated Area)",
+    "aliases": [
+      "North East China People's Post",
+      "Northeast China",
+      "Tung Pei Liberated Area"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1946,
+    "to": 1951,
+    "parent": null,
+    "successor": "People's Republic of China",
+    "catalog": "scott",
+    "notes": "Communist regional posts before nationwide PRC issues."
+  },
+  {
+    "id": "china-liberated-north",
+    "name": "North China (Liberated Area)",
+    "aliases": [
+      "North China People's Post",
+      "Shansi-Chahar-Hopeh",
+      "Shansi-Hopeh-Shantung-Honan"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1937,
+    "to": 1950,
+    "parent": null,
+    "successor": "People's Republic of China",
+    "catalog": "scott",
+    "notes": "Communist regional posts before nationwide PRC issues."
+  },
+  {
+    "id": "china-liberated-northwest",
+    "name": "Northwest China (Liberated Area)",
+    "aliases": [
+      "North West China People's Post",
+      "Shensi-Kansu-Ningsia"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1938,
+    "to": 1950,
+    "parent": null,
+    "successor": "People's Republic of China",
+    "catalog": "scott",
+    "notes": "Communist regional posts before nationwide PRC issues."
+  },
+  {
+    "id": "china-liberated-east",
+    "name": "East China (Liberated Area)",
+    "aliases": [
+      "East China People's Post",
+      "Shantung",
+      "Central Kiangsu"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1941,
+    "to": 1950,
+    "parent": null,
+    "successor": "People's Republic of China",
+    "catalog": "scott",
+    "notes": "Communist regional posts before nationwide PRC issues."
+  },
+  {
+    "id": "china-liberated-central",
+    "name": "Central China (Liberated Area)",
+    "aliases": [
+      "Central China People's Post",
+      "Honan-Hupeh-Anhwei"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1946,
+    "to": 1950,
+    "parent": null,
+    "successor": "People's Republic of China",
+    "catalog": "scott",
+    "notes": "Communist regional posts before nationwide PRC issues."
+  },
+  {
+    "id": "china-liberated-south",
+    "name": "South China (Liberated Area)",
+    "aliases": [
+      "South China People's Post",
+      "Kwangtung Liberated Area"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1949,
+    "to": 1950,
+    "parent": null,
+    "successor": "People's Republic of China",
+    "catalog": "scott",
+    "notes": "Communist regional posts before nationwide PRC issues."
+  },
+  {
+    "id": "china-liberated-southwest",
+    "name": "Southwest China (Liberated Area)",
+    "aliases": [
+      "South West China People's Post"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1949,
+    "to": 1950,
+    "parent": null,
+    "successor": "People's Republic of China",
+    "catalog": "scott",
+    "notes": "Communist regional posts before nationwide PRC issues."
+  },
+  {
+    "id": "port-arthur-dairen",
+    "name": "Port Arthur and Dairen",
+    "aliases": [
+      "Kwantung (Soviet Administration)",
+      "Lushun and Dalian",
+      "Port Arthur and Dalny"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1946,
+    "to": 1950,
+    "parent": null,
+    "successor": "People's Republic of China",
+    "catalog": "scott",
+    "notes": "Issues under Soviet-administered Kwantung Peninsula."
+  },
+  {
+    "id": "hong-kong",
+    "name": "Hong Kong",
+    "aliases": [
+      "HK",
+      "Hongkong",
+      "Hong Kong SAR"
+    ],
+    "type": "territory",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1862,
+    "to": null,
+    "parent": "People's Republic of China",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "British colony until 1997."
+  },
+  {
+    "id": "macau",
+    "name": "Macau",
+    "aliases": [
+      "Macao",
+      "Macau SAR"
+    ],
+    "type": "territory",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1884,
+    "to": null,
+    "parent": "People's Republic of China",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Portuguese colony until 1999."
+  },
+  {
+    "id": "kwangchowan",
+    "name": "Kwangchowan",
+    "aliases": [
+      "Kouang-Tcheou",
+      "Kouang-Tchéou-Wan",
+      "Guangzhouwan",
+      "Fort-Bayard"
+    ],
+    "type": "territory",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1906,
+    "to": 1943,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "French leased territory; Indochina stamps overprinted."
+  },
+  {
+    "id": "british-post-offices-china",
+    "name": "British Post Offices in China",
+    "aliases": [
+      "Hong Kong overprinted CHINA",
+      "British Offices in China",
+      "Wei-Hai-Wei",
+      "British Railway Administration China"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1917,
+    "to": 1930,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "china-expeditionary-force",
+    "name": "China Expeditionary Force",
+    "aliases": [
+      "C.E.F.",
+      "Indian Expeditionary Force China"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1900,
+    "to": 1923,
+    "parent": "India",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Indian stamps overprinted C.E.F. for troops in China."
+  },
+  {
+    "id": "french-post-offices-china",
+    "name": "French Offices in China",
+    "aliases": [
+      "Chine",
+      "French Post Offices in China",
+      "Tientsin (French Post Office)"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1894,
+    "to": 1922,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "General French issues overprinted CHINE."
+  },
+  {
+    "id": "canton-indochina-po",
+    "name": "Canton (French Office)",
+    "aliases": [
+      "Canton",
+      "Indochinese Post Office Canton"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1901,
+    "to": 1922,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "Indochina stamps overprinted for a French office in southern China."
+  },
+  {
+    "id": "hoi-hao-indochina-po",
+    "name": "Hoi Hao (French Office)",
+    "aliases": [
+      "Hoi-Hao",
+      "Hoihow",
+      "Haikou"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1901,
+    "to": 1922,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "Indochina stamps overprinted for a French office in southern China."
+  },
+  {
+    "id": "mong-tseu-indochina-po",
+    "name": "Mongtseu (French Office)",
+    "aliases": [
+      "Mong-Tseu",
+      "Mong-Tzeu",
+      "Mengzi"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1903,
+    "to": 1922,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "Indochina stamps overprinted for a French office in southern China."
+  },
+  {
+    "id": "pakhoi-indochina-po",
+    "name": "Pakhoi (French Office)",
+    "aliases": [
+      "Pakhoï",
+      "Beihai"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1903,
+    "to": 1922,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "Indochina stamps overprinted for a French office in southern China."
+  },
+  {
+    "id": "tchongking-indochina-po",
+    "name": "Tchongking (French Office)",
+    "aliases": [
+      "Tch'ong-K'ing",
+      "Chungking",
+      "Chongqing"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1902,
+    "to": 1922,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "Indochina stamps overprinted for a French office in southern China."
+  },
+  {
+    "id": "yunnanfu-indochina-po",
+    "name": "Yunnan Fou (French Office)",
+    "aliases": [
+      "Yunnanfu",
+      "Yunnan-Sen",
+      "Kunming"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1903,
+    "to": 1922,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "Indochina stamps overprinted for a French office in southern China."
+  },
+  {
+    "id": "german-post-offices-china",
+    "name": "German Offices in China",
+    "aliases": [
+      "Deutsche Post in China",
+      "German Post Offices in China",
+      "China (German Post Offices)"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1898,
+    "to": 1917,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "kiautschou",
+    "name": "Kiautschou",
+    "aliases": [
+      "Kiauchau",
+      "Kiaochow",
+      "Tsingtau",
+      "Jiaozhou Bay"
+    ],
+    "type": "territory",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1900,
+    "to": 1914,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": "German leased territory around Tsingtao."
+  },
+  {
+    "id": "italian-post-offices-china",
+    "name": "Italian Offices in China",
+    "aliases": [
+      "Pechino",
+      "Tientsin (Italian Post Office)",
+      "Italian Post Offices in China"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1917,
+    "to": 1922,
+    "parent": "Italy",
+    "successor": null,
+    "catalog": "sassone",
+    "notes": "Covers both Peking and Tientsin overprints."
+  },
+  {
+    "id": "japanese-post-offices-china",
+    "name": "Japanese Offices in China",
+    "aliases": [
+      "Japanese Post Offices in China",
+      "China (Japanese Post Offices)"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1900,
+    "to": 1922,
+    "parent": "Japan",
+    "successor": null,
+    "catalog": "sakura",
+    "notes": null
+  },
+  {
+    "id": "japanese-post-offices-korea",
+    "name": "Japanese Offices in Korea",
+    "aliases": [
+      "Japanese Post Offices in Korea",
+      "Korea (Japanese Post Offices)"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1900,
+    "to": 1901,
+    "parent": "Japan",
+    "successor": null,
+    "catalog": "sakura",
+    "notes": null
+  },
+  {
+    "id": "russian-post-offices-china",
+    "name": "Russian Offices in China",
+    "aliases": [
+      "Russian Post Offices in China",
+      "Kitai",
+      "China (Russian Post Offices)"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1899,
+    "to": 1920,
+    "parent": "Russia",
+    "successor": null,
+    "catalog": "zagorski",
+    "notes": null
+  },
+  {
+    "id": "us-postal-agency-shanghai",
+    "name": "United States Postal Agency in Shanghai",
+    "aliases": [
+      "US Offices in China",
+      "Shanghai (US Postal Agency)",
+      "U.S. Postal Agency China"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1919,
+    "to": 1922,
+    "parent": "United States",
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "foreign-post-offices-japan",
+    "name": "Foreign Offices in Japan",
+    "aliases": [
+      "British Post Offices in Japan",
+      "French Post Offices in Japan",
+      "US Post Offices in Japan",
+      "Yokohama"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1859,
+    "to": 1880,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Grouped entry for British, French and US offices in Japanese treaty ports using home-country stamps."
+  },
+  {
+    "id": "manchukuo",
+    "name": "Manchukuo",
+    "aliases": [
+      "Manchoukuo",
+      "Manchuria (Japanese)",
+      "Manzhouguo"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1932,
+    "to": 1945,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Japanese puppet state in Manchuria."
+  },
+  {
+    "id": "mengkiang",
+    "name": "Mengkiang (Japanese Occupation)",
+    "aliases": [
+      "Mengjiang",
+      "Inner Mongolia (Japanese Occupation)",
+      "Mengchiang"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1941,
+    "to": 1945,
+    "parent": "Japan",
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "north-china-japanese-occupation",
+    "name": "North China (Japanese Occupation)",
+    "aliases": [
+      "Hopei",
+      "Honan",
+      "Shansi",
+      "Shantung",
+      "Supeh",
+      "North China Political Council"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1941,
+    "to": 1945,
+    "parent": "Japan",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Includes the 1941 provincial overprints."
+  },
+  {
+    "id": "central-china-japanese-occupation",
+    "name": "Central China (Japanese Occupation)",
+    "aliases": [
+      "Nanking and Shanghai",
+      "Wang Jingwei regime",
+      "Central China"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1941,
+    "to": 1945,
+    "parent": "Japan",
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "kwangtung-japanese-occupation",
+    "name": "Kwangtung (Japanese Occupation)",
+    "aliases": [
+      "South China (Japanese Occupation)",
+      "Guangdong (Japanese Occupation)"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1942,
+    "to": 1945,
+    "parent": "Japan",
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "japan",
+    "name": "Japan",
+    "aliases": [
+      "Nippon",
+      "Nihon",
+      "Dai Nippon"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1871,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "sakura",
+    "notes": null
+  },
+  {
+    "id": "ryukyu-islands",
+    "name": "Ryukyu Islands",
+    "aliases": [
+      "Ryukyus",
+      "Okinawa",
+      "Luchu"
+    ],
+    "type": "territory",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1948,
+    "to": 1972,
+    "parent": "United States",
+    "successor": "Japan",
+    "catalog": "scott",
+    "notes": "US-administered; returned to Japan in 1972."
+  },
+  {
+    "id": "japan-bcof",
+    "name": "Japan (British Commonwealth Occupation Force)",
+    "aliases": [
+      "B.C.O.F. Japan",
+      "BCOF"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1946,
+    "to": 1949,
+    "parent": "Australia",
+    "successor": null,
+    "catalog": "acsc",
+    "notes": "Australian stamps overprinted for occupation forces."
+  },
+  {
+    "id": "korea-empire",
+    "name": "Korea (Empire)",
+    "aliases": [
+      "Korea",
+      "Chosen",
+      "Corea",
+      "Korean Empire",
+      "Daehan Empire"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1884,
+    "to": 1905,
+    "parent": null,
+    "successor": "Japan",
+    "catalog": "scott",
+    "notes": "Korean postal service merged into Japan's in 1905."
+  },
+  {
+    "id": "south-korea",
+    "name": "South Korea",
+    "aliases": [
+      "Korea",
+      "Republic of Korea",
+      "ROK",
+      "Korea (South)"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1946,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "north-korea",
+    "name": "North Korea",
+    "aliases": [
+      "Democratic People's Republic of Korea",
+      "DPRK",
+      "Korea (North)"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1946,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Includes Soviet occupation issues of 1946-48."
+  },
+  {
+    "id": "north-korean-occupation-south-korea",
+    "name": "North Korean Occupation of South Korea",
+    "aliases": [
+      "South Korea (North Korean Occupation)"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1950,
+    "to": 1950,
+    "parent": "North Korea",
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "korea-indian-custodian-force",
+    "name": "Korea (Indian Custodian Force)",
+    "aliases": [
+      "Indian Custodian Force Korea"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1953,
+    "to": 1953,
+    "parent": "India",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "mongolia",
+    "name": "Mongolia",
+    "aliases": [
+      "Mongolian People's Republic",
+      "Outer Mongolia",
+      "Mongol Shuudan"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1924,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "far-eastern-republic",
+    "name": "Far Eastern Republic",
+    "aliases": [
+      "Dalnevostochnaya Respublika",
+      "DVR",
+      "Chita Republic"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1920,
+    "to": 1922,
+    "parent": null,
+    "successor": "Russia",
+    "catalog": "zagorski",
+    "notes": null
+  },
+  {
+    "id": "priamur-maritime-provinces",
+    "name": "Priamur and Maritime Provinces",
+    "aliases": [
+      "Priamurye",
+      "Amur and Maritime Provinces",
+      "Vladivostok Provisional Government"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "East Asia",
+    "from": 1921,
+    "to": 1922,
+    "parent": null,
+    "successor": "Russia",
+    "catalog": "zagorski",
+    "notes": "White Russian government at Vladivostok."
+  },
+  {
+    "id": "philippines-spanish",
+    "name": "Philippines (Spanish)",
+    "aliases": [
+      "Spanish Philippines",
+      "Filipinas"
+    ],
+    "type": "colony",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1854,
+    "to": 1898,
+    "parent": "Spain",
+    "successor": "Philippines (US Administration)",
+    "catalog": "edifil",
+    "notes": null
+  },
+  {
+    "id": "philippines-revolutionary",
+    "name": "Philippines (Revolutionary Government)",
+    "aliases": [
+      "Aguinaldo issues",
+      "Philippine Republic 1898"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1898,
+    "to": 1899,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Issues of Aguinaldo's revolutionary government."
+  },
+  {
+    "id": "philippines-us",
+    "name": "Philippines (US Administration)",
+    "aliases": [
+      "US Philippines",
+      "Commonwealth of the Philippines",
+      "Philippine Islands"
+    ],
+    "type": "territory",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1899,
+    "to": 1946,
+    "parent": "United States",
+    "successor": "Philippines",
+    "catalog": "scott",
+    "notes": "Includes Commonwealth issues of 1935-46."
+  },
+  {
+    "id": "philippines-japanese-occupation",
+    "name": "Philippines (Japanese Occupation)",
+    "aliases": [
+      "Japanese Occupation of the Philippines"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1942,
+    "to": 1945,
+    "parent": "Japan",
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "philippines",
+    "name": "Philippines",
+    "aliases": [
+      "Republic of the Philippines",
+      "Pilipinas",
+      "Filipinas"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1946,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "netherlands-indies",
+    "name": "Netherlands Indies",
+    "aliases": [
+      "Dutch East Indies",
+      "Nederlandsch-Indie",
+      "Netherlands East Indies"
+    ],
+    "type": "colony",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1864,
+    "to": 1949,
+    "parent": "Netherlands",
+    "successor": "Indonesia",
+    "catalog": "nvph",
+    "notes": null
+  },
+  {
+    "id": "java-japanese-occupation",
+    "name": "Java (Japanese Occupation)",
+    "aliases": [
+      "Netherlands Indies (Japanese Occupation) Java"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1942,
+    "to": 1945,
+    "parent": "Japan",
+    "successor": null,
+    "catalog": "nvph",
+    "notes": null
+  },
+  {
+    "id": "sumatra-japanese-occupation",
+    "name": "Sumatra (Japanese Occupation)",
+    "aliases": [
+      "Netherlands Indies (Japanese Occupation) Sumatra"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1942,
+    "to": 1945,
+    "parent": "Japan",
+    "successor": null,
+    "catalog": "nvph",
+    "notes": null
+  },
+  {
+    "id": "japanese-naval-control-area",
+    "name": "Japanese Naval Control Area",
+    "aliases": [
+      "Netherlands Indies (Japanese Navy)",
+      "Celebes and Borneo (Japanese Occupation)",
+      "Eastern Indies (Japanese Occupation)"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1942,
+    "to": 1945,
+    "parent": "Japan",
+    "successor": null,
+    "catalog": "nvph",
+    "notes": "Navy-administered Borneo, Celebes, Moluccas and Lesser Sundas."
+  },
+  {
+    "id": "indonesia",
+    "name": "Indonesia",
+    "aliases": [
+      "Republic of Indonesia",
+      "Republik Indonesia",
+      "RIS",
+      "United States of Indonesia"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1945,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Includes 1945-49 revolutionary Republic issues."
+  },
+  {
+    "id": "riau",
+    "name": "RIAU",
+    "aliases": [
+      "Riau-Lingga Archipelago",
+      "Riouw"
+    ],
+    "type": "territory",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1954,
+    "to": 1965,
+    "parent": "Indonesia",
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Indonesian stamps overprinted for separate Riau currency zone."
+  },
+  {
+    "id": "netherlands-new-guinea",
+    "name": "Netherlands New Guinea",
+    "aliases": [
+      "Nederlands Nieuw-Guinea",
+      "Dutch New Guinea"
+    ],
+    "type": "colony",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1950,
+    "to": 1962,
+    "parent": "Netherlands",
+    "successor": "West New Guinea (UNTEA)",
+    "catalog": "nvph",
+    "notes": null
+  },
+  {
+    "id": "west-new-guinea-untea",
+    "name": "West New Guinea (UNTEA)",
+    "aliases": [
+      "UNTEA",
+      "United Nations Temporary Executive Authority",
+      "Western New Guinea"
+    ],
+    "type": "agency",
+    "region": "Oceania",
+    "subregion": "Oceania",
+    "from": 1962,
+    "to": 1963,
+    "parent": "United Nations",
+    "successor": "West Irian",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "west-irian",
+    "name": "West Irian",
+    "aliases": [
+      "Irian Barat",
+      "Irian Jaya",
+      "West Papua"
+    ],
+    "type": "territory",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1963,
+    "to": 1970,
+    "parent": "Indonesia",
+    "successor": "Indonesia",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "straits-settlements",
+    "name": "Straits Settlements",
+    "aliases": [
+      "Straits",
+      "SS"
+    ],
+    "type": "colony",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1867,
+    "to": 1942,
+    "parent": "Great Britain",
+    "successor": "Malaya (British Military Administration)",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "bangkok-british-po",
+    "name": "Bangkok (British Post Office)",
+    "aliases": [
+      "British Post Office in Siam",
+      "Straits overprinted B"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1882,
+    "to": 1885,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "federated-malay-states",
+    "name": "Federated Malay States",
+    "aliases": [
+      "FMS",
+      "F.M.S."
+    ],
+    "type": "protectorate",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1900,
+    "to": 1935,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "malayan-postal-union",
+    "name": "Malayan Postal Union",
+    "aliases": [
+      "Malayan Postal Union Postage Dues"
+    ],
+    "type": "agency",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1936,
+    "to": 1968,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Postage due stamps only."
+  },
+  {
+    "id": "malaya-japanese-occupation",
+    "name": "Malaya (Japanese Occupation)",
+    "aliases": [
+      "Malai",
+      "Syonan",
+      "Japanese Occupation of Malaya",
+      "Kelantan (Japanese Occupation)"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1942,
+    "to": 1945,
+    "parent": "Japan",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "malaya-thai-occupation",
+    "name": "Malaya (Thai Occupation)",
+    "aliases": [
+      "Thai Occupation of Malaya",
+      "Kedah Kelantan Perlis Trengganu (Thai)"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1943,
+    "to": 1945,
+    "parent": "Thailand",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "malaya-bma",
+    "name": "Malaya (British Military Administration)",
+    "aliases": [
+      "BMA Malaya",
+      "Malayan Union"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1945,
+    "to": 1948,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Straits stamps overprinted BMA; also used during the Malayan Union period."
+  },
+  {
+    "id": "malayan-federation",
+    "name": "Malayan Federation",
+    "aliases": [
+      "Federation of Malaya",
+      "Malaya"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1957,
+    "to": 1963,
+    "parent": null,
+    "successor": "Malaysia",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "malaysia",
+    "name": "Malaysia",
+    "aliases": [
+      "Federation of Malaysia"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1963,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "malaysia-federal-territory",
+    "name": "Malaysia (Federal Territory)",
+    "aliases": [
+      "Wilayah Persekutuan",
+      "Kuala Lumpur",
+      "Labuan Federal Territory",
+      "Putrajaya"
+    ],
+    "type": "territory",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1979,
+    "to": null,
+    "parent": "Malaysia",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "johore",
+    "name": "Johore",
+    "aliases": [
+      "Johor"
+    ],
+    "type": "state",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1876,
+    "to": null,
+    "parent": "Malaysia",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "kedah",
+    "name": "Kedah",
+    "aliases": [],
+    "type": "state",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1912,
+    "to": null,
+    "parent": "Malaysia",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "kelantan",
+    "name": "Kelantan",
+    "aliases": [],
+    "type": "state",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1911,
+    "to": null,
+    "parent": "Malaysia",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "malacca",
+    "name": "Malacca",
+    "aliases": [
+      "Melaka"
+    ],
+    "type": "state",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1948,
+    "to": null,
+    "parent": "Malaysia",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "negri-sembilan",
+    "name": "Negri Sembilan",
+    "aliases": [
+      "Negeri Sembilan"
+    ],
+    "type": "state",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1891,
+    "to": null,
+    "parent": "Malaysia",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "pahang",
+    "name": "Pahang",
+    "aliases": [],
+    "type": "state",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1889,
+    "to": null,
+    "parent": "Malaysia",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "penang",
+    "name": "Penang",
+    "aliases": [
+      "Pulau Pinang",
+      "Prince of Wales Island"
+    ],
+    "type": "state",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1948,
+    "to": null,
+    "parent": "Malaysia",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "perak",
+    "name": "Perak",
+    "aliases": [],
+    "type": "state",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1878,
+    "to": null,
+    "parent": "Malaysia",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "perlis",
+    "name": "Perlis",
+    "aliases": [],
+    "type": "state",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1948,
+    "to": null,
+    "parent": "Malaysia",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "selangor",
+    "name": "Selangor",
+    "aliases": [],
+    "type": "state",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1881,
+    "to": null,
+    "parent": "Malaysia",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "trengganu",
+    "name": "Trengganu",
+    "aliases": [
+      "Terengganu"
+    ],
+    "type": "state",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1910,
+    "to": null,
+    "parent": "Malaysia",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "sungei-ujong",
+    "name": "Sungei Ujong",
+    "aliases": [
+      "Sungai Ujong"
+    ],
+    "type": "state",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1878,
+    "to": 1895,
+    "parent": "Great Britain",
+    "successor": "Negri Sembilan",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "labuan",
+    "name": "Labuan",
+    "aliases": [],
+    "type": "colony",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1879,
+    "to": 1906,
+    "parent": "Great Britain",
+    "successor": "Straits Settlements",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "north-borneo",
+    "name": "North Borneo",
+    "aliases": [
+      "British North Borneo",
+      "State of North Borneo"
+    ],
+    "type": "protectorate",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1883,
+    "to": 1963,
+    "parent": "Great Britain",
+    "successor": "Sabah",
+    "catalog": "stanley_gibbons",
+    "notes": "Includes BMA overprints of 1945 and crown colony issues."
+  },
+  {
+    "id": "north-borneo-japanese-occupation",
+    "name": "North Borneo (Japanese Occupation)",
+    "aliases": [
+      "Kita Boruneo"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1942,
+    "to": 1945,
+    "parent": "Japan",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "sabah",
+    "name": "Sabah",
+    "aliases": [],
+    "type": "state",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1964,
+    "to": null,
+    "parent": "Malaysia",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "sarawak",
+    "name": "Sarawak",
+    "aliases": [
+      "Brooke Sarawak"
+    ],
+    "type": "state",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1869,
+    "to": null,
+    "parent": "Malaysia",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Brooke raj, then British colony 1946-63, then Malaysian state."
+  },
+  {
+    "id": "sarawak-japanese-occupation",
+    "name": "Sarawak (Japanese Occupation)",
+    "aliases": [],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1942,
+    "to": 1945,
+    "parent": "Japan",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "brunei",
+    "name": "Brunei",
+    "aliases": [
+      "Brunei Darussalam"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1895,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "brunei-japanese-occupation",
+    "name": "Brunei (Japanese Occupation)",
+    "aliases": [],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1942,
+    "to": 1945,
+    "parent": "Japan",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "singapore",
+    "name": "Singapore",
+    "aliases": [
+      "Republic of Singapore"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1948,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Crown colony issues from 1948, then State and Republic."
+  },
+  {
+    "id": "thailand",
+    "name": "Thailand",
+    "aliases": [
+      "Siam",
+      "Prathet Thai",
+      "Muang Thai"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1883,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "burma",
+    "name": "Burma",
+    "aliases": [
+      "Myanmar",
+      "Union of Burma"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1937,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Separated from India 1937; Myanmar from 1989."
+  },
+  {
+    "id": "burma-japanese-occupation",
+    "name": "Burma (Japanese Occupation)",
+    "aliases": [
+      "Burma State",
+      "Shan States (Japanese Occupation)"
+    ],
+    "type": "occupation",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1942,
+    "to": 1945,
+    "parent": "Japan",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "cochin-china",
+    "name": "Cochin China",
+    "aliases": [
+      "Cochinchine",
+      "Cochin-China"
+    ],
+    "type": "colony",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1886,
+    "to": 1888,
+    "parent": "France",
+    "successor": "French Indochina",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "annam-tonkin",
+    "name": "Annam and Tonkin",
+    "aliases": [
+      "Annam et Tonkin",
+      "Annam",
+      "Tonkin"
+    ],
+    "type": "protectorate",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1888,
+    "to": 1888,
+    "parent": "France",
+    "successor": "French Indochina",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "french-indochina",
+    "name": "French Indochina",
+    "aliases": [
+      "Indo-China",
+      "Indochine",
+      "Indochine Française"
+    ],
+    "type": "colony",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1889,
+    "to": 1949,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "vietnam-north",
+    "name": "North Vietnam",
+    "aliases": [
+      "Democratic Republic of Vietnam",
+      "Viet Nam Dan Chu Cong Hoa",
+      "Vietnam (Democratic Republic)"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1946,
+    "to": 1976,
+    "parent": null,
+    "successor": "Vietnam",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "vietnam-south",
+    "name": "South Vietnam",
+    "aliases": [
+      "Republic of Vietnam",
+      "State of Vietnam",
+      "Viet-Nam Cong Hoa",
+      "Associated State of Vietnam"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1951,
+    "to": 1975,
+    "parent": null,
+    "successor": "Vietnam",
+    "catalog": "scott",
+    "notes": "Includes State of Vietnam (Bao Dai) issues from 1951."
+  },
+  {
+    "id": "vietnam-nlf",
+    "name": "National Front for the Liberation of South Vietnam",
+    "aliases": [
+      "Viet Cong",
+      "NFLSV",
+      "Provisional Revolutionary Government"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1963,
+    "to": 1976,
+    "parent": null,
+    "successor": "Vietnam",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "vietnam",
+    "name": "Vietnam",
+    "aliases": [
+      "Socialist Republic of Vietnam",
+      "Viet Nam"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1976,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "laos",
+    "name": "Laos",
+    "aliases": [
+      "Lao PDR",
+      "Kingdom of Laos"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1951,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "cambodia",
+    "name": "Cambodia",
+    "aliases": [
+      "Kampuchea",
+      "Khmer Republic",
+      "Cambodge"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1951,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "indochina-indian-forces",
+    "name": "Indochina (Indian Forces)",
+    "aliases": [
+      "International Commission in Indo-China",
+      "ICC Indo-China"
+    ],
+    "type": "other",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1954,
+    "to": 1968,
+    "parent": "India",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Indian stamps overprinted for truce commission troops in Laos, Cambodia, Vietnam."
+  },
+  {
+    "id": "portuguese-timor",
+    "name": "Portuguese Timor",
+    "aliases": [
+      "Timor"
+    ],
+    "type": "colony",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 1885,
+    "to": 1975,
+    "parent": "Portugal",
+    "successor": "Timor-Leste",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "timor-leste",
+    "name": "Timor-Leste",
+    "aliases": [
+      "East Timor",
+      "Timor Lorosae",
+      "UNTAET"
+    ],
+    "type": "country",
+    "region": "Asia",
+    "subregion": "Southeast Asia",
+    "from": 2000,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Includes UNTAET issues of 2000-02."
+  }
+]

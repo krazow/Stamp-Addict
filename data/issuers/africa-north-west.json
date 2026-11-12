@@ -1,0 +1,1421 @@
+[
+  {
+    "id": "egypt",
+    "name": "Egypt",
+    "aliases": [
+      "United Arab Republic",
+      "UAR",
+      "Arab Republic of Egypt",
+      "Misr"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1866,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "suez-canal-company",
+    "name": "Suez Canal Company",
+    "aliases": [
+      "Canal Maritime de Suez",
+      "Suez Canal"
+    ],
+    "type": "local",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1868,
+    "to": 1868,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "Company local post between Port Said and Suez."
+  },
+  {
+    "id": "british-forces-in-egypt",
+    "name": "British Forces in Egypt",
+    "aliases": [
+      "Egypt British Forces",
+      "British Military Post Egypt"
+    ],
+    "type": "other",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1932,
+    "to": 1943,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "Concessionary letter stamps for British troops."
+  },
+  {
+    "id": "french-po-alexandria",
+    "name": "Alexandria (French Post Office)",
+    "aliases": [
+      "Alexandrie",
+      "French Offices in Egypt"
+    ],
+    "type": "agency",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1899,
+    "to": 1931,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "french-po-port-said",
+    "name": "Port Said (French Post Office)",
+    "aliases": [
+      "Port-Saïd",
+      "French Offices in Egypt"
+    ],
+    "type": "agency",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1899,
+    "to": 1931,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "sudan",
+    "name": "Sudan",
+    "aliases": [
+      "Anglo-Egyptian Sudan",
+      "Soudan"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1897,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "italian-libya",
+    "name": "Libia (Italian Colony)",
+    "aliases": [
+      "Italian Libya",
+      "Libia",
+      "Libya (Italian)"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1912,
+    "to": 1941,
+    "parent": "Italy",
+    "successor": "Libya",
+    "catalog": "sassone",
+    "notes": "Italian colonial issues before British/French occupation."
+  },
+  {
+    "id": "libya",
+    "name": "Libya",
+    "aliases": [
+      "United Kingdom of Libya",
+      "Libyan Arab Republic",
+      "Libyan Arab Jamahiriya",
+      "Libye"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1951,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Independent Libya from 1951."
+  },
+  {
+    "id": "cyrenaica",
+    "name": "Cyrenaica",
+    "aliases": [
+      "Cirenaica",
+      "Barca"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1923,
+    "to": 1951,
+    "parent": "Italy",
+    "successor": "Libya",
+    "catalog": "sassone",
+    "notes": "Italian colonial issues 1923-1935 and Emirate issues 1950."
+  },
+  {
+    "id": "tripolitania",
+    "name": "Tripolitania",
+    "aliases": [
+      "Tripolitania (Italian)"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1923,
+    "to": 1935,
+    "parent": "Italy",
+    "successor": "Libia (Italian Colony)",
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "italian-po-tripoli",
+    "name": "Tripoli (Italian Post Office)",
+    "aliases": [
+      "Tripoli di Barberia",
+      "Italian Offices in Tripoli"
+    ],
+    "type": "agency",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1909,
+    "to": 1915,
+    "parent": "Italy",
+    "successor": null,
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "italian-po-benghazi",
+    "name": "Benghazi (Italian Post Office)",
+    "aliases": [
+      "Bengasi",
+      "Italian Offices in Benghazi"
+    ],
+    "type": "agency",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1901,
+    "to": 1912,
+    "parent": "Italy",
+    "successor": null,
+    "catalog": "sassone",
+    "notes": null
+  },
+  {
+    "id": "middle-east-forces",
+    "name": "Middle East Forces",
+    "aliases": [
+      "MEF",
+      "British Occupation of Italian Colonies"
+    ],
+    "type": "occupation",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1942,
+    "to": 1950,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "M.E.F. overprints used in Cyrenaica, Tripolitania, Eritrea and Somalia."
+  },
+  {
+    "id": "british-occupation-tripolitania",
+    "name": "Tripolitania (British Occupation)",
+    "aliases": [
+      "B.M.A. Tripolitania",
+      "B.A. Tripolitania",
+      "British Military Administration Tripolitania"
+    ],
+    "type": "occupation",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1948,
+    "to": 1951,
+    "parent": "Great Britain",
+    "successor": "Libya",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "fezzan",
+    "name": "Fezzan",
+    "aliases": [
+      "Fezzan-Ghadames",
+      "Fezzan and Ghadames",
+      "Ghadames",
+      "French Occupation of Fezzan"
+    ],
+    "type": "occupation",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1943,
+    "to": 1951,
+    "parent": "France",
+    "successor": "Libya",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "tunisia",
+    "name": "Tunisia",
+    "aliases": [
+      "Tunisie",
+      "Tunis"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1888,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "algeria",
+    "name": "Algeria",
+    "aliases": [
+      "Algérie",
+      "French Algeria"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1924,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "French Algeria 1924-1958, independent from 1962."
+  },
+  {
+    "id": "morocco",
+    "name": "Morocco",
+    "aliases": [
+      "Kingdom of Morocco",
+      "Maroc"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1956,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "morocco-northern-zone",
+    "name": "Morocco Northern Zone",
+    "aliases": [
+      "Northern Zone Morocco",
+      "Zona Norte"
+    ],
+    "type": "other",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1956,
+    "to": 1958,
+    "parent": null,
+    "successor": "Morocco",
+    "catalog": "scott",
+    "notes": "Moroccan issues for the former Spanish zone."
+  },
+  {
+    "id": "morocco-southern-zone",
+    "name": "Morocco Southern Zone",
+    "aliases": [
+      "Southern Zone Morocco"
+    ],
+    "type": "other",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1956,
+    "to": 1958,
+    "parent": null,
+    "successor": "Morocco",
+    "catalog": "scott",
+    "notes": "Moroccan issues for the former French zone."
+  },
+  {
+    "id": "sherifian-post",
+    "name": "Sherifian Post",
+    "aliases": [
+      "Moroccan Sherifian Post",
+      "Postes Chérifiennes",
+      "Cherifian Posts"
+    ],
+    "type": "other",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1912,
+    "to": 1919,
+    "parent": null,
+    "successor": "French Morocco",
+    "catalog": "yvert_tellier",
+    "notes": "Sultan's own postal service."
+  },
+  {
+    "id": "morocco-local-posts",
+    "name": "Morocco Local Posts",
+    "aliases": [
+      "Postes Locales du Maroc",
+      "Moroccan Local Posts"
+    ],
+    "type": "local",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1891,
+    "to": 1900,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "Private courier posts between Moroccan towns."
+  },
+  {
+    "id": "french-morocco",
+    "name": "French Morocco",
+    "aliases": [
+      "Maroc",
+      "French Post Offices in Morocco",
+      "French Protectorate of Morocco"
+    ],
+    "type": "protectorate",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1891,
+    "to": 1956,
+    "parent": "France",
+    "successor": "Morocco",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "spanish-morocco",
+    "name": "Spanish Morocco",
+    "aliases": [
+      "Marruecos",
+      "Spanish Post Offices in Morocco",
+      "Spanish Protectorate of Morocco"
+    ],
+    "type": "protectorate",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1903,
+    "to": 1956,
+    "parent": "Spain",
+    "successor": "Morocco",
+    "catalog": "edifil",
+    "notes": null
+  },
+  {
+    "id": "morocco-agencies",
+    "name": "Morocco Agencies",
+    "aliases": [
+      "British Post Offices in Morocco"
+    ],
+    "type": "agency",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1898,
+    "to": 1957,
+    "parent": "Great Britain",
+    "successor": "Morocco",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "german-po-morocco",
+    "name": "German Post Offices in Morocco",
+    "aliases": [
+      "Deutsche Post in Marokko",
+      "Marocco"
+    ],
+    "type": "agency",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1899,
+    "to": 1919,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "tangier-british",
+    "name": "Tangier (British Post Office)",
+    "aliases": [
+      "Tangier",
+      "Morocco Agencies Tangier"
+    ],
+    "type": "agency",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1927,
+    "to": 1957,
+    "parent": "Great Britain",
+    "successor": "Morocco",
+    "catalog": "stanley_gibbons",
+    "notes": "British Morocco Agencies stamps overprinted Tangier."
+  },
+  {
+    "id": "tangier-french",
+    "name": "Tangier (French Post Office)",
+    "aliases": [
+      "Tanger",
+      "French Tangier"
+    ],
+    "type": "agency",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1918,
+    "to": 1942,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "tangier-spanish",
+    "name": "Tangier (Spanish Post Office)",
+    "aliases": [
+      "Tánger",
+      "Spanish Tangier"
+    ],
+    "type": "agency",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1921,
+    "to": 1957,
+    "parent": "Spain",
+    "successor": "Morocco",
+    "catalog": "edifil",
+    "notes": null
+  },
+  {
+    "id": "tetuan",
+    "name": "Tetuan",
+    "aliases": [
+      "Tetuán",
+      "Tetouan",
+      "Spanish Post Office Tetuan"
+    ],
+    "type": "local",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1908,
+    "to": 1909,
+    "parent": "Spain",
+    "successor": null,
+    "catalog": "edifil",
+    "notes": null
+  },
+  {
+    "id": "cape-juby",
+    "name": "Cape Juby",
+    "aliases": [
+      "Cabo Juby",
+      "Tarfaya"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1916,
+    "to": 1950,
+    "parent": "Spain",
+    "successor": "Morocco",
+    "catalog": "edifil",
+    "notes": null
+  },
+  {
+    "id": "ifni",
+    "name": "Ifni",
+    "aliases": [
+      "Sidi Ifni"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1941,
+    "to": 1969,
+    "parent": "Spain",
+    "successor": "Morocco",
+    "catalog": "edifil",
+    "notes": null
+  },
+  {
+    "id": "la-aguera",
+    "name": "La Agüera",
+    "aliases": [
+      "La Aguera"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1920,
+    "to": 1924,
+    "parent": "Spain",
+    "successor": "Spanish Sahara",
+    "catalog": "edifil",
+    "notes": null
+  },
+  {
+    "id": "rio-de-oro",
+    "name": "Río de Oro",
+    "aliases": [
+      "Rio de Oro"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1905,
+    "to": 1924,
+    "parent": "Spain",
+    "successor": "Spanish Sahara",
+    "catalog": "edifil",
+    "notes": null
+  },
+  {
+    "id": "spanish-sahara",
+    "name": "Spanish Sahara",
+    "aliases": [
+      "Sahara Español",
+      "Spanish Western Sahara",
+      "Sahara Occidental"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1924,
+    "to": 1975,
+    "parent": "Spain",
+    "successor": null,
+    "catalog": "edifil",
+    "notes": null
+  },
+  {
+    "id": "spanish-west-africa",
+    "name": "Spanish West Africa",
+    "aliases": [
+      "África Occidental Española"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "North Africa",
+    "from": 1949,
+    "to": 1951,
+    "parent": "Spain",
+    "successor": null,
+    "catalog": "edifil",
+    "notes": "General issue for Ifni and Spanish Sahara."
+  },
+  {
+    "id": "mauritania",
+    "name": "Mauritania",
+    "aliases": [
+      "Mauritanie",
+      "Islamic Republic of Mauritania"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1906,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "French colony 1906-1944, republic from 1960."
+  },
+  {
+    "id": "senegal",
+    "name": "Senegal",
+    "aliases": [
+      "Sénégal"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1887,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "French colony 1887-1944, republic from 1960."
+  },
+  {
+    "id": "senegambia-and-niger",
+    "name": "Senegambia and Niger",
+    "aliases": [
+      "Sénégambie et Niger"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1903,
+    "to": 1906,
+    "parent": "France",
+    "successor": "Upper Senegal and Niger",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "upper-senegal-and-niger",
+    "name": "Upper Senegal and Niger",
+    "aliases": [
+      "Haut-Sénégal et Niger"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1906,
+    "to": 1921,
+    "parent": "France",
+    "successor": "French Sudan",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "french-sudan",
+    "name": "French Sudan",
+    "aliases": [
+      "Soudan Français",
+      "French Soudan"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1894,
+    "to": 1944,
+    "parent": "France",
+    "successor": "Mali",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "mali-federation",
+    "name": "Mali Federation",
+    "aliases": [
+      "Fédération du Mali"
+    ],
+    "type": "other",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1959,
+    "to": 1960,
+    "parent": null,
+    "successor": "Mali",
+    "catalog": "yvert_tellier",
+    "notes": "Short-lived union of Senegal and Sudanese Republic."
+  },
+  {
+    "id": "mali",
+    "name": "Mali",
+    "aliases": [
+      "Republic of Mali",
+      "République du Mali"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1960,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "french-guinea",
+    "name": "French Guinea",
+    "aliases": [
+      "Guinée Française"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1892,
+    "to": 1944,
+    "parent": "France",
+    "successor": "Guinea",
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "guinea",
+    "name": "Guinea",
+    "aliases": [
+      "Republic of Guinea",
+      "Guinée",
+      "Guinea-Conakry"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1959,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "ivory-coast",
+    "name": "Ivory Coast",
+    "aliases": [
+      "Côte d'Ivoire",
+      "Cote d'Ivoire"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1892,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "French colony 1892-1944, republic from 1959."
+  },
+  {
+    "id": "benin-french-colony",
+    "name": "Benin (French Colony)",
+    "aliases": [
+      "Bénin",
+      "Golfe de Bénin",
+      "Gulf of Benin"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1892,
+    "to": 1899,
+    "parent": "France",
+    "successor": "Dahomey",
+    "catalog": "yvert_tellier",
+    "notes": "1890s French colony, not the modern republic."
+  },
+  {
+    "id": "dahomey",
+    "name": "Dahomey",
+    "aliases": [
+      "Dahomey and Dependencies",
+      "Dahomey et Dépendances"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1899,
+    "to": 1975,
+    "parent": null,
+    "successor": "Benin",
+    "catalog": "yvert_tellier",
+    "notes": "French colony 1899-1944, republic 1960-1975."
+  },
+  {
+    "id": "benin",
+    "name": "Benin",
+    "aliases": [
+      "People's Republic of Benin",
+      "République du Bénin"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1976,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "Renamed from Dahomey in 1975."
+  },
+  {
+    "id": "port-lagos-french-po",
+    "name": "Port Lagos (French Post Office)",
+    "aliases": [
+      "Port-Lagos"
+    ],
+    "type": "agency",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1893,
+    "to": 1898,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "upper-volta",
+    "name": "Upper Volta",
+    "aliases": [
+      "Haute-Volta"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1920,
+    "to": 1984,
+    "parent": null,
+    "successor": "Burkina Faso",
+    "catalog": "yvert_tellier",
+    "notes": "French colony 1920-1933, republic 1959-1984."
+  },
+  {
+    "id": "burkina-faso",
+    "name": "Burkina Faso",
+    "aliases": [
+      "Burkina"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1984,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "niger",
+    "name": "Niger",
+    "aliases": [
+      "Territoire du Niger",
+      "Republic of Niger"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1921,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "French colony 1921-1944, republic from 1959."
+  },
+  {
+    "id": "german-togo",
+    "name": "Togo (German Colony)",
+    "aliases": [
+      "German Togo",
+      "Deutsch-Togo"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1897,
+    "to": 1914,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "british-occupation-togo",
+    "name": "Togo (British Occupation)",
+    "aliases": [
+      "Togo Anglo-French Occupation",
+      "British Togo"
+    ],
+    "type": "occupation",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1914,
+    "to": 1920,
+    "parent": "Great Britain",
+    "successor": "Gold Coast",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "french-togo",
+    "name": "Togo (French Mandate)",
+    "aliases": [
+      "French Togo",
+      "Togo Occupation Franco-Anglaise",
+      "Togo (French Colony)"
+    ],
+    "type": "mandate",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1914,
+    "to": 1957,
+    "parent": "France",
+    "successor": "Togo",
+    "catalog": "yvert_tellier",
+    "notes": "French occupation from 1914, League/UN mandate to 1957."
+  },
+  {
+    "id": "togo",
+    "name": "Togo",
+    "aliases": [
+      "Togolese Republic",
+      "République Togolaise"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1957,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "lagos",
+    "name": "Lagos",
+    "aliases": [],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1874,
+    "to": 1906,
+    "parent": "Great Britain",
+    "successor": "Southern Nigeria",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "oil-rivers-protectorate",
+    "name": "Oil Rivers Protectorate",
+    "aliases": [
+      "Oil Rivers",
+      "British Protectorate Oil Rivers"
+    ],
+    "type": "protectorate",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1892,
+    "to": 1893,
+    "parent": "Great Britain",
+    "successor": "Niger Coast Protectorate",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "niger-coast-protectorate",
+    "name": "Niger Coast Protectorate",
+    "aliases": [
+      "Niger Coast"
+    ],
+    "type": "protectorate",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1893,
+    "to": 1900,
+    "parent": "Great Britain",
+    "successor": "Southern Nigeria",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "northern-nigeria",
+    "name": "Northern Nigeria",
+    "aliases": [],
+    "type": "protectorate",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1900,
+    "to": 1913,
+    "parent": "Great Britain",
+    "successor": "Nigeria",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "southern-nigeria",
+    "name": "Southern Nigeria",
+    "aliases": [],
+    "type": "protectorate",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1901,
+    "to": 1913,
+    "parent": "Great Britain",
+    "successor": "Nigeria",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "nigeria",
+    "name": "Nigeria",
+    "aliases": [
+      "Federal Republic of Nigeria"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1914,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "biafra",
+    "name": "Biafra",
+    "aliases": [
+      "Republic of Biafra"
+    ],
+    "type": "other",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1968,
+    "to": 1969,
+    "parent": null,
+    "successor": "Nigeria",
+    "catalog": "stanley_gibbons",
+    "notes": "Secessionist state during the Nigerian civil war."
+  },
+  {
+    "id": "gold-coast",
+    "name": "Gold Coast",
+    "aliases": [],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1875,
+    "to": 1957,
+    "parent": "Great Britain",
+    "successor": "Ghana",
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "ghana",
+    "name": "Ghana",
+    "aliases": [],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1957,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "sierra-leone",
+    "name": "Sierra Leone",
+    "aliases": [],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1859,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "gambia",
+    "name": "Gambia",
+    "aliases": [
+      "The Gambia"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1869,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": null
+  },
+  {
+    "id": "liberia",
+    "name": "Liberia",
+    "aliases": [],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1860,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "portuguese-guinea",
+    "name": "Portuguese Guinea",
+    "aliases": [
+      "Guiné Portuguesa",
+      "Guiné"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1881,
+    "to": 1974,
+    "parent": "Portugal",
+    "successor": "Guinea-Bissau",
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "guinea-bissau",
+    "name": "Guinea-Bissau",
+    "aliases": [
+      "Guiné-Bissau"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1974,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": null
+  },
+  {
+    "id": "cape-verde",
+    "name": "Cape Verde",
+    "aliases": [
+      "Cabo Verde",
+      "Cape Verde Islands"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1877,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Portuguese colony until 1975."
+  },
+  {
+    "id": "french-west-africa",
+    "name": "French West Africa",
+    "aliases": [
+      "Afrique Occidentale Française",
+      "AOF"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "West Africa",
+    "from": 1944,
+    "to": 1959,
+    "parent": "France",
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "kamerun",
+    "name": "Kamerun",
+    "aliases": [
+      "German Cameroon",
+      "Deutsch-Kamerun"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1897,
+    "to": 1915,
+    "parent": "Germany",
+    "successor": null,
+    "catalog": "michel",
+    "notes": null
+  },
+  {
+    "id": "british-occupation-cameroons",
+    "name": "Cameroons (British Occupation)",
+    "aliases": [
+      "C.E.F. Cameroons",
+      "British Cameroons"
+    ],
+    "type": "occupation",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1915,
+    "to": 1915,
+    "parent": "Great Britain",
+    "successor": null,
+    "catalog": "stanley_gibbons",
+    "notes": "C.E.F. overprints on Kamerun stamps."
+  },
+  {
+    "id": "french-cameroun",
+    "name": "Cameroun (French Mandate)",
+    "aliases": [
+      "French Cameroun",
+      "Cameroun",
+      "French Cameroon"
+    ],
+    "type": "mandate",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1915,
+    "to": 1959,
+    "parent": "France",
+    "successor": "Cameroon",
+    "catalog": "yvert_tellier",
+    "notes": "French occupation from 1915, mandate/trust territory to 1960."
+  },
+  {
+    "id": "cameroon",
+    "name": "Cameroon",
+    "aliases": [
+      "Cameroun",
+      "Republic of Cameroon",
+      "United Republic of Cameroon"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1960,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": null
+  },
+  {
+    "id": "southern-cameroons",
+    "name": "Southern Cameroons",
+    "aliases": [
+      "Cameroons UKTT"
+    ],
+    "type": "territory",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1960,
+    "to": 1961,
+    "parent": "Great Britain",
+    "successor": "Cameroon",
+    "catalog": "stanley_gibbons",
+    "notes": "Nigerian stamps overprinted CAMEROONS U.K.T.T."
+  },
+  {
+    "id": "chad",
+    "name": "Chad",
+    "aliases": [
+      "Tchad"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1922,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "yvert_tellier",
+    "notes": "French colony 1922-1937, republic from 1959."
+  },
+  {
+    "id": "spanish-guinea",
+    "name": "Spanish Guinea",
+    "aliases": [
+      "Guinea Española",
+      "Continental Spanish Guinea"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1902,
+    "to": 1968,
+    "parent": "Spain",
+    "successor": "Equatorial Guinea",
+    "catalog": "edifil",
+    "notes": null
+  },
+  {
+    "id": "fernando-poo",
+    "name": "Fernando Póo",
+    "aliases": [
+      "Fernando Poo",
+      "Bioko"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1868,
+    "to": 1968,
+    "parent": "Spain",
+    "successor": "Equatorial Guinea",
+    "catalog": "edifil",
+    "notes": null
+  },
+  {
+    "id": "elobey-annobon-corisco",
+    "name": "Elobey, Annobón and Corisco",
+    "aliases": [
+      "Elobey Annobon and Corisco",
+      "Elobey"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1903,
+    "to": 1910,
+    "parent": "Spain",
+    "successor": "Spanish Guinea",
+    "catalog": "edifil",
+    "notes": null
+  },
+  {
+    "id": "rio-muni",
+    "name": "Río Muni",
+    "aliases": [
+      "Rio Muni"
+    ],
+    "type": "colony",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1960,
+    "to": 1968,
+    "parent": "Spain",
+    "successor": "Equatorial Guinea",
+    "catalog": "edifil",
+    "notes": null
+  },
+  {
+    "id": "equatorial-guinea",
+    "name": "Equatorial Guinea",
+    "aliases": [
+      "Guinea Ecuatorial"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1968,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "edifil",
+    "notes": null
+  },
+  {
+    "id": "sao-tome-and-principe",
+    "name": "São Tomé and Príncipe",
+    "aliases": [
+      "Sao Tome and Principe",
+      "St. Thomas and Prince Islands",
+      "S. Tomé e Príncipe"
+    ],
+    "type": "country",
+    "region": "Africa",
+    "subregion": "Central Africa",
+    "from": 1870,
+    "to": null,
+    "parent": null,
+    "successor": null,
+    "catalog": "scott",
+    "notes": "Portuguese colony until 1975."
+  }
+]

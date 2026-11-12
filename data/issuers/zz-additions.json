@@ -1,0 +1,4 @@
+[
+  {"id":"siberia","name":"Siberia","aliases":["Kolchak Government","Omsk Government"],"type":"state","region":"Asia","subregion":"Central Asia","from":1919,"to":1920,"parent":null,"successor":null,"catalog":"scott","notes":"Anti-Bolshevik government issues of the Russian Civil War."},
+  {"id":"czechoslovak-legion-siberia","name":"Czechoslovak Legion in Siberia","aliases":["Czech Legion","Czechoslovak Army in Siberia"],"type":"other","region":"Asia","subregion":"Central Asia","from":1919,"to":1920,"parent":"Czechoslovakia","successor":null,"catalog":"pofis","notes":null}
+]

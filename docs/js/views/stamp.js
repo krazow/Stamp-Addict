@@ -5,6 +5,7 @@ import {
   STAMP_TYPES, TAGGINGS, labelOf,
 } from '../lists.js';
 import { photoUrl } from '../photos.js';
+import { issuerById, issuerSummary } from '../issuers.js';
 import { button, empty, h, icon } from '../ui.js';
 
 export function stampView(id) {
@@ -35,7 +36,8 @@ export function stampView(id) {
 
   const sections = [
     ['Identification', [
-      ['Country', card.country], ['Year', card.year], ['Issue date', card.issueDate], ['Face value', card.faceValue],
+      ['Country or issuer', card.country],
+      ['About the issuer', issuerById(card.issuerId) ? `${issuerById(card.issuerId).subregion} · ${issuerSummary(issuerById(card.issuerId))}` : null], ['Year', card.year], ['Issue date', card.issueDate], ['Face value', card.faceValue],
       ['Currency', card.currency], ['Color', card.colors], ['Design', card.designSubject],
       ['Type', labelOf(STAMP_TYPES, card.stampType)], ['Designer', card.designer], ['Engraver', card.engraver], ['Printer', card.printer],
     ]],

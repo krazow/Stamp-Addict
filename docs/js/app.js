@@ -4,6 +4,7 @@ import { deletePhoto, loadPhotoUrls, storedPhotoPaths } from './photos.js';
 import { openRepos } from './repos.js';
 import { Store } from './store.js';
 import { loadSafetyCopies } from './backupfiles.js';
+import { loadIssuers } from './issuers.js';
 import { button, h, icon, tell } from './ui.js';
 import { collectionView } from './views/collection.js';
 import { stampView } from './views/stamp.js';
@@ -11,11 +12,13 @@ import { stampForm } from './views/stampForm.js';
 import { setsView, newSetView } from './views/sets.js';
 import { wantsView, newWantView } from './views/wants.js';
 import { backupView } from './views/backup.js';
+import { countriesView } from './views/countries.js';
 
 export const app = { repos: null, installPrompt: null };
 
 const ROUTES = [
   [/^$/, collectionView, 'collection'],
+  [/^countries$/, countriesView, 'countries'],
   [/^sets$/, setsView, 'sets'],
   [/^wants$/, wantsView, 'wants'],
   [/^add$/, () => stampForm(null)],
@@ -42,6 +45,7 @@ export const refresh = () => render();
 
 const TABS = [
   ['', 'Collection', 'stamp'],
+  ['countries', 'Countries', 'globe'],
   ['sets', 'Sets', 'sets'],
   ['wants', 'Want list', 'heart'],
 ];
@@ -82,7 +86,8 @@ async function start() {
     const store = new Store(saved.tables, saved.meta, saveChanges);
     store.onSaveError = (e) => tell('Couldn\'t save your last change', `${e?.message ?? e}. Check that the device has free space, then try again.`);
     app.repos = openRepos(store);
-    await Promise.all([loadPhotoUrls(), loadSafetyCopies()]);
+    // The issuer list is a file; without it the app still works with typed-in names.
+    await Promise.all([loadPhotoUrls(), loadSafetyCopies(), loadIssuers().catch((e) => console.warn(e))]);
     // Photos added to a form that was never saved: remove them.
     const used = new Set(store.rows('photos').map((p) => p.uri));
     for (const path of storedPhotoPaths()) if (!used.has(path)) deletePhoto(path);
