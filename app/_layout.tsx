@@ -10,6 +10,10 @@ export default function RootLayout() {
         screenOptions={{
           headerTintColor: colors.accent,
           headerTitleStyle: { color: colors.text },
+          // A solid header color keeps screen content below the header on iOS 26+
+          // (SDK 58 otherwise makes headers transparent and lets content slide under).
+          headerStyle: { backgroundColor: colors.ground },
+          headerShadowVisible: false,
           contentStyle: { backgroundColor: colors.ground },
         }}
       >

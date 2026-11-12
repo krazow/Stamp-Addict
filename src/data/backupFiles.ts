@@ -16,13 +16,15 @@ async function readPhoto(path: string): Promise<Uint8Array | null> {
   return file.exists ? await file.bytes() : null;
 }
 
-function writePhoto(path: string, bytes: Uint8Array): void {
+// File.write() returns a promise from SDK 58 on (it returned nothing before),
+// so it's always awaited; awaiting a non-promise is harmless on older SDKs.
+async function writePhoto(path: string, bytes: Uint8Array): Promise<void> {
   const dir = new Directory(Paths.document, 'photos');
   if (!dir.exists) dir.create();
   const file = new File(dir, path.slice('photos/'.length));
   if (file.exists) file.delete();
   file.create();
-  file.write(bytes);
+  await file.write(bytes);
 }
 
 function ensureDir(dir: Directory): Directory {
@@ -35,7 +37,7 @@ async function writeBackupFile(dir: Directory, name: string) {
   const file = new File(ensureDir(dir), name);
   if (file.exists) file.delete();
   file.create();
-  file.write(created.bytes);
+  await file.write(created.bytes);
   return { file, created };
 }
 
