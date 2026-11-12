@@ -27,7 +27,7 @@ for step-by-step instructions.
 git clone https://github.com/krazow/Stamp-Addict.git
 cd Stamp-Addict
 npm install
-npm run setup      # pins the animation packages and checks every version matches Expo SDK 57
+npm run setup      # makes every package version match the project's Expo SDK
 npx expo start
 ```
 
@@ -35,8 +35,9 @@ Scan the QR code with your phone (iPhone: Camera app; Android: Expo Go) to open 
 
 The first `npx expo start` may offer to install TypeScript: say yes.
 
-This project uses **Expo SDK 57** because Expo recommends it for Expo Go on a physical device
-while SDK 58 rolls out. If Expo Go on your phone needs a newer SDK, run `npx expo install expo@latest --fix`.
+This project uses **Expo SDK 58** (React Native 0.88), the version the current Expo Go app supports.
+If `npx expo install --check` reports mismatches, run `npx expo install --fix`; if npm then reports
+`ERESOLVE`, delete `node_modules` and `package-lock.json` and run `npm install` again.
 
 ## Project layout
 
