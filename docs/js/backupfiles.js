@@ -6,7 +6,7 @@ import { deletePhoto, readPhoto, storedPhotoPaths, writePhoto } from './photos.j
 import { META_LAST_BACKUP } from './repos.js';
 import { chooseFile, giveFile } from './ui.js';
 
-export const APP_VERSION = '0.2.0';
+export const APP_VERSION = '0.3.0';
 const SAFETY_COPIES_KEPT = 3;
 
 let copyNames = [];
