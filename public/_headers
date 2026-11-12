@@ -1,0 +1,5 @@
+# Netlify and Cloudflare Pages read this file. The collection database
+# needs these two headers on every page.
+/*
+  Cross-Origin-Embedder-Policy: credentialless
+  Cross-Origin-Opener-Policy: same-origin

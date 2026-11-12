@@ -1,6 +1,7 @@
 import { router } from 'expo-router';
 import { useState } from 'react';
-import { Alert, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text } from 'react-native';
+import { KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text } from 'react-native';
+import { Alert } from '../../src/ui/alert';
 import { ValidationError, parseSetItems } from '../../src/core';
 import { getStore } from '../../src/data/store';
 import { Button, Field } from '../../src/ui/controls';

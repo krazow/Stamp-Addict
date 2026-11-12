@@ -1,6 +1,7 @@
 import { router, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
-import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Alert } from '../../src/ui/alert';
 import type { SetCompletion } from '../../src/core/sets';
 import { getStore } from '../../src/data/store';
 import { Button, EmptyState } from '../../src/ui/controls';

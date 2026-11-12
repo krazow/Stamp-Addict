@@ -1,7 +1,8 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { router, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
-import { Alert, Pressable, SectionList, StyleSheet, Text, View } from 'react-native';
+import { Pressable, SectionList, StyleSheet, Text, View } from 'react-native';
+import { Alert } from '../../src/ui/alert';
 import type { Want } from '../../src/core/wantlist';
 import { getStore } from '../../src/data/store';
 import { Button, EmptyState } from '../../src/ui/controls';

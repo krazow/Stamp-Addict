@@ -1,6 +1,7 @@
 import { router } from 'expo-router';
 import { useState } from 'react';
-import { Alert, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text } from 'react-native';
+import { KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text } from 'react-native';
+import { Alert } from '../../src/ui/alert';
 import { CATALOGS, MINT_STATUSES, PRIORITIES, ValidationError, type Catalog, type MintStatus, type Priority } from '../../src/core';
 import { getStore } from '../../src/data/store';
 import { Button, ChipSelect, Field, optionsOf } from '../../src/ui/controls';

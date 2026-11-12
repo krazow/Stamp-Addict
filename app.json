@@ -10,7 +10,15 @@
       "supportsTablet": true
     },
     "plugins": [
-      "expo-router",
+      [
+        "expo-router",
+        {
+          "headers": {
+            "Cross-Origin-Embedder-Policy": "credentialless",
+            "Cross-Origin-Opener-Policy": "same-origin"
+          }
+        }
+      ],
       [
         "expo-image-picker",
         {
@@ -18,6 +26,11 @@
           "cameraPermission": "Stamp Addict uses the camera to photograph your stamps."
         }
       ]
-    ]
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./public/favicon.png"
+    }
   }
 }

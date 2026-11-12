@@ -16,7 +16,12 @@ import type { SqlDatabase, SqlValue } from '../db';
 
 export function openExpoDatabase(name = 'stamp-addict.db'): SqlDatabase {
   const db = SQLite.openDatabaseSync(name);
-  db.execSync('PRAGMA foreign_keys = ON; PRAGMA journal_mode = WAL;');
+  db.execSync('PRAGMA foreign_keys = ON;');
+  try {
+    db.execSync('PRAGMA journal_mode = WAL;');
+  } catch {
+    // The browser build (web version) may not support WAL; it's only a speed-up.
+  }
   let depth = 0;
 
   return {

@@ -1,6 +1,7 @@
 import { useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
-import { ActivityIndicator, Alert, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Platform, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Alert } from '../src/ui/alert';
 import { BackupError, summarizeDatabase, type BackupSummary } from '../src/core';
 import {
   backupIsDue, lastBackupAt, pickBackup, restoreFromBackup, safetyCopies, shareBackup, shareFile,
@@ -8,6 +9,9 @@ import {
 import { getStore } from '../src/data/store';
 import { Button } from '../src/ui/controls';
 import { colors, radius, space } from '../src/ui/theme';
+
+/** "this phone" in the phone app, "this browser" in the web version. */
+const here = Platform.OS === 'web' ? 'this browser' : 'this phone';
 
 function describe(s: BackupSummary): string {
   const part = (n: number, one: string, many: string) => `${n} ${n === 1 ? one : many}`;
@@ -43,7 +47,7 @@ export default function BackupScreen() {
       if (missingPhotos.length) {
         Alert.alert(
           'Backup made, with gaps',
-          `${missingPhotos.length} ${missingPhotos.length === 1 ? 'photo was' : 'photos were'} missing from the phone and couldn't be included. Everything else is in the backup.`,
+          `${missingPhotos.length} ${missingPhotos.length === 1 ? 'photo was' : 'photos were'} missing from ${here} and couldn't be included. Everything else is in the backup.`,
         );
       }
     } catch (e) {
@@ -71,7 +75,7 @@ export default function BackupScreen() {
     const made = chosen.manifest.createdAt ? new Date(backup.manifest.createdAt).toLocaleString() : 'an unknown date';
     const gaps = chosen.missingPhotos.length ? `\n\n${chosen.missingPhotos.length} photos are missing from this file.` : '';
     const current = summary && summary.stamps > 0
-      ? `\n\nThis replaces the ${summary.stamps} stamps in the app now. A copy of them is saved on this phone first.`
+      ? `\n\nThis replaces the ${summary.stamps} stamps in the app now. A copy of them is saved in ${here} first.`
       : '';
     Alert.alert('Restore this backup?', `Made ${made}: ${describe(chosen.manifest.counts)}.${current}${gaps}`, [
       { text: 'Cancel', style: 'cancel' },
@@ -109,8 +113,9 @@ export default function BackupScreen() {
       </View>
 
       <Text style={s.body}>
-        Your collection is stored only on this phone. A backup is one file holding every Stamp Card, photo, set and want.
-        Save it somewhere off the phone: Files, iCloud Drive, Google Drive, or email it to yourself.
+        {Platform.OS === 'web'
+          ? 'Your collection is stored only in this browser on this computer. Clearing the browser\'s site data deletes it. A backup is one file holding every Stamp Card, photo, set and want. Save it somewhere safe, such as OneDrive, Google Drive or a USB drive. The same file restores on a phone.'
+          : 'Your collection is stored only on this phone. A backup is one file holding every Stamp Card, photo, set and want. Save it somewhere off the phone: Files, iCloud Drive, Google Drive, or email it to yourself.'}
       </Text>
 
       {busy ? (
@@ -129,12 +134,12 @@ export default function BackupScreen() {
         <Text style={s.tipTitle}>Good to know</Text>
         <Text style={s.tip}>• The backup also contains stamps.csv, a spreadsheet of your collection you can open in Excel, Google Sheets or Numbers without the app.</Text>
         <Text style={s.tip}>• Restoring replaces everything in the app with the backup. It doesn't merge.</Text>
-        <Text style={s.tip}>• Before a restore, the app keeps a copy of your current collection on this phone (the last three).</Text>
+        <Text style={s.tip}>• Before a restore, the app keeps a copy of your current collection in {here} (the last three).</Text>
         <Text style={s.tip}>• Back up after any big session of adding stamps. The app reminds you after 30 days.</Text>
       </View>
 
       {copies > 0 && !busy ? (
-        <Button title="Share the copy saved before the last restore" variant="text" onPress={shareSafetyCopy} />
+        <Button title={Platform.OS === 'web' ? 'Save the copy made before the last restore' : 'Share the copy saved before the last restore'} variant="text" onPress={shareSafetyCopy} />
       ) : null}
     </ScrollView>
   );

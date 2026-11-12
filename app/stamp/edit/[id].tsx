@@ -1,7 +1,8 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { Stack, router, useLocalSearchParams } from 'expo-router';
 import { useEffect, useState } from 'react';
-import { Alert, KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Alert } from '../../../src/ui/alert';
 import {
   CATALOGS, CENTERINGS, FORMATS, GUMS, MINT_STATUSES, NotFoundError, PAPER_TYPES, PHOTO_ROLES,
   PRINTING_METHODS, SEPARATIONS, STAMP_TYPES, TAGGINGS, ValidationError, parsePerforation,

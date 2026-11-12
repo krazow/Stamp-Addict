@@ -6,7 +6,7 @@ import { MINT_STATUSES, type StampSummary } from '../../src/core';
 import { backupIsDue, lastBackupAt } from '../../src/data/backupFiles';
 import { getStore } from '../../src/data/store';
 import { Button, EmptyState, StampThumb } from '../../src/ui/controls';
-import { colors, radius, space } from '../../src/ui/theme';
+import { colors, radius, space, contentMaxWidth } from '../../src/ui/theme';
 
 type ViewMode = 'grid' | 'list';
 
@@ -17,7 +17,8 @@ export default function CollectionScreen() {
   const [query, setQuery] = useState('');
   const [mode, setMode] = useState<ViewMode>('grid');
   const [remind, setRemind] = useState<'never' | 'stale' | null>(null);
-  const { width } = useWindowDimensions();
+  // On a wide computer window the app is a column of at most contentMaxWidth.
+  const width = Math.min(useWindowDimensions().width, contentMaxWidth);
 
   useFocusEffect(
     useCallback(() => {

@@ -18,3 +18,6 @@ export const colors = {
 
 export const radius = { control: 10, card: 12, chip: 17 };
 export const space = { xs: 4, sm: 8, md: 12, lg: 16, xl: 20 };
+
+/** On a wide computer window the app stays a readable column this wide. */
+export const contentMaxWidth = 760;

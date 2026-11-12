@@ -39,6 +39,25 @@ This project uses **Expo SDK 58** (React Native 0.88), the version the current E
 If `npx expo install --check` reports mismatches, run `npx expo install --fix`; if npm then reports
 `ERESOLVE`, delete `node_modules` and `package-lock.json` and run `npm install` again.
 
+## Run it on a computer (web version)
+
+The same app runs in Edge or Chrome and can be installed as a Windows app.
+
+```
+npm install
+npm run web
+```
+
+The app opens in the browser. To install it, choose **Install Stamp Addict** from the browser's menu (in Edge: the "App available" icon in the address bar, or **... > Apps > Install this site as an app**).
+
+How the web version differs from the phone app:
+
+- Stamp records are kept in the browser's SQLite database (expo-sqlite's web build); photos and the "before restore" copies are kept in IndexedDB. Clearing the browser's site data deletes the collection, so back up.
+- Backups use the same zip format, so a backup made on a phone restores in the browser and the other way round.
+- There's no crop step for photos; both photo buttons open the file chooser on a computer.
+- The database needs a cross-origin isolated page. The dev server sets the two headers in `metro.config.js`; for hosting, `public/_headers` covers Netlify and Cloudflare Pages, and `app.json` covers Expo's own hosting.
+- `npm run build:web` writes the site to `dist/`.
+
 ## Project layout
 
 ```

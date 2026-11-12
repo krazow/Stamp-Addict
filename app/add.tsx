@@ -1,7 +1,8 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { router } from 'expo-router';
 import { useEffect, useState } from 'react';
-import { Alert, KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Alert } from '../src/ui/alert';
 import { CATALOGS, ValidationError, type Catalog, type StampCardInput } from '../src/core';
 import { CameraPermissionError, pickPhoto, type PickedPhoto } from '../src/data/photos';
 import { getStore } from '../src/data/store';
