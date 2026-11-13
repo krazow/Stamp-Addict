@@ -193,6 +193,9 @@ const ICONS = {
   trash: 'M5 7h14M10 11v6M14 11v6M7 7l1 13h8l1-13M9 7V4h6v3',
   chevron: 'M9 6l6 6-6 6',
   download: 'M12 4v11M7.5 10.5 12 15l4.5-4.5M5 20h14',
+  tag: 'M3 12V4h8l10 10-8 8L3 12zM7.5 7.5h.01',
+  alert: 'M12 3 2 20h20L12 3zM12 10v4M12 17h.01',
+  external: 'M14 4h6v6M20 4l-9 9M18 14v6H4V6h6',
   filter: 'M4 6h16M7 12h10M10 18h4',
   chart: 'M4 20V10M10 20V4M16 20v-7M22 20H2',
   globe: 'M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18',
@@ -230,4 +233,32 @@ export function select(label, options, value, onChange, { placeholder = 'Not rec
   }
   el.value = value ?? '';
   return h('div', { class: 'field' }, label ? h('label', { for: id }, label) : null, h('div', { class: 'select-wrap' }, el), hint ? h('div', { class: 'hint' }, hint) : null);
+}
+
+/**
+ * Asks for an amount. Resolves with a number (0 or more), or null if
+ * cancelled. An empty or unreadable entry asks again.
+ */
+export function askAmount(title, message, { label = 'Amount', placeholder = '12.50', yes = 'Save', no = 'Not now', hint } = {}) {
+  return new Promise((resolve) => {
+    const dlg = h('dialog', { class: 'dialog', 'aria-labelledby': 'amt-title' });
+    const f = field(label, { inputmode: 'decimal', placeholder, hint, onenter: () => submit() });
+    const done = (v) => { dlg.close(); dlg.remove(); resolve(v); };
+    const submit = () => {
+      const t = f.input.value.trim().replace(/[^\d.,]/g, '');
+      const n = Number(t.includes(',') && !t.includes('.') ? t.replace(',', '.') : t.replace(/,/g, ''));
+      if (!t || !Number.isFinite(n) || n < 0) { f.setError('Enter an amount, like 12.50.'); return; }
+      done(n);
+    };
+    dlg.append(
+      h('h2', { id: 'amt-title' }, title),
+      message ? h('p', {}, message) : null,
+      f.el,
+      h('div', { class: 'dialog-buttons' }, button(no, () => done(null), 'secondary'), button(yes, submit, 'primary')),
+    );
+    dlg.addEventListener('cancel', (e) => { e.preventDefault(); done(null); });
+    document.body.append(dlg);
+    dlg.showModal();
+    f.input.focus();
+  });
 }

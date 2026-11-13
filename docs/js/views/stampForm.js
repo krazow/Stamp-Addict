@@ -43,6 +43,12 @@ export function catalogOptions() {
 
 let lastStep = 0;
 
+/** Opens a stamp's edit form at a given step (0 Photos … 4 Collection). */
+export function editAtStep(id, step) {
+  lastStep = step;
+  go(`stamp/${id}/edit`);
+}
+
 /** Quick-add: what the last stamp leaves for the next one (country, year, catalogue, tags). */
 let carry = null;
 

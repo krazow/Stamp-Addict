@@ -1,7 +1,7 @@
 // Lets Stamp Addict open without an internet connection. Always tries the
 // network first, so updates show up as soon as you're online; falls back
 // to the saved copy when offline.
-const CACHE = 'stamp-addict-v3';
+const CACHE = 'stamp-addict-v4';
 const SHELL = [
   './', 'index.html', 'app.css', 'manifest.json', 'favicon.png', 'icon-192.png', 'icon-512.png',
   'js/app.js', 'js/backup.js', 'js/backupfiles.js', 'js/format.js', 'js/idb.js', 'js/lists.js', 'js/photos.js',

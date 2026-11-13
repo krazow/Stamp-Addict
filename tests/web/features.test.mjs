@@ -91,3 +91,16 @@ test('our own CSV export imports back', () => {
   assert.equal(cards.find((c) => c.country === 'Atlantis').year, null);
   assert.equal(result.fixes.length, 1);
 });
+
+test('eBay searches use the stamps category, and sold listings when asked', async () => {
+  const { ebayUrl, ebayTerms } = await import('../../docs/js/lookups.js');
+  const withCat = { country: 'Ceylon', year: 1935, faceValue: '2c', catalogNumbers: [{ catalog: 'stanley_gibbons', number: '368' }] };
+  assert.equal(ebayTerms(withCat), 'Ceylon SG 368');
+  assert.equal(ebayTerms({ country: 'Bavaria', year: 1849, faceValue: '6 Kr', designSubject: 'Crown', catalogNumbers: [] }), 'Bavaria 1849 6 Kr Crown');
+  const sold = new URL(ebayUrl(withCat, { sold: true }));
+  assert.equal(sold.hostname, 'www.ebay.com');
+  assert.equal(sold.searchParams.get('_nkw'), 'Ceylon SG 368');
+  assert.equal(sold.searchParams.get('_sacat'), '260');
+  assert.equal(sold.searchParams.get('LH_Sold'), '1');
+  assert.equal(new URL(ebayUrl(withCat)).searchParams.get('LH_Sold'), null);
+});

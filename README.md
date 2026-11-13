@@ -31,6 +31,8 @@ to install on a computer to use or change it.
 - **Import** a spreadsheet saved as CSV: Stamp Addict's own `stamps.csv`, a Colnect export (catalogue codes like `Mi:AU 1931, Sn:AU 1842` are read), or any sheet with column names. Columns are matched by name and can be changed before importing; countries are matched to the issuer list.
 - **Statistics:** stamps, countries, estimated, catalogue and paid totals (as entered, currencies not converted), set progress, and breakdowns by region, country, condition and decade.
 - **Look-up links** on the Identify step and the Stamp Card open a web search limited to Colnect or StampWorld for what's known about the stamp.
+- **eBay prices:** each Stamp Card links to eBay's Stamps category: current listings, and sold listings (closed auctions and sales) for what similar stamps went for. Coming back from the sold listings, the app asks whether to save a price as the stamp's estimated value, with a dated note.
+- **Missing details note** on each Stamp Card lists the key details not recorded yet (front photo, country, year, face value, catalogue number, condition, estimated value), with a button to the right form step. Every detail stays optional.
 - **Backup and restore** to a single zip file, with a reminder after 30 days and a copy kept
   before each restore. Works offline after the first visit.
 

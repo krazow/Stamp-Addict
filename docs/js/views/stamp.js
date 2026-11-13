@@ -1,4 +1,4 @@
-import { app, go } from '../app.js';
+import { app, go, refresh } from '../app.js';
 import { catalogLongName, perforationText, stampSubtitle, stampTitle } from '../format.js';
 import {
   CENTERINGS, FORMATS, GUMS, MINT_STATUSES, PAPER_TYPES, PHOTO_ROLES, PRINTING_METHODS, SEPARATIONS,
@@ -6,8 +6,51 @@ import {
 } from '../lists.js';
 import { photoUrl } from '../photos.js';
 import { issuerById, issuerSummary } from '../issuers.js';
-import { button, empty, h, icon } from '../ui.js';
-import { lookupLinks } from './stampForm.js';
+import { ebayUrl } from '../lookups.js';
+import { askAmount, button, empty, h, icon, toast } from '../ui.js';
+import { editAtStep, lookupLinks } from './stampForm.js';
+
+/** The details a Stamp Card is most useful with, and the form step each is on. */
+const KEY_DETAILS = [
+  ['a front photo', (c) => c.photos.some((p) => p.role === 'front'), 0],
+  ['country', (c) => !!c.country, 1],
+  ['year', (c) => c.year != null, 1],
+  ['face value', (c) => !!c.faceValue, 1],
+  ['catalogue number', (c) => c.catalogNumbers.length > 0, 1],
+  ['condition (mint or used)', (c) => !!c.mintStatus, 3],
+  ['estimated value', (c) => c.estimatedValue != null, 4],
+];
+
+export function missingDetails(card) {
+  return KEY_DETAILS.filter(([, has]) => !has(card));
+}
+
+// After "eBay sold listings" opens in another tab or window, coming back
+// to the app asks whether to save a price as the stamp's value.
+let pendingEbay = null;
+async function onReturn() {
+  if (!pendingEbay || document.visibilityState !== 'visible' || Date.now() - pendingEbay.at < 1500) return;
+  const { id } = pendingEbay;
+  pendingEbay = null;
+  let card;
+  try { card = app.repos.stamps.get(id); } catch { return; }
+  await offerEbayValue(card);
+}
+document.addEventListener('visibilitychange', onReturn);
+window.addEventListener('focus', onReturn);
+
+/** Asks for a price seen on eBay and saves it as the estimated value, with a note. */
+export async function offerEbayValue(card) {
+  const value = await askAmount('Add an eBay price as this stamp\'s value?',
+    `If the sold listings showed what this stamp (${[stampTitle(card), stampSubtitle(card)].filter(Boolean).join(', ')}) goes for, enter it. It's saved as the estimated value, with a note that it came from eBay. Every value is optional.`,
+    { label: 'Estimated value', yes: 'Save value', hint: card.estimatedValue != null ? `Now: ${card.estimatedValue}` : 'Use the currency you keep your values in.' });
+  if (value == null) return;
+  const date = new Date().toISOString().slice(0, 10);
+  const note = `Estimated value ${value} from eBay sold listings, ${date}.`;
+  app.repos.stamps.update(card.id, { estimatedValue: value, notes: card.notes ? `${card.notes}\n${note}` : note });
+  toast('Value saved.');
+  refresh();
+}
 
 export function stampView(id) {
   let card;
@@ -76,9 +119,37 @@ export function stampView(id) {
         h('h2', { class: 'card-title' }, stampTitle(card)),
         subtitle ? h('div', { class: 'muted' }, subtitle) : null,
         lookupLinks(() => card),
+        missingBox(card),
         card.tags.length || setInfo ? h('div', { class: 'pills' }, card.tags.map((t) => h('span', { class: 'pill' }, t)), setInfo ? h('span', { class: 'pill accent' }, setInfo) : null) : null),
       sections.map(([title, rows]) => h('section', { class: 'card' }, h('h3', {}, title),
         h('dl', {}, rows.map(([k, v]) => [h('dt', {}, k), h('dd', {}, String(v))])))),
+      marketSection(card),
       card.notes ? h('section', { class: 'card' }, h('h3', {}, 'Notes'), h('p', { class: 'notes' }, card.notes)) : null),
   };
+}
+
+function missingBox(card) {
+  const missing = missingDetails(card);
+  if (!missing.length) return null;
+  const names = missing.map(([n]) => n);
+  const list = names.length > 1 ? `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}` : names[0];
+  return h('div', { class: 'missing', role: 'note' },
+    icon('alert', 20),
+    h('div', { class: 'missing-text' },
+      h('div', {}, h('strong', {}, 'Missing details: '), `${list}.`),
+      h('div', { class: 'small muted' }, 'Every detail is optional; these make a Stamp Card easier to identify and value.')),
+    button('Add', () => editAtStep(card.id, missing[0][2]), 'text'));
+}
+
+function marketSection(card) {
+  const link = (text, sold) => h('a', {
+    class: 'btn btn-secondary', href: ebayUrl(card, { sold }), target: '_blank', rel: 'noopener noreferrer',
+    onclick: () => { if (sold) pendingEbay = { id: card.id, at: Date.now() }; },
+  }, text, icon('external', 16));
+  return h('section', { class: 'card' },
+    h('h3', {}, 'Market value'),
+    h('p', { class: 'small' }, card.estimatedValue != null ? `Estimated value: ${card.estimatedValue}` : 'No estimated value yet.'),
+    h('div', { class: 'market-buttons' }, link('Sold on eBay', true), link('Search eBay', false)),
+    h('p', { class: 'small muted' }, 'Sold listings show what similar stamps actually went for. When you come back, the app asks whether to save a price as this stamp\'s value.'),
+    button('Enter a value from eBay', () => offerEbayValue(card), 'text'));
 }
