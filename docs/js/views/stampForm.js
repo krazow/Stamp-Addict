@@ -158,7 +158,7 @@ export function stampForm(id) {
       const r = identifyFromText(text);
       const found = r.issuers.length || r.faceValues.length || r.years.length;
       idSlot.replaceChildren(h('div', { class: 'card' },
-        h('h3', {}, found ? 'Suggestions from the photo' : 'Nothing recognised'),
+        h('h3', {}, found ? 'Suggestions from the photo (experimental)' : 'Nothing recognised'),
         found ? h('p', { class: 'small muted' }, 'Tap a suggestion to use it. Check it before saving: the reader only sees the printed text.') :
           h('p', { class: 'small' }, 'No country name or value could be read. It works best when the stamp fills the photo, the light is even, and the text is in the Latin alphabet. Stamps without a country name, like British ones, can\'t be identified this way.'),
         suggestionRow('Country or issuer', r.issuers, (m) => { issuer.setValue({ id: m.issuer.id, name: m.issuer.name }); }, (m) => `${m.issuer.name}${m.issuer.from ? ` (${yearsText(m.issuer)})` : ''}`),
@@ -230,8 +230,8 @@ export function stampForm(id) {
       button(h('span', { class: 'with-icon' }, icon('camera', 20), 'Add photo'), addPhoto, 'secondary'),
       h('div', { class: 'hint' }, 'On a phone you can take the photo now or pick one; on a computer, choose an image file.'),
       h('div', { class: 'group' },
-        h('div', { class: 'strong' }, 'Identify from the photo'),
-        h('p', { class: 'small muted' }, 'Reads the country name, face value and year printed on the stamp, on this device. Suggestions only; you choose what to use.'),
+        h('div', { class: 'strong with-badge' }, 'Identify from the photo', h('span', { class: 'badge-experimental' }, 'Experimental')),
+        h('p', { class: 'small muted' }, 'Reads the country name, face value and year printed on the stamp, on this device. This is an early feature: suggestions can be wrong or missing, so check them before you use them.'),
         button(h('span', { class: 'with-icon' }, icon('search', 20), 'Read the stamp'), identify, 'secondary'),
         idSlot)),
     h('div', { class: 'stack' },
