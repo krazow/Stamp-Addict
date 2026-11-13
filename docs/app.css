@@ -313,3 +313,10 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .market-buttons { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .market-buttons .btn { font-size: 15px; padding: 0 10px; text-decoration: none; }
 @media (max-width: 380px) { .market-buttons { grid-template-columns: 1fr; } }
+
+/* Identify from the photo */
+.identify:empty { display: none; }
+.suggest-row { display: flex; flex-direction: column; gap: 6px; }
+.pill.suggest { background: var(--surface); border: 1px solid var(--accent); color: var(--accent); cursor: pointer; min-height: 34px; padding: 0 12px; font-size: 14px; }
+.pill.suggest.used { background: var(--accent); color: #fff; }
+.ocr-text { white-space: pre-wrap; font-size: 13px; background: var(--ground); padding: 8px; border-radius: 6px; margin: 6px 0 0; }

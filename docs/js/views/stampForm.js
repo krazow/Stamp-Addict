@@ -7,7 +7,9 @@ import {
   CATALOGS, CATALOG_REGIONS, CENTERINGS, FORMATS, GUMS, MAIN_CATALOGS, MINT_STATUSES, PAPER_TYPES, PHOTO_ROLES,
   PRINTING_METHODS, SEPARATIONS, STAMP_TYPES, TAGGINGS,
 } from '../lists.js';
-import { addPhotoFile, deletePhoto } from '../photos.js';
+import { addPhotoFile, deletePhoto, photoBlob } from '../photos.js';
+import { readStampText } from '../ocr.js';
+import { identifyFromText } from '../stampid.js';
 import { LOOKUP_SITES, hasLookupTerms, lookupUrl } from '../lookups.js';
 import { stampTitle } from '../format.js';
 import { ValidationError, parsePerforation } from '../validation.js';
@@ -136,6 +138,44 @@ export function stampForm(id) {
     checkYear();
   }, { hint: 'Search by any name, including old ones (Ceylon, Siam, Bayern).' });
 
+  // ---- Identify from the photo (reads the printed text, on the device)
+  const idSlot = h('div', { class: 'identify' });
+  const setField = (key, value) => {
+    form[key] = value;
+    if (fields[key]) { fields[key].input.value = value ?? ''; fields[key].setError(null); }
+  };
+  const suggestionRow = (label, items, apply, fmt = String) => (items.length ? h('div', { class: 'suggest-row' },
+    h('div', { class: 'small strong' }, label),
+    h('div', { class: 'pills' }, items.map((it) => h('button', { type: 'button', class: 'pill suggest', onclick: (e) => { apply(it); e.currentTarget.classList.add('used'); toast('Added. Check it on the Identify step.'); } }, fmt(it))))) : null);
+  const identify = async () => {
+    const photo = form.photos.find((p) => p.role === 'front') ?? form.photos[0];
+    if (!photo) { tell('Add a photo first', 'Reading the stamp needs a photo of the front.'); return; }
+    idSlot.replaceChildren(h('div', { class: 'busy' }, h('div', { class: 'spinner' }), h('span', {}, 'Reading the stamp… The first time, this downloads the text reader (about 5 MB).')));
+    try {
+      const blob = await photoBlob(photo.uri);
+      if (!blob) throw new Error('The photo couldn\'t be opened.');
+      const { text } = await readStampText(blob);
+      const r = identifyFromText(text);
+      const found = r.issuers.length || r.faceValues.length || r.years.length;
+      idSlot.replaceChildren(h('div', { class: 'card' },
+        h('h3', {}, found ? 'Suggestions from the photo' : 'Nothing recognised'),
+        found ? h('p', { class: 'small muted' }, 'Tap a suggestion to use it. Check it before saving: the reader only sees the printed text.') :
+          h('p', { class: 'small' }, 'No country name or value could be read. It works best when the stamp fills the photo, the light is even, and the text is in the Latin alphabet. Stamps without a country name, like British ones, can\'t be identified this way.'),
+        suggestionRow('Country or issuer', r.issuers, (m) => { issuer.setValue({ id: m.issuer.id, name: m.issuer.name }); }, (m) => `${m.issuer.name}${m.issuer.from ? ` (${yearsText(m.issuer)})` : ''}`),
+        suggestionRow('Face value', r.faceValues, (v) => setField('faceValue', v)),
+        suggestionRow('Year', r.years, (y) => { setField('year', String(y)); checkYear(); }),
+        found ? button('Use the first of each', () => {
+          if (r.issuers[0]) issuer.setValue({ id: r.issuers[0].issuer.id, name: r.issuers[0].issuer.name });
+          if (r.faceValues[0]) setField('faceValue', r.faceValues[0]);
+          if (r.years[0]) { setField('year', String(r.years[0])); checkYear(); }
+          showStep(1);
+        }, 'secondary') : null,
+        r.text ? h('details', { class: 'small' }, h('summary', {}, 'Text it read'), h('pre', { class: 'ocr-text' }, r.text)) : null));
+    } catch (e) {
+      idSlot.replaceChildren(h('p', { class: 'small danger' }, `Couldn't read the photo: ${e?.message ?? e}`));
+    }
+  };
+
   // ---- Catalog numbers
   const catList = h('div', { class: 'stack-tight' });
   const drawCats = () => catList.replaceChildren(...form.catalogNumbers.map((c, i) => h('div', { class: 'list-row' },
@@ -188,7 +228,12 @@ export function stampForm(id) {
       h('p', { class: 'muted' }, 'Start with a photo of the front. Add the back, a close-up, the watermark or a certificate if you have them.'),
       photoRow, roleChips,
       button(h('span', { class: 'with-icon' }, icon('camera', 20), 'Add photo'), addPhoto, 'secondary'),
-      h('div', { class: 'hint' }, 'On a phone you can take the photo now or pick one; on a computer, choose an image file.')),
+      h('div', { class: 'hint' }, 'On a phone you can take the photo now or pick one; on a computer, choose an image file.'),
+      h('div', { class: 'group' },
+        h('div', { class: 'strong' }, 'Identify from the photo'),
+        h('p', { class: 'small muted' }, 'Reads the country name, face value and year printed on the stamp, on this device. Suggestions only; you choose what to use.'),
+        button(h('span', { class: 'with-icon' }, icon('search', 20), 'Read the stamp'), identify, 'secondary'),
+        idSlot)),
     h('div', { class: 'stack' },
       issuer,
       lookupLinks(() => ({ ...form, year: toNumber(form.year), catalogNumbers: form.catalogNumbers })),

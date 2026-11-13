@@ -79,3 +79,8 @@ export async function addPhotoFile(file) {
   await storePhoto(path, p.blob);
   return { uri: path, width: p.width, height: p.height };
 }
+
+/** The stored photo as a Blob, or null. */
+export function photoBlob(path) {
+  return files.get('photos', path).then((b) => b ?? null).catch(() => null);
+}

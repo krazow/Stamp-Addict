@@ -110,6 +110,9 @@ export function issuerField(label, value, onChange, { hint } = {}) {
     onChange(cur);
   });
   render();
-  return h('div', { class: 'field' }, h('div', { class: 'label' }, label), btn, hint ? h('div', { class: 'hint' }, hint) : null);
+  const el = h('div', { class: 'field' }, h('div', { class: 'label' }, label), btn, hint ? h('div', { class: 'hint' }, hint) : null);
+  /** Sets the issuer from code (e.g. a suggestion), as if picked. */
+  el.setValue = (v) => { cur = v?.name ? v : null; render(); onChange(cur); };
+  return el;
 }
 

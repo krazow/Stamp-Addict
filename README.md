@@ -2,7 +2,8 @@
 
 A catalog for a stamp collection. Each stamp gets a **Stamp Card**: photos plus any details you
 want to record (all optional). Stamp Addict is a plain web app: HTML, CSS and JavaScript the
-browser runs directly. There's no build step, no framework and no third-party code, and nothing
+browser runs directly. There's no build step and no framework; the only third-party code is the
+Tesseract text reader in `docs/vendor/`, and nothing
 to install on a computer to use or change it.
 
 - **Use it:** https://krazow.github.io/Stamp-Addict/ (GitHub Pages serves the `docs/` folder).
@@ -32,6 +33,7 @@ to install on a computer to use or change it.
 - **Statistics:** stamps, countries, estimated, catalogue and paid totals (as entered, currencies not converted), set progress, and breakdowns by region, country, condition and decade.
 - **Look-up links** on the Identify step and the Stamp Card open a web search limited to Colnect or StampWorld for what's known about the stamp.
 - **eBay prices:** each Stamp Card links to eBay's Stamps category: current listings, and sold listings (closed auctions and sales) for what similar stamps went for. Coming back from the sold listings, the app asks whether to save a price as the stamp's estimated value, with a dated note.
+- **Read the stamp:** on the Photos step, reads the text printed on the front photo on the device (Tesseract OCR in a web worker, `docs/vendor/tesseract`, loaded on first use, about 5 MB) and suggests the issuer (printed names, old and native names, small misreadings allowed), face value and year. Suggestions only; nothing is filled in until tapped, and the photo never leaves the device.
 - **Missing details note** on each Stamp Card lists the key details not recorded yet (front photo, country, year, face value, catalogue number, condition, estimated value), with a button to the right form step. Every detail stays optional.
 - **Backup and restore** to a single zip file, with a reminder after 30 days and a copy kept
   before each restore. Works offline after the first visit.
@@ -50,6 +52,7 @@ to install on a computer to use or change it.
 | `docs/js/backup.js`, `docs/js/zip.js`, `docs/js/backupfiles.js` | Backup files, CSV export, zip reading and writing |
 | `docs/js/idb.js`, `docs/js/photos.js` | Browser storage (IndexedDB) and photos |
 | `docs/js/importcsv.js`, `docs/js/stats.js`, `docs/js/lookups.js` | Spreadsheet import, statistics, look-up links |
+| `docs/js/ocr.js`, `docs/js/ocr-worker.js`, `docs/js/stampid.js`, `docs/vendor/tesseract/` | Reading a stamp's printed text and turning it into suggestions (vendored Tesseract, Apache 2.0) |
 | `data/issuers/` | The issuer list by region, and its format (`SPEC.md`) |
 | `tools/merge-issuers.mjs` | Checks the region files and builds `docs/js/data/issuers.json` |
 | `tests/web/` | Tests for the data layer, backups and zip compatibility |

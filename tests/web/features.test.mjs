@@ -104,3 +104,28 @@ test('eBay searches use the stamps category, and sold listings when asked', asyn
   assert.equal(sold.searchParams.get('LH_Sold'), '1');
   assert.equal(new URL(ebayUrl(withCat)).searchParams.get('LH_Sold'), null);
 });
+
+test('reading stamp text: issuer, face value, year', async () => {
+  const { identifyFromText, findFaceValues } = await import('../../docs/js/stampid.js');
+  // These are what the on-device reader returned for the demo stamps.
+  let r = identifyFromText('CEYLON\n\n2c\n');
+  assert.equal(r.issuers[0].issuer.id, 'ceylon');
+  assert.deepEqual(r.faceValues, ['2c']);
+  r = identifyFromText('UNITED STATES\n\nA mM\n\n3C\n');
+  assert.equal(r.issuers[0].issuer.id, 'united-states');
+  assert.deepEqual(r.faceValues, ['3c']);
+  r = identifyFromText('BAYER\n\n6 Kr\n');
+  assert.equal(r.issuers[0].issuer.id, 'bavaria');
+  assert.deepEqual(r.faceValues, ['6 Kr']);
+  r = identifyFromText('REPUBLIQUE FRANCAISE\n\n1938\n\n25c\n');
+  assert.equal(r.issuers[0].issuer.id, 'france');
+  assert.deepEqual(r.years, [1938]);
+  assert.deepEqual(r.faceValues, ['25c']);
+  r = identifyFromText('HELVETIA 20');
+  assert.equal(r.issuers[0].issuer.id, 'switzerland');
+  r = identifyFromText('MAGYAR POSTA 1 Ft');
+  assert.equal(r.issuers[0].issuer.id, 'hungary');
+  assert.deepEqual(findFaceValues('TWO PENCE 2½D'), ['2½d']);
+  assert.deepEqual(findFaceValues('$1 POSTAGE 1869'), ['$1']);
+  assert.deepEqual(identifyFromText('A mM xx').issuers, []);
+});

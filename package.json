@@ -1,6 +1,6 @@
 {
   "name": "stamp-addict",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "private": true,
   "description": "Stamp Addict: a stamp collection catalog that runs in the browser and installs as an app.",
   "scripts": {
