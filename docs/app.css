@@ -275,3 +275,30 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .region .group-head { background: var(--surface); padding-left: 0; }
 .region .rows { padding-bottom: 8px; }
 .count { min-width: 32px; text-align: right; font-weight: 600; color: var(--text); }
+
+/* Look-up links */
+.lookups { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; }
+.lookups a { color: var(--accent); font-weight: 600; display: inline-flex; align-items: center; gap: 2px; min-height: 32px; }
+
+/* Sets: tick off */
+.row-buttons { display: flex; flex-wrap: wrap; gap: 0 4px; }
+.tick-row { cursor: pointer; color: var(--text); }
+.tick-row input { width: 22px; height: 22px; accent-color: var(--accent); flex: none; }
+.center-items { align-items: center; }
+
+/* Statistics */
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+.tile { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-card); padding: 12px 14px; display: flex; flex-direction: column; gap: 2px; }
+.tile-num { font-size: 24px; font-weight: 700; color: var(--accent); }
+.bars { display: flex; flex-direction: column; gap: 8px; }
+.bar-row { display: grid; grid-template-columns: minmax(90px, 34%) 1fr auto; gap: 10px; align-items: center; font-size: 14px; }
+.bar-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bar-track { height: 10px; background: var(--divider); border-radius: 5px; overflow: hidden; }
+.bar-num { font-weight: 600; white-space: nowrap; text-align: right; min-width: 32px; }
+
+/* Import */
+.plain-list { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; line-height: 1.45; }
+.map-list { display: flex; flex-direction: column; gap: 10px; }
+.map-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 12px; align-items: center; background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-control); padding: 8px 10px; }
+.map-col { min-width: 0; }
+.ellipsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }

@@ -48,7 +48,9 @@ export function setsView() {
           h('div', { class: 'bar-fill', style: { width: `${set.percent}%` } })),
         h('div', { class: 'slots' }, set.items.map((it) => h('span', { class: `slot ${it.owned ? 'owned' : 'missing'}`, title: it.owned ? 'Owned' : 'Missing' }, it.faceValue || it.label))),
         h('div', { class: 'card-actions' },
-          set.missing.length ? button('Add missing to want list', () => addMissing(set), 'text') : h('span', { class: 'small muted' }, 'Complete'),
+          set.missing.length ? h('div', { class: 'row-buttons' },
+            button('Tick off stamps I own', () => go(`sets/${set.setId}/tick`), 'text'),
+            button('Add missing to want list', () => addMissing(set), 'text')) : h('span', { class: 'small muted' }, 'Complete'),
           h('button', { type: 'button', class: 'icon-btn small', 'aria-label': `Delete ${set.name}`, title: 'Delete set', onclick: () => remove(set) }, icon('trash', 18)))))),
   };
 }

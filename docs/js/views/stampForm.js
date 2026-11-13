@@ -1,6 +1,6 @@
 // Add a stamp, or edit one, in five steps:
 // Photos → Identify → Details → Condition → Collection. Save works from any step.
-import { app, back, go } from '../app.js';
+import { app, back, go, refresh } from '../app.js';
 import { catalogText, perforationText, toNumber, toText } from '../format.js';
 import { issuerById, yearOutsideIssuer, yearsText } from '../issuers.js';
 import {
@@ -8,9 +8,11 @@ import {
   PRINTING_METHODS, SEPARATIONS, STAMP_TYPES, TAGGINGS,
 } from '../lists.js';
 import { addPhotoFile, deletePhoto } from '../photos.js';
+import { LOOKUP_SITES, hasLookupTerms, lookupUrl } from '../lookups.js';
+import { stampTitle } from '../format.js';
 import { ValidationError, parsePerforation } from '../validation.js';
 import {
-  ask, button, chips, chooseFile, confirmAction, empty, field, h, icon, optionsOf, select, tell, toggle,
+  ask, button, chips, chooseFile, confirmAction, empty, field, h, icon, optionsOf, select, tell, toast, toggle,
 } from '../ui.js';
 import { thumb } from './collection.js';
 import { issuerField } from './issuerPicker.js';
@@ -41,6 +43,9 @@ export function catalogOptions() {
 
 let lastStep = 0;
 
+/** Quick-add: what the last stamp leaves for the next one (country, year, catalogue, tags). */
+let carry = null;
+
 export function stampForm(id) {
   const { stamps, sets } = app.repos;
   let original = null;
@@ -56,7 +61,10 @@ export function stampForm(id) {
     perforation: perforationText(original.perfHorizontal, original.perfVertical) ?? '',
     photos: original.photos.map(({ role, uri, width, height, caption }) => ({ role, uri, width, height, caption })),
     catalogNumbers: original.catalogNumbers.map(({ id: _id, ...n }) => n),
-  } : { quantity: '1', photos: [], catalogNumbers: [], tags: [], perforation: '' };
+  } : {
+    quantity: '1', photos: [], catalogNumbers: [], tags: [...(carry?.tags ?? [])], perforation: '',
+    ...(carry ? { issuerId: carry.issuerId, country: carry.country, year: carry.year ?? '' } : {}),
+  };
   const added = []; // photos added in this visit; removed again if the form isn't saved
 
   const fields = {};
@@ -105,8 +113,8 @@ export function stampForm(id) {
     yearNote.textContent = i && yearOutsideIssuer(i, y) ? `Check the year: ${i.name} issued stamps ${yearsText(i)}.` : i ? `${i.name} issued stamps ${yearsText(i)}.` : '';
     yearNote.classList.toggle('warn', !!(i && yearOutsideIssuer(i, y)));
   };
-  let catalogTouched = form.catalogNumbers.length > 0;
-  let newCatalog = issuerById(form.issuerId)?.catalog ?? 'scott';
+  let catalogTouched = form.catalogNumbers.length > 0 || !!(!original && carry?.catalog);
+  let newCatalog = (!original && carry?.catalog) || issuerById(form.issuerId)?.catalog || 'scott';
   const catalogSelectSlot = h('div');
   const drawCatalogSelect = () => catalogSelectSlot.replaceChildren(select('Catalog', catalogOptions(), newCatalog, (v) => { newCatalog = v ?? 'scott'; catalogTouched = true; }, {
     allowEmpty: false,
@@ -177,6 +185,7 @@ export function stampForm(id) {
       h('div', { class: 'hint' }, 'On a phone you can take the photo now or pick one; on a computer, choose an image file.')),
     h('div', { class: 'stack' },
       issuer,
+      lookupLinks(() => ({ ...form, year: toNumber(form.year), catalogNumbers: form.catalogNumbers })),
       two(h('div', { class: 'field' }, text('year', 'Year', { inputmode: 'numeric', after: checkYear }), yearNote), text('faceValue', 'Face value', { placeholder: '3c' })),
       text('designSubject', 'Design / subject', { placeholder: 'Locomotive' }),
       two(pick('stampType', 'Stamp type', STAMP_TYPES), text('currency', 'Currency', { placeholder: 'Cents' })),
@@ -240,7 +249,7 @@ export function stampForm(id) {
   };
 
   let saving = false;
-  const save = async () => {
+  const save = async ({ next = false } = {}) => {
     // Values typed but not yet added with their Add button still count.
     if (catNumber.input.value.trim()) addCat();
     if (newTag.input.value.trim()) addTag();
@@ -255,6 +264,25 @@ export function stampForm(id) {
     const { perforation: _p, id: _id, createdAt: _c, updatedAt: _u, ...rest } = form;
     const input = { ...rest, ...Object.fromEntries(NUMBER_FIELDS.map((f) => [f, toNumber(form[f])])), perfHorizontal, perfVertical };
     if (input.quantity === null) input.quantity = 1;
+    // Same country and catalogue number as a stamp already in the collection?
+    const dupes = stamps.findDuplicates(input, original?.id ?? null);
+    if (dupes.length) {
+      const other = stamps.get(dupes[0]);
+      const choice = await ask('You may already have this stamp', `"${stampTitle(other)}" has the same country and catalogue number.`, [
+        { text: 'Cancel', style: 'cancel' },
+        ...(original ? [] : [{ text: 'Add to its quantity', value: 'qty' }]),
+        { text: 'Save anyway', value: 'save' },
+      ]);
+      if (!choice) return;
+      if (choice === 'qty') {
+        stamps.addQuantity(other.id, input.quantity ?? 1);
+        added.forEach(deletePhoto);
+        added.length = 0;
+        saving = true;
+        finish(next, input, other.id);
+        return;
+      }
+    }
     let saved;
     try {
       saved = original ? stamps.update(original.id, input) : stamps.create(input);
@@ -272,8 +300,23 @@ export function stampForm(id) {
     added.length = 0;
     saving = true;
     await offerWantCheckOff(saved.id);
+    finish(next, input, saved.id);
+  };
+
+  /** After saving: the next blank form (quick-add) or the Stamp Card. */
+  const finish = (next, input, id) => {
+    window.removeEventListener('hashchange', onLeave);
+    if (next) {
+      carry = { issuerId: input.issuerId ?? null, country: input.country ?? null, year: input.year ?? null, catalog: newCatalog, tags: input.tags ?? [] };
+      lastStep = 0;
+      go('add', { replace: true });
+      refresh();
+      toast('Saved. Ready for the next stamp.');
+      return;
+    }
+    carry = null;
     if (original) back();
-    else go(`stamp/${saved.id}`, { replace: true });
+    else go(`stamp/${id}`, { replace: true });
   };
 
   const remove = async () => {
@@ -287,7 +330,7 @@ export function stampForm(id) {
   // Leaving without saving drops photos added in this visit.
   const onLeave = () => {
     window.removeEventListener('hashchange', onLeave);
-    if (!saving) added.forEach(deletePhoto);
+    if (!saving) { added.forEach(deletePhoto); carry = null; }
   };
   window.addEventListener('hashchange', onLeave);
 
@@ -296,8 +339,12 @@ export function stampForm(id) {
     title: original ? 'Edit stamp' : 'New stamp',
     actions: [button('Save', save, 'text')],
     body: h('form', { class: 'stack', onsubmit: (e) => { e.preventDefault(); save(); } },
+      !original && carry ? h('div', { class: 'filter-summary' },
+        h('span', {}, `Quick add: kept ${[carry.country, carry.year, CATALOGS.labels[carry.catalog]].filter(Boolean).join(' · ')} from the last stamp.`),
+        button('Clear', () => { carry = null; refresh(); }, 'text')) : null,
       stepBar, panelSlot, nav,
       button(original ? 'Save changes' : 'Save stamp', null, 'primary', { type: 'submit' }),
+      original ? null : button('Save and add the next one', () => save({ next: true }), 'secondary'),
       h('p', { class: 'hint center' }, 'Every field is optional. Save whenever you like.'),
       original ? button('Delete stamp', remove, 'danger') : null),
   };
@@ -311,4 +358,18 @@ async function offerWantCheckOff(stampId) {
     { text: 'Not now', style: 'cancel' }, { text: 'Check off', value: true },
   ]);
   if (yes) matches.forEach((m) => app.repos.wants.markAcquired(m.id, stampId));
+}
+
+/** "Look it up: Colnect · StampWorld", using whatever the form holds when tapped. */
+export function lookupLinks(getStamp) {
+  return h('div', { class: 'lookups small' },
+    h('span', { class: 'muted' }, 'Look it up:'),
+    LOOKUP_SITES.map((site) => h('a', {
+      href: lookupUrl(site.site, {}), target: '_blank', rel: 'noopener noreferrer',
+      onclick: (e) => {
+        const st = getStamp();
+        if (!hasLookupTerms(st)) { e.preventDefault(); tell('Nothing to look up yet', 'Choose the country, or add the year or catalogue number, first.'); return; }
+        e.currentTarget.href = lookupUrl(site.site, st);
+      },
+    }, site.name, icon('chevron', 14))));
 }

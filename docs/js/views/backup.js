@@ -1,4 +1,4 @@
-import { app, refresh } from '../app.js';
+import { app, go, refresh } from '../app.js';
 import { BackupError, summarizeTables } from '../backup.js';
 import {
   backupIsDue, lastBackupAt, pickBackup, restoreFromBackup, safetyCopies, saveBackup, saveSafetyCopy,
@@ -75,6 +75,7 @@ export function backupView() {
   actions.append(
     button(h('span', { class: 'with-icon' }, icon('download', 20), 'Back up now'), backUp),
     button('Restore from a backup', restore, 'secondary'),
+    button('Import stamps from a spreadsheet (CSV)', () => go('import'), 'text'),
   );
 
   return {

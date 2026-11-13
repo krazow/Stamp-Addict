@@ -13,6 +13,9 @@ import { setsView, newSetView } from './views/sets.js';
 import { wantsView, newWantView } from './views/wants.js';
 import { backupView } from './views/backup.js';
 import { countriesView } from './views/countries.js';
+import { importView } from './views/importer.js';
+import { statsView } from './views/stats.js';
+import { tickSetView } from './views/tickSet.js';
 
 export const app = { repos: null, installPrompt: null };
 
@@ -25,6 +28,9 @@ const ROUTES = [
   [/^stamp\/([^/]+)$/, (id) => stampView(id)],
   [/^stamp\/([^/]+)\/edit$/, (id) => stampForm(id)],
   [/^sets\/new$/, newSetView],
+  [/^sets\/([^/]+)\/tick$/, (id) => tickSetView(id)],
+  [/^stats$/, statsView],
+  [/^import$/, importView],
   [/^wants\/new$/, newWantView],
   [/^backup$/, backupView],
 ];

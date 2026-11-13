@@ -148,6 +148,31 @@ export class StampRepository {
       .sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
   }
 
+  /**
+   * Stamps already in the collection with the same issuer and a shared
+   * catalogue number: likely duplicates. Empty when no number is given.
+   */
+  findDuplicates({ issuerId = null, country = null, catalogNumbers = [] }, excludeId = null) {
+    const nums = (catalogNumbers ?? []).filter((c) => c.catalog && String(c.number ?? '').trim());
+    if (!nums.length) return [];
+    const sameIssuer = (s) => (issuerId ? s.issuer_id === issuerId : !s.issuer_id && sameText(s.country, country));
+    const ids = new Set();
+    for (const c of this.db.rows('catalog_numbers')) {
+      if (c.stamp_id === excludeId) continue;
+      if (!nums.some((n) => n.catalog === c.catalog && sameText(String(n.number).trim(), c.number))) continue;
+      const s = this.db.find('stamps', (x) => x.id === c.stamp_id);
+      if (s && sameIssuer(s)) ids.add(s.id);
+    }
+    return [...ids];
+  }
+
+  /** Adds to a stamp's quantity (used instead of saving a duplicate). */
+  addQuantity(id, n = 1) {
+    const row = this.db.find('stamps', (r) => r.id === id);
+    if (!row) throw new NotFoundError('Stamp', id);
+    this.db.update('stamps', (r) => r.id === id, { quantity: (row.quantity ?? 1) + n, updated_at: nowIso() });
+  }
+
   replaceCatalogNumbers(stampId, list) {
     this.db.remove('catalog_numbers', (r) => r.stamp_id === stampId);
     const seen = new Set();

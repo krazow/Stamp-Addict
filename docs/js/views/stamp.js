@@ -7,6 +7,7 @@ import {
 import { photoUrl } from '../photos.js';
 import { issuerById, issuerSummary } from '../issuers.js';
 import { button, empty, h, icon } from '../ui.js';
+import { lookupLinks } from './stampForm.js';
 
 export function stampView(id) {
   let card;
@@ -74,6 +75,7 @@ export function stampView(id) {
       h('div', { class: 'stack-tight' },
         h('h2', { class: 'card-title' }, stampTitle(card)),
         subtitle ? h('div', { class: 'muted' }, subtitle) : null,
+        lookupLinks(() => card),
         card.tags.length || setInfo ? h('div', { class: 'pills' }, card.tags.map((t) => h('span', { class: 'pill' }, t)), setInfo ? h('span', { class: 'pill accent' }, setInfo) : null) : null),
       sections.map(([title, rows]) => h('section', { class: 'card' }, h('h3', {}, title),
         h('dl', {}, rows.map(([k, v]) => [h('dt', {}, k), h('dd', {}, String(v))])))),

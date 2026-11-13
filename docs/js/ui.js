@@ -194,6 +194,7 @@ const ICONS = {
   chevron: 'M9 6l6 6-6 6',
   download: 'M12 4v11M7.5 10.5 12 15l4.5-4.5M5 20h14',
   filter: 'M4 6h16M7 12h10M10 18h4',
+  chart: 'M4 20V10M10 20V4M16 20v-7M22 20H2',
   globe: 'M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18',
 };
 export function icon(name, size = 22) {

@@ -72,7 +72,7 @@ export function collectionView() {
 
   const body = total === 0 ? h('div', {}, install, empty('Start your collection',
     'Photograph a stamp to make its Stamp Card. Every detail is optional; you can add them later.',
-    button('Add a stamp', () => go('add'))))
+    h('div', { class: 'stack-tight center-items' }, button('Add a stamp', () => go('add')), button('Import from a spreadsheet', () => go('import'), 'text'))))
     : h('div', { class: 'stack' },
       install, remind,
       h('div', { class: 'search-row' },
@@ -95,7 +95,10 @@ export function collectionView() {
 
   return {
     title: 'My collection',
-    actions: [h('button', { type: 'button', class: 'icon-btn', 'aria-label': 'Backup and restore', title: 'Backup and restore', onclick: () => go('backup') }, icon('cloud'))],
+    actions: [
+      total ? h('button', { type: 'button', class: 'icon-btn', 'aria-label': 'Statistics', title: 'Statistics', onclick: () => go('stats') }, icon('chart')) : null,
+      h('button', { type: 'button', class: 'icon-btn', 'aria-label': 'Backup and restore', title: 'Backup and restore', onclick: () => go('backup') }, icon('cloud')),
+    ],
     body: h('div', {}, body, total ? h('button', { type: 'button', class: 'fab', 'aria-label': 'Add a stamp', onclick: () => go('add') }, icon('plus', 30)) : null),
   };
 }

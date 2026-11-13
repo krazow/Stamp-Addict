@@ -27,6 +27,10 @@ to install on a computer to use or change it.
 - **Sets** with completion (a slot counts as owned when a stamp is linked to it or has its
   catalogue number), and **Want list** with priorities; saving a matching stamp offers to check
   the want off.
+- **Faster entry:** **Save and add the next one** keeps the country, year, catalogue and tags for the next stamp; **Tick off stamps I own** adds a set's stamps in one go; saving a stamp with the same country and catalogue number as one you have offers to add to its quantity instead.
+- **Import** a spreadsheet saved as CSV: Stamp Addict's own `stamps.csv`, a Colnect export (catalogue codes like `Mi:AU 1931, Sn:AU 1842` are read), or any sheet with column names. Columns are matched by name and can be changed before importing; countries are matched to the issuer list.
+- **Statistics:** stamps, countries, estimated, catalogue and paid totals (as entered, currencies not converted), set progress, and breakdowns by region, country, condition and decade.
+- **Look-up links** on the Identify step and the Stamp Card open a web search limited to Colnect or StampWorld for what's known about the stamp.
 - **Backup and restore** to a single zip file, with a reminder after 30 days and a copy kept
   before each restore. Works offline after the first visit.
 
@@ -43,6 +47,7 @@ to install on a computer to use or change it.
 | `docs/js/issuers.js`, `docs/js/data/issuers.json` | The issuer list and its search |
 | `docs/js/backup.js`, `docs/js/zip.js`, `docs/js/backupfiles.js` | Backup files, CSV export, zip reading and writing |
 | `docs/js/idb.js`, `docs/js/photos.js` | Browser storage (IndexedDB) and photos |
+| `docs/js/importcsv.js`, `docs/js/stats.js`, `docs/js/lookups.js` | Spreadsheet import, statistics, look-up links |
 | `data/issuers/` | The issuer list by region, and its format (`SPEC.md`) |
 | `tools/merge-issuers.mjs` | Checks the region files and builds `docs/js/data/issuers.json` |
 | `tests/web/` | Tests for the data layer, backups and zip compatibility |
@@ -89,5 +94,4 @@ history (before version 0.3.0) if it's ever needed.
 
 ## Not built yet
 
-Sync between devices, quick-add mode, duplicate warning, collection stats, sharing a Stamp Card
-as an image, perforation gauge, album pages, import from other apps.
+Sync between devices, sharing a Stamp Card as an image, perforation gauge, album pages, import from other apps.
