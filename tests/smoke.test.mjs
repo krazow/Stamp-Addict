@@ -41,8 +41,7 @@ const CHECKS = [
   }],
   ['it still opens offline', async () => {
     await page.context().setOffline(true);
-    await page.reload({ waitUntil: 'load' });
-    await page.context().setOffline(false);
+    try { await page.reload({ waitUntil: 'load' }); } finally { await page.context().setOffline(false); }
   }],
   ['the app shows its name', async () => {
     await page.waitForTimeout(500);
