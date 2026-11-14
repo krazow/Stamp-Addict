@@ -61,11 +61,21 @@ to install on a computer to use or change it.
 
 - **Run it locally:** `npm run serve` (or any static file server pointed at `docs/`), then open
   http://localhost:8000.
-- **Tests:** `npm test` (Node 22 or later).
+- **Tests:** `npm test` (Node 22 or later): the data-layer tests and a browser smoke test
+  (`tests/smoke.test.mjs`, needs `npx playwright install chromium` once). They also run on every pull request.
 - **Change the issuer list:** edit the region file in `data/issuers/`, then `npm run issuers`.
   The script reports anything it fixed or skipped.
-- **After changing files the app loads**, add new ones to the list in `docs/sw.js` and raise its
-  `CACHE` version, so installed copies pick up the change.
+- **After adding files the app loads**, add them to the list in `docs/sw.js`. The version is stamped in at
+  each release, so installed copies pick up the change.
+
+## Releasing
+
+Type **`/releasenow`** in a Claude chat on this repo. It bumps `VERSION`, adds a `CHANGELOG.md` entry and
+starts the shared [Krazow release kit](https://github.com/krazow/release-kit) pipeline: tests, then a beta at
+https://krazow.github.io/Stamp-Addict/beta/ (with its own collection, separate from your real one) and a
+pre-release with the Android and Windows beta apps. **`/releasenow promote`** puts the same version live and
+publishes the Latest release with `StampAddict-<version>.apk` and `StampAddict-Setup-<version>.exe`.
+`/releasenow all`, `status` and `rollback` are there too. Pushing to `main` no longer changes the live app.
 
 ## Storage
 

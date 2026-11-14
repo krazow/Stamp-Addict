@@ -4,8 +4,11 @@
   "private": true,
   "description": "Stamp Addict: a stamp collection catalog that runs in the browser and installs as an app.",
   "scripts": {
-    "test": "node --test tests/web/*.test.mjs",
+    "test": "node --test tests/web/*.test.mjs && node tests/smoke.test.mjs",
     "issuers": "node tools/merge-issuers.mjs",
     "serve": "python3 -m http.server 8000 -d docs"
+  },
+  "devDependencies": {
+    "playwright": "^1.47.0"
   }
 }

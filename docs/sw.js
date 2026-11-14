@@ -1,7 +1,10 @@
 // Lets Stamp Addict open without an internet connection. Always tries the
 // network first, so updates show up as soon as you're online; falls back
 // to the saved copy when offline.
-const CACHE = 'stamp-addict-v6';
+// The release kit (github.com/krazow/release-kit) stamps the version in at every release.
+const CACHE_PREFIX = 'stampaddict-';   // the kit makes this 'stampaddictbeta-' in the beta
+const VERSION = CACHE_PREFIX + '0.6.0';
+const CACHE = VERSION;
 const SHELL = [
   './', 'index.html', 'app.css', 'manifest.json', 'favicon.png', 'icon-192.png', 'icon-512.png',
   'js/app.js', 'js/backup.js', 'js/backupfiles.js', 'js/format.js', 'js/idb.js', 'js/lists.js', 'js/photos.js',
@@ -15,7 +18,7 @@ self.addEventListener('install', (e) => {
 });
 
 self.addEventListener('activate', (e) => {
-  e.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
+  e.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((k) => (k.startsWith(CACHE_PREFIX) || (CACHE_PREFIX === 'stampaddict-' && /^stamp-addict-v\d+$/.test(k))) && k !== VERSION).map((k) => caches.delete(k))))
     .then(() => self.clients.claim()));
 });
 

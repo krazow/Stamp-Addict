@@ -107,7 +107,7 @@ async function start() {
   window.addEventListener('pagehide', () => app.repos.db.flush());
   window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); app.installPrompt = e; if (!location.hash.replace(/^#\/?/, '')) render(); });
   render();
-  if ('serviceWorker' in navigator && location.protocol === 'https:') {
+  if ('serviceWorker' in navigator && window.isSecureContext && location.protocol !== 'file:') {
     navigator.serviceWorker.register('sw.js').catch(() => {});
   }
 }
