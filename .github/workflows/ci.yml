@@ -1,0 +1,11 @@
+# Runs the shared Krazow release kit's QA (tests + release checks) on every pull request and push to main.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  qa:
+    uses: krazow/release-kit/.github/workflows/qa.yml@v1
