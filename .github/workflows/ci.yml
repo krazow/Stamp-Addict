@@ -6,6 +6,11 @@ on:
     branches: [main]
   pull_request:
 
+# A newer run on the same branch or pull request cancels the older one.
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   qa:
     uses: krazow/release-kit/.github/workflows/qa.yml@v1
