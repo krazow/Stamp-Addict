@@ -59,6 +59,9 @@ to install on a computer to use or change it.
 
 ## Working on it
 
+- **Releasing:** type `/release now` for a beta, then `/release promote`. One-time setting first: Settings → Pages →
+  Source → **GitHub Actions**, or the publish step fails.
+
 - **Run it locally:** `npm run serve` (or any static file server pointed at `docs/`), then open
   http://localhost:8000.
 - **Tests:** `npm test` (Node 22 or later): the data-layer tests and a browser smoke test
