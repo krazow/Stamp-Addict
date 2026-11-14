@@ -6,7 +6,7 @@ are taken from it.
 ## Unreleased
 
 ### Added
-- An Android app (APK) and a Windows installer with every release.
+- A Windows installer with every release.
 - A beta at `/beta/` with its own collection, so new versions can be tried without touching your stamps.
 - A browser smoke test, run with the data-layer tests on every pull request.
 

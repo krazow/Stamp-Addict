@@ -4,12 +4,30 @@
   "description": "A catalog for your stamp collection: a Stamp Card for every stamp.",
   "site": "docs",
   "app": "docs",
-  "exclude": ["package.json"],
+  "exclude": [
+    "package.json"
+  ],
   "sw": "sw.js",
-  "version": [{ "file": "docs/js/backupfiles.js", "pattern": "export const APP_VERSION = '([^']*)'" }],
-  "android": { "enabled": true, "appId": "com.krazow.stampaddict" },
-  "windows": { "enabled": true, "port": 47840 },
-  "ios": { "enabled": false },
-  "macos": { "enabled": false },
-  "extras": { "enabled": false }
+  "version": [
+    {
+      "file": "docs/js/backupfiles.js",
+      "pattern": "export const APP_VERSION = '([^']*)'"
+    }
+  ],
+  "android": {
+    "enabled": false
+  },
+  "windows": {
+    "enabled": true,
+    "port": 47840
+  },
+  "ios": {
+    "enabled": false
+  },
+  "macos": {
+    "enabled": false
+  },
+  "extras": {
+    "enabled": false
+  }
 }
