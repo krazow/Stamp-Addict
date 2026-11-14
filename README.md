@@ -70,12 +70,12 @@ to install on a computer to use or change it.
 
 ## Releasing
 
-Type **`/releasenow`** in a Claude chat on this repo. It bumps `VERSION`, adds a `CHANGELOG.md` entry and
+Type **`/release now`** in a Claude chat on this repo. It bumps `VERSION`, adds a `CHANGELOG.md` entry and
 starts the shared [Krazow release kit](https://github.com/krazow/release-kit) pipeline: tests, then a beta at
 https://krazow.github.io/Stamp-Addict/beta/ (with its own collection, separate from your real one) and a
-pre-release with the Android and Windows beta apps. **`/releasenow promote`** puts the same version live and
-publishes the Latest release with `StampAddict-<version>.apk` and `StampAddict-Setup-<version>.exe`.
-`/releasenow all`, `status` and `rollback` are there too. Pushing to `main` no longer changes the live app.
+pre-release with the Windows beta installer. **`/release promote`** puts the same version live and
+publishes the Latest release with `StampAddict-Setup-<version>.exe`.
+`/release all`, `status` and `rollback` are there too. Pushing to `main` no longer changes the live app.
 
 ## Storage
 
