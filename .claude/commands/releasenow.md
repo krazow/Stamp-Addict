@@ -18,6 +18,27 @@ every Claude session, including cloud sessions, which can't push tags). The pipe
 
 The arguments are: `$ARGUMENTS`
 
+## Choosing the project (the menu)
+
+A chat can have several repos open. Before anything else:
+
+1. Find the app repos in this session: every git checkout in the working directory, or one or two levels below it,
+   that has a `release.json` at its root (for example `find . .. -maxdepth 3 -name release.json -not -path '*/node_modules/*'`).
+   Read each one's `name`. Leave out any project I've said to set aside or ignore.
+2. If the arguments name one of them (for example `/releasenow islandtime promote`), use it. If there's only one, use it.
+3. Otherwise show me a menu with the multiple-choice question tool (AskUserQuestion), all in one call:
+   - **"Which projects should I release?"**, multi-select, each option an app's `name` with its repo as the
+     description. That tool allows at most 4 options per question, so with more than 4 apps, split them over two
+     or three questions of up to 4 each (for example "Games" and "Apps"), all multi-select, and tell me to tick any.
+   - **"What should happen?"** (single choice, only if the arguments don't already say), with these options:
+     "Beta (Recommended)" (cut a new beta), "Promote" (put the newest beta live), "All the way" (beta, live check,
+     then production), "Status" (show what's where, change nothing).
+4. Do the chosen mode for each chosen project, one after another, in its own repo folder. Give me a short
+   summary at the end with each project's links or what stopped it.
+
+If a chosen project's `main` branch has no `release.json` yet, its setup pull request (branch `release-kit`) isn't
+merged: say so with the pull request's link and skip that project. Never merge it yourself.
+
 ## Before anything
 
 1. Run `git status`. If there are uncommitted changes, list them and ask whether to commit them as part of this
